@@ -1,0 +1,29 @@
+
+RAxML-NG v. 1.1.0-master released on 04.08.2022 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz, 36 cores, 187 GB RAM
+
+RAxML-NG was called at 31-Aug-2023 19:23:18 as follows:
+
+raxml-ng --all --msa *.aln-gb --model GTR+G
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: max: 1000 + bootstopping (autoMRE, cutoff: 0.030000)
+  random seed: 1693527798
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+
+ERROR: Alignment file not found: *.aln-gb
+

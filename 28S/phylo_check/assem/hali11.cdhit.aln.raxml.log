@@ -1,0 +1,127 @@
+
+RAxML-NG v. 1.1.0-master released on 04.08.2022 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz, 36 cores, 187 GB RAM
+
+RAxML-NG was called at 05-Oct-2023 15:48:59 as follows:
+
+raxml-ng --all --bs-trees 20 --msa hali11.cdhit.aln --model GTR+G
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: 20
+  random seed: 1696538939
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: hali11.cdhit.aln
+[00:00:00] Loaded alignment with 51 taxa and 8886 sites
+
+WARNING: Fully undetermined columns found: 32
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 2623 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 8854 / 2623
+Gaps: 66.70 %
+Invariant sites: 72.51 %
+
+
+NOTE: Binary MSA file created: hali11.cdhit.aln.raxml.rba
+
+Parallelization scheme autoconfig: 18 worker(s) x 2 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 51 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 51 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 1312 / 20992
+[00:00:00] Data distribution: max. searches per worker: 4
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:01:03] [worker #7] ML tree search #8, logLikelihood: -60461.086676
+[00:01:03] [worker #2] ML tree search #3, logLikelihood: -60461.079819
+[00:01:03] [worker #16] ML tree search #17, logLikelihood: -60461.079486
+[00:01:14] [worker #15] ML tree search #16, logLikelihood: -60461.086833
+[00:01:26] [worker #3] ML tree search #4, logLikelihood: -60461.083570
+[00:01:29] [worker #5] ML tree search #6, logLikelihood: -60461.092844
+[00:01:47] [worker #1] ML tree search #2, logLikelihood: -60461.083625
+[00:01:48] [worker #13] ML tree search #14, logLikelihood: -60461.092217
+[00:01:49] [worker #6] ML tree search #7, logLikelihood: -60461.089513
+[00:01:55] [worker #9] ML tree search #10, logLikelihood: -60461.096354
+[00:01:58] [worker #4] ML tree search #5, logLikelihood: -60461.073580
+[00:02:02] [worker #11] ML tree search #12, logLikelihood: -60461.094269
+[00:02:03] [worker #10] ML tree search #11, logLikelihood: -60461.080960
+[00:02:04] [worker #17] ML tree search #18, logLikelihood: -60461.085966
+[00:02:13] [worker #12] ML tree search #13, logLikelihood: -60461.088322
+[00:02:18] [worker #14] ML tree search #15, logLikelihood: -60461.095814
+[00:02:23] [worker #8] ML tree search #9, logLikelihood: -60461.083957
+[00:02:40] [worker #0] ML tree search #1, logLikelihood: -60461.085450
+[00:03:39] [worker #1] ML tree search #20, logLikelihood: -60461.080170
+[00:04:39] [worker #0] ML tree search #19, logLikelihood: -60461.096810
+
+[00:04:39] ML tree search completed, best tree logLH: -60461.073580
+
+[00:04:39] Starting bootstrapping analysis with 20 replicates.
+
+[00:05:24] [worker #12] Bootstrap tree #13, logLikelihood: -60398.107046
+[00:05:25] [worker #6] Bootstrap tree #7, logLikelihood: -60606.425182
+[00:05:27] [worker #2] Bootstrap tree #3, logLikelihood: -61433.208224
+[00:05:36] [worker #5] Bootstrap tree #6, logLikelihood: -60564.995917
+[00:05:42] [worker #8] Bootstrap tree #9, logLikelihood: -61202.395978
+[00:05:47] [worker #4] Bootstrap tree #5, logLikelihood: -58965.865768
+[00:05:48] [worker #10] Bootstrap tree #11, logLikelihood: -60151.037116
+[00:05:52] [worker #11] Bootstrap tree #12, logLikelihood: -57346.650496
+[00:05:53] [worker #15] Bootstrap tree #16, logLikelihood: -58256.111201
+[00:05:53] [worker #1] Bootstrap tree #2, logLikelihood: -61540.054091
+[00:05:55] [worker #14] Bootstrap tree #15, logLikelihood: -59103.240371
+[00:06:02] [worker #13] Bootstrap tree #14, logLikelihood: -60976.361255
+[00:06:07] [worker #3] Bootstrap tree #4, logLikelihood: -61784.331199
+[00:06:12] [worker #16] Bootstrap tree #17, logLikelihood: -58057.884971
+[00:06:13] [worker #9] Bootstrap tree #10, logLikelihood: -59125.317853
+[00:06:15] [worker #0] Bootstrap tree #1, logLikelihood: -60074.917894
+[00:06:27] [worker #17] Bootstrap tree #18, logLikelihood: -59206.722633
+[00:06:30] [worker #7] Bootstrap tree #8, logLikelihood: -61425.996809
+[00:07:17] [worker #0] Bootstrap tree #19, logLikelihood: -59376.986470
+[00:07:31] [worker #1] Bootstrap tree #20, logLikelihood: -60182.156846
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.313547 (ML),  weights&rates: (0.250000,0.006458) (0.250000,0.115066) (0.250000,0.617867) (0.250000,3.260608) 
+   Base frequencies (ML): 0.184124 0.262808 0.343955 0.209114 
+   Substitution rates (ML): 0.601880 1.654149 0.684018 0.688454 4.240986 1.000000 
+
+
+Final LogLikelihood: -60461.073580
+
+AIC score: 121138.147161 / AICc score: 121140.839442 / BIC score: 121903.718619
+Free parameters (model + branch lengths): 108
+
+Best ML tree saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.bestTree
+All ML trees saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.mlTrees
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.support
+Optimized model saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.bestModel
+Bootstrap trees saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.bootstraps
+
+Execution log saved to: /work/LAS/dlavrov-lab/users/Momin/work/Mystery-sponge/28S/phylo_check/assem/hali11.cdhit.aln.raxml.log
+
+Analysis started: 05-Oct-2023 15:48:59 / finished: 05-Oct-2023 15:56:31
+
+Elapsed time: 452.125 seconds
+
