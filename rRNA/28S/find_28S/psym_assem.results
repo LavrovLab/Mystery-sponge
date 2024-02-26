@@ -1,0 +1,1571 @@
+# fasta psym assembly/contigs.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: psym
+  1>>>KX668507.1 Plakortis symbiotica voucher USNM:1254650 28S ribosomal RNA gene, partial sequence - 899 nt
+Library: assembly/contigs.fasta
+  113895405 residues in 214146 sequences
+
+Statistics: Altschul/Gish params: n0: 899 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 4572 (4679) to 4572 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.0562), E-opt: 0.05 (0.0111), width:  16
+ Scan time:  7.070
+
+The best scores are:                                      opt bits E(214146)
+NODE_182564_length_239_cov_0.901235            ( 239) [f] 1195 333.7 3.5e-90
+NODE_14966_length_1292_cov_47.529218           (1292) [f]  812 227.5 3.3e-58
+NODE_102_length_10349_cov_26.752142            (10349) [f]  736 206.4 7.3e-52
+NODE_137_length_9431_cov_12.033996             (9431) [f]  711 199.5 8.9e-50
+NODE_129793_length_277_cov_0.730000            ( 277) [r]  398 113.0   1e-23
+NODE_8591_length_1784_cov_1.895138             (1784) [f]  336 95.7 1.6e-18
+NODE_136778_length_271_cov_0.752577            ( 271) [f]  308 88.0 3.2e-16
+NODE_112092_length_304_cov_0.735683            ( 304) [f]  289 82.7 1.3e-14
+NODE_169_length_8780_cov_14.675284             (8780) [r]  269 77.1 6.4e-13
+NODE_16_length_17172_cov_27.327991             (17172) [r]  194 56.3 1.1e-06
+NODE_126164_length_280_cov_2.729064            ( 280) [f]  165 48.4 0.00027
+NODE_58740_length_477_cov_0.942500             ( 477) [r]  158 46.4  0.0011
+NODE_171124_length_246_cov_0.668639            ( 246) [r]  155 45.7  0.0018
+NODE_177639_length_242_cov_0.884848            ( 242) [f]  151 44.6   0.004
+NODE_95832_length_337_cov_0.842308             ( 337) [f]  150 44.2   0.005
+NODE_159096_length_254_cov_0.824859            ( 254) [r]  148 43.7  0.0071
+NODE_15_length_17288_cov_6.027308              (17288) [f]  146 43.0   0.012
+NODE_18065_length_1153_cov_1.147770            (1153) [f]  145 42.8   0.014
+NODE_142622_length_266_cov_0.772487            ( 266) [r]  140 41.5   0.033
+NODE_166237_length_249_cov_0.848837            ( 249) [r]  139 41.2    0.04
+NODE_145655_length_264_cov_0.705882            ( 264) [r]  138 40.9   0.048
+NODE_81409_length_376_cov_0.976589             ( 376) [r]  137 40.6   0.061
+NODE_130797_length_276_cov_0.733668            ( 276) [r]  135 40.1   0.087
+NODE_130791_length_276_cov_0.733668            ( 276) [f]  135 40.1   0.087
+NODE_19913_length_1082_cov_1.200000            (1082) [f]  133 39.4    0.14
+NODE_64443_length_445_cov_0.788043             ( 445) [r]  132 39.2    0.16
+NODE_151977_length_259_cov_0.802198            ( 259) [f]  131 39.0    0.19
+NODE_3047_length_2940_cov_1.421586             (2940) [f]  129 38.3     0.3
+NODE_151903_length_259_cov_0.802198            ( 259) [r]  128 38.2    0.33
+NODE_52022_length_523_cov_1.753363             ( 523) [f]  127 37.8    0.42
+NODE_58667_length_477_cov_1.642500             ( 477) [f]  125 37.3    0.62
+NODE_205290_length_152_cov_3.400000            ( 152) [f]  124 37.2    0.66
+NODE_89430_length_353_cov_0.601449             ( 353) [r]  124 37.0    0.73
+NODE_147756_length_262_cov_0.789189            ( 262) [f]  123 36.8    0.86
+NODE_75445_length_396_cov_2.742947             ( 396) [r]  123 36.7    0.89
+NODE_205303_length_152_cov_1.786667            ( 152) [r]  121 36.4     1.2
+NODE_200774_length_229_cov_0.960526            ( 229) [f]  121 36.3     1.2
+NODE_168040_length_248_cov_0.853801            ( 248) [r]  121 36.2     1.3
+NODE_82678_length_372_cov_0.949153             ( 372) [r]  121 36.2     1.3
+NODE_176533_length_242_cov_1.763636            ( 242) [r]  120 36.0     1.5
+NODE_138954_length_269_cov_0.760417            ( 269) [r]  120 36.0     1.5
+NODE_132623_length_274_cov_1.482234            ( 274) [r]  120 36.0     1.5
+NODE_158840_length_254_cov_0.824859            ( 254) [f]  119 35.7     1.9
+NODE_104439_length_318_cov_1.211618            ( 318) [f]  119 35.7     1.9
+NODE_46405_length_574_cov_1.732394             ( 574) [f]  119 35.6       2
+
+>>NODE_182564_length_239_cov_0.901235                     (239 nt)
+ initn: 1195 init1: 1195 opt: 1195  Z-score: 1753.5  bits: 333.7 E(214146): 3.5e-90
+banded Smith-Waterman score: 1195; 100.0% identity (100.0% similar) in 239 nt overlap (469-707:1-239)
+
+      440       450       460       470       480       490        
+KX6685 CGTCGCCCGTCTCTCGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCCG
+                                     ::::::::::::::::::::::::::::::
+NODE_1                               CGCATTTCTACCCGAAGCGAGCCAGCGCCG
+                                             10        20        30
+
+      500       510       520       530       540       550        
+KX6685 GTGGGAGGTCGCGTGGTGGCGGCATCGTGAGGTGGCGGAGCCCTTTCGGGGCCCCGCGTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+NODE_1 GTGGGAGGTCGCGTGGTGGCGGCATCGTGAGGTGGCGGAGCCCTTTCGGGGCCCCGCGTT
+               40        50        60        70        80        90
+
+      560       570       580       590       600       610        
+KX6685 ATAGACGACGTCGTCGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+NODE_1 ATAGACGACGTCGTCGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCAC
+              100       110       120       130       140       150
+
+      620       630       640       650       660       670        
+KX6685 GCCGTTTCGGCTAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+NODE_1 GCCGTTTCGGCTAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTG
+              160       170       180       190       200       210
+
+      680       690       700       710       720       730        
+KX6685 CGCGTGGAGGTCGCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCG
+       :::::::::::::::::::::::::::::                               
+NODE_1 CGCGTGGAGGTCGCCGTTGCGAGCGCGCT                               
+              220       230                                        
+
+>>NODE_14966_length_1292_cov_47.529218                    (1292 nt)
+ initn: 1092 init1: 642 opt: 812  Z-score: 1166.2  bits: 227.5 E(214146): 3.3e-58
+banded Smith-Waterman score: 906; 64.4% identity (64.4% similar) in 705 nt overlap (66-736:271-951)
+
+          40        50        60        70        80        90     
+KX6685 GGAACAGCTCAAGCCGTCAATCTCCGACCTGCGGTCGGCGAATTGTAGTCTGGAGA--AG
+                                     :::::::::::::::: :::::::::   :
+NODE_1 AGGTCTGAAATCTCCGACCGGACCGATTGCGCGGTCGGCGAATTGTGGTCTGGAGAGCGG
+              250       260       270       280       290       300
+
+           100           110       120        130       140        
+KX6685 TGTCGTCCGCGCGACG----CACGGCGGTCTAAGTTG-CTTGGAACGGCACATCGCAGAG
+        :  ::::  : : ::    : : : :  : :::: : ::::::::::: :  :  ::::
+NODE_1 AGCTGTCCCGGAGTCGCGTTCCCAGGGCCCGAAGTCGACTTGGAACGGCGCGCCCAAGAG
+              310       320       330       340       350       360
+
+      150       160             170       180        190       200 
+KX6685 GGTGAGAATCCCGT----CCTGG--ACCGTCGTGCACGCGCCACGAG-GCACTTTCGAAG
+       :::::::  :::::    ::: :  ::::      ::: : :  :::    :  :::  :
+NODE_1 GGTGAGAGCCCCGTAGGGCCTAGAAACCGGGAGCGACGGGACGAGAGCTGGCGCTCGTCG
+              370       380       390       400       410       420
+
+             210       220       230       240       250       260 
+KX6685 AGTCGGGTTGTTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAATA
+       ::::: :::::::::::::::::: :::: ::::::::: :::::: : :::::: ::::
+NODE_1 AGTCGAGTTGTTTGGGAATGCAGCTCAAATCGGGTGGTAGACTCCATCCAAGGCTGAATA
+              430       440       450       460       470       480
+
+             270       280       290       300       310       320 
+KX6685 CGGGCACGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATGAAAAGCACTTTGAAAA
+       ::::: :::: ::::::::: :::::::::::::::::::: :::::::::::::::: :
+NODE_1 CGGGCGCGAGTCCGATAGCGGACAAGTACCGTGAGGGAAAGGTGAAAAGCACTTTGAAGA
+              490       500       510       520       530       540
+
+             330       340       350       360         370         
+KX6685 GAGAGTTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATGCGGCC--AGCAATGCCT
+       ::::::: :::::  ::::::::::::::  :::::::    :  :::   ::  : : :
+NODE_1 GAGAGTTCAAGAGAGCGTGAAACCGTTGGGAGGGAAGCCCGGGGTGCCGAGGCGGTCCGT
+              550       560       570       580       590       600
+
+      380       390       400              410       420       430 
+KX6685 -CGGCGTAGATTCAGCGGGGCC---GGCGGG----CGAGTCGGACGTCGTCGGATTCGAA
+        :::::: : ::::::::: ::    :::::    :: :     ::::: :::: :::  
+NODE_1 CCGGCGTCGGTTCAGCGGGTCCCCTCGCGGGGAACCGTGCACTCCGTCGCCGGACTCG--
+              610       620       630       640       650          
+
+             440       450       460       470       480       490 
+KX6685 GGAACCGCGTCGCCCGTCTCTCGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCC
+       :  ::  ::::  :        :     ::::::  ::::   ::     :  ::   ::
+NODE_1 GTGAC--CGTCAGCTAGGGGGAGGTCCGCCGTCG-AGCGCCCGTCCGGGAGGTGCCGTCC
+      660         670       680       690        700       710     
+
+               500         510       520       530        540      
+KX6685 AG--CGCCGGTGGGAGGTCG--CGTGGTGGCGGCATCGTGAGGTGGCGGAGC-CCTTTCG
+        :  :  :::  :  :: ::  ::: : : :::    : : :: ::::  ::  ::  : 
+NODE_1 CGTCCTTCGGGCGCGGGACGGTCGTAGAGCCGGACGGGAGCGGCGGCGTGGCGACTCCCC
+         720       730       740       750       760       770     
+
+        550       560       570       580        590       600     
+KX6685 GGGCCCCGCGTTATAGACGACGTCGTCGACGCGTCGTTCCA-CCGAGGAGACGGAATGAC
+        ::    ::::::  :  ::::::::   :::   ::  ::   : :: : :    :  :
+NODE_1 CGG--GAGCGTTAGCG-GGACGTCGT-TCCGCTGGGTGACAGGTGCGGTGCC--CCTCCC
+           780        790        800       810       820           
+
+          610       620         630       640       650       660  
+KX6685 G-GCGGCAGCGCACGCCGTTTCGGC--TAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTG
+       : : :::::::  :::::   ::::  : :   :: :   : ::  :::: :::::::: 
+NODE_1 GAGGGGCAGCGGGCGCCG--GCGGCCTTTGGTCGGCCGGTTCCG--GCGGAGCCTCCGTT
+     830       840         850       860       870         880     
+
+            670       680       690       700        710       720 
+KX6685 CGGACTGCCCGCAGTGCGCGTGGAGGTCGCCGTTGCGAGCGCGCTCG-CGGTCTTAGGTG
+       ::: : : ::   :: : :: ::    :: : :: :: ::: :  :: :::::   :: :
+NODE_1 CGGTCGGTCC---GTCCCCGCGG----CGGCCTTCCGGGCGGGTCCGTCGGTCGGCGG-G
+         890          900           910       920       930        
+
+             730       740       750       760       770       780 
+KX6685 CGCTGAGGGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAAACACGGACCAAGG
+       : :: :::  :: ::                                             
+NODE_1 C-CTCAGGTGGCCGGTCGTCTCGTCGGCCGCGCCGAGGTAGCTGGCGTTGAGTCGGTCCC
+        940       950       960       970       980       990      
+
+>--
+ initn: 222 init1: 166 opt: 217  Z-score: 275.5  bits: 62.7 E(214146): 1.4e-08
+banded Smith-Waterman score: 217; 73.5% identity (73.5% similar) in 83 nt overlap (721-803:966-1048)
+
+              700       710       720       730       740       750
+KX6685 GCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCT
+                                     :::: ::::  :::::::: ::   :: : 
+NODE_1 GGCCTCAGGTGGCCGGTCGTCTCGTCGGCCGCGCCGAGGTAGCTGGCGTTGAGTCGGTCC
+         940       950       960       970       980       990     
+
+              760       770       780       790       800       810
+KX6685 CATCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGCGAGTCCGTGGGTG
+       :    : :::::::::::::::::::::::::::  :    ::: :: :::::       
+NODE_1 CCCGTGCCCCGTCTTGAAACACGGACCAAGGAGTGCAAGAGGCGCGCCAGTCCCCAGGGC
+        1000      1010      1020      1030      1040      1050     
+
+              820       830       840       850       860       870
+KX6685 TAGAAACCCCGGGGCGCAATGAAAGTGATCGCTGGGGTGAGAGCCGTGGCCTCTTGCGGC
+                                                                   
+NODE_1 GAGGCGGTCGCGCTACGGCGCGTCCGCCCGTGCGGAAGCCCGAGTACGAGGCGCAGTGAA
+        1060      1070      1080      1090      1100      1110     
+
+>--
+ initn: 126 init1:  91 opt: 176  Z-score: 214.1  bits: 51.3 E(214146): 3.6e-05
+banded Smith-Waterman score: 176; 76.7% identity (76.7% similar) in 73 nt overlap (1-66:189-261)
+
+                                             10        20        30
+KX6685                               CAACAGGTATTCCCTCAGTAACGGCGAGTG
+                                     :::: :: :::::: ::::::::::::: :
+NODE_1 AAGCATATCAATAAGCGGAGGAAGAGAAACCAACCGGGATTCCCCCAGTAACGGCGAGCG
+      160       170       180       190       200       210        
+
+               40         50              60        70        80   
+KX6685 AAGTGGGAACAGCTCA-AGCC---GTC---AATCTCCGACCTGCGGTCGGCGAATTGTAG
+       ::: ::::: : : ::  :::   :::   ::::::::::: :                 
+NODE_1 AAGCGGGAATACCCCAGTGCCCAGGTCTGAAATCTCCGACCGGACCGATTGCGCGGTCGG
+      220       230       240       250       260       270        
+
+            90       100       110       120       130       140   
+KX6685 TCTGGAGAAGTGTCGTCCGCGCGACGCACGGCGGTCTAAGTTGCTTGGAACGGCACATCG
+                                                                   
+NODE_1 CGAATTGTGGTCTGGAGAGCGGAGCTGTCCCGGAGTCGCGTTCCCAGGGCCCGAAGTCGA
+      280       290       300       310       320       330        
+
+>>NODE_102_length_10349_cov_26.752142                     (10349 nt)
+ initn: 1054 init1: 379 opt: 736  Z-score: 1036.1  bits: 206.4 E(214146): 7.3e-52
+banded Smith-Waterman score: 766; 63.0% identity (63.0% similar) in 689 nt overlap (88-736:937-1605)
+
+        60        70        80        90       100           110   
+KX6685 TCCGACCTGCGGTCGGCGAATTGTAGTCTGGAGAAGTGTCGTCC----GCGCGACGCACG
+                                     :::  : :::::::    :: :  : : : 
+NODE_1 CAAAGAGAGACCGGCGAATTGTGGTCTGGAGAGGCGGGTCGTCCCGATGCACCGCTCCCC
+        910       920       930       940       950       960      
+
+             120        130       140       150       160          
+KX6685 GCGG--TCTAAGTTG-CTTGGAACGGCACATCGCAGAGGGTGAGAATCCCGT---CCTGG
+        :::   : :::: : :::::::::::    :  :::::::::::  :::::    ::::
+NODE_1 TCGGGCCCGAAGTCGACTTGGAACGGCGTGCCAGAGAGGGTGAGAGCCCCGTAGGGCTGG
+        970       980       990      1000      1010      1020      
+
+       170        180       190          200       210       220   
+KX6685 ACCGTCGTGCAC-GCGCCACGAGG---CACTTTCGAAGAGTCGGGTTGTTTGGGAATGCA
+            :: :  : :::  ::: ::   : :  :::  :::::::::::::::::::::::
+NODE_1 GAAACCGGGAGCGGCGGGACGGGGGTCCGCACTCGTCGAGTCGGGTTGTTTGGGAATGCA
+       1030      1040      1050      1060      1070      1080      
+
+           230       240       250        260       270       280  
+KX6685 GCCCAAAGCGGGTGGTAAACTCCACCTAAGGCT-AAATACGGGCACGAGACCGATAGCGA
+       ::::::: ::::::::: :::::: : ::::::  :: :: ::: :::::::::::: : 
+NODE_1 GCCCAAATCGGGTGGTAGACTCCATCCAAGGCTGGAAGACAGGCGCGAGACCGATAGAGG
+       1090      1100      1110      1120      1130      1140      
+
+            290       300       310       320       330       340  
+KX6685 ACAAGTACCGTGAGGGAAAGATGAAAAGCACTTTGAAAAGAGAGTTAAAGAGTACGTGAA
+       :::::::::::::::::::: :::::::::::::::: :::::::: :::::  ::::::
+NODE_1 ACAAGTACCGTGAGGGAAAGGTGAAAAGCACTTTGAAGAGAGAGTTCAAGAGAGCGTGAA
+       1150      1160      1170      1180      1190      1200      
+
+            350          360        370       380        390       
+KX6685 ACCGTTGGAGGGGAAGC---GAATG-CGGCCAGCAATGCCTCGGCGTAGA-TTCAGC---
+       ::::::::  :::::::   :: :: ::    : ::   : :: ::: :: ::::::   
+NODE_1 ACCGTTGGGAGGGAAGCTCGGAGTGCCGAGGTGGAACCTCCCGCCGTTGAGTTCAGCCGG
+       1210      1220      1230      1240      1250      1260      
+
+           400       410        420       430       440       450  
+KX6685 -GGGGCCGGCGGGCGAGTCGG-ACGTCGTCGGATTCGAAGGAACCGCGTCGCCCGTCTCT
+        : ::::  :::::    :::  : :  :::   : :  :: ::: ::::  : :     
+NODE_1 AGCGGCCCTCGGGCCTCCCGGTTCATTCTCGCGGT-GGGGGTACC-CGTCAGCGG---AG
+       1270      1280      1290      1300       1310          1320 
+
+            460       470       480       490       500       510  
+KX6685 CGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCCGGTGGGAGGTCGCGT
+        : : ::: ::::   :::    :  :  : ::   ::: ::: : ::::  :  :::  
+NODE_1 AGGCGTCCGGTCG-CACGC-GGGCGGCGGGGAGGTGGCCTGCGTC-GTGGTCGTCCGCAA
+            1330        1340      1350      1360       1370        
+
+            520       530            540          550        560   
+KX6685 GGTGGCGGCATCGTGAGG-TGGCGGAGC----CCTTTCGG---GGCCCCGCG-TTATAGA
+       :  ::::::     ::::   :   :::    :: :::::   :: :  :::  :  :: 
+NODE_1 G--GGCGGCCCGCGGAGGCACGTACAGCCCGTCCGTTCGGTCCGGTCGGGCGCCTCGAGG
+       1380      1390      1400      1410      1420      1430      
+
+             570       580       590       600       610       620 
+KX6685 CGA-CGT-CGTCGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCACGCC
+       :::  ::  : :: :::::::   : ::: : ::  : :  : :::: ::  ::   :: 
+NODE_1 CGAGTGTGGGGCGTCGCGTCG---CCCCGGGCAGGTGCA--GTCGGCCGCTTCGGCGGCG
+       1440      1450         1460      1470        1480      1490 
+
+             630       640       650       660        670       680
+KX6685 GTTTCGGCTAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTG-CGGACTGCCCGCAGTGCG
+       :    :::  : :::   :::: ::   ::  : ::: ::: :   : : :::: : : :
+NODE_1 GAGCGGGCCGGCCGG---TCGT-CGACCCGCGGGCTCGGTGTCACTCGGTCCGCGGCG-G
+            1500         1510       1520      1530      1540       
+
+                 690       700       710       720       730       
+KX6685 CGT---GGAGGTCGCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGC
+       :::    :  ::: : :: : : ::::  : :  :  :  ::  : : :: :: :: :: 
+NODE_1 CGTTCGCGCTGTCACGGTCGGGTGCGCTGTGGTCGCGTCGGGGCCTCGGACGGTGCGGGT
+       1550      1560      1570      1580      1590      1600      
+
+       740       750       760       770       780       790       
+KX6685 GTAGAAATGGCCTCATCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGC
+                                                                   
+NODE_1 CACGCGTTGCGGCCCAGGTCGCTGGCGAGGAGTCGGTCCCCCGAGACCCGTCTTGAAACA
+       1610      1620      1630      1640      1650      1660      
+
+>--
+ initn: 212 init1: 146 opt: 224  Z-score: 269.6  bits: 64.6 E(214146): 3.6e-09
+banded Smith-Waterman score: 224; 72.0% identity (72.0% similar) in 100 nt overlap (1-89:837-936)
+
+                                             10        20        30
+KX6685                               CAACAGGTATTCCCTCAGTAACGGCGAGTG
+                                     :::: :: :::::::::::::::::::: :
+NODE_1 AAGCATATCAATAAGCGGAGGAAGAGAAACCAACTGGGATTCCCTCAGTAACGGCGAGCG
+        810       820       830       840       850       860      
+
+                40        50        60                  70         
+KX6685 AAGTGGGAA-CAGCTCAAGCCGTCAATCTCCG----------ACCTGCGGTCGGCGAATT
+       ::::::::: : :: :: : :   ::::::::          :   : :  :::::::::
+NODE_1 AAGTGGGAAGCTGCCCAGGTCCGAAATCTCCGGTCGAGCCCAAAGAGAGACCGGCGAATT
+        870       880       890       900       910       920      
+
+      80        90       100       110       120       130         
+KX6685 GTAGTCTGGAGAAGTGTCGTCCGCGCGACGCACGGCGGTCTAAGTTGCTTGGAACGGCAC
+       :: :::::::                                                  
+NODE_1 GTGGTCTGGAGAGGCGGGTCGTCCCGATGCACCGCTCCCCTCGGGCCCGAAGTCGACTTG
+        930       940       950       960       970       980      
+
+>--
+ initn: 240 init1: 198 opt: 224  Z-score: 269.6  bits: 64.6 E(214146): 3.6e-09
+banded Smith-Waterman score: 224; 72.7% identity (72.7% similar) in 88 nt overlap (723-810:1618-1705)
+
+            700       710       720       730       740       750  
+KX6685 CGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCTCA
+                                     ::  ::: ::::::::  ::   :: : : 
+NODE_1 GGCCTCGGACGGTGCGGGTCACGCGTTGCGGCCCAGGTCGCTGGCGAGGAGTCGGTCCCC
+      1590      1600      1610      1620      1630      1640       
+
+            760       770       780       790       800       810  
+KX6685 TCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGCGAGTCCGTGGGTGTA
+          :::::::::::::::::::::::::::::  :    ::: :::::::   :::::  
+NODE_1 CGAGACCCGTCTTGAAACACGGACCAAGGAGTGCAAGAGGCGCGCGAGTCGTCGGGTGAC
+      1650      1660      1670      1680      1690      1700       
+
+            820       830       840       850       860       870  
+KX6685 GAAACCCCGGGGCGCAATGAAAGTGATCGCTGGGGTGAGAGCCGTGGCCTCTTGCGGCTG
+                                                                   
+NODE_1 GTCTGCCGTCGGTCCCTCGGGAGCGGCGGCGCTCGGTGAAGCCCGGCACTCAGGTGAAGG
+      1710      1720      1730      1740      1750      1760       
+
+>>NODE_137_length_9431_cov_12.033996                      (9431 nt)
+ initn: 1082 init1: 620 opt: 711  Z-score: 999.4  bits: 199.5 E(214146): 8.9e-50
+banded Smith-Waterman score: 784; 75.0% identity (75.0% similar) in 320 nt overlap (67-369:6923-7240)
+
+         40        50        60        70        80        90      
+KX6685 GAACAGCTCAAGCCGTCAATCTCCGACCTGCGGTCGGCGAATTGTAGTCTGGAGA-----
+                                     ::::::::::::::: :::::::::     
+NODE_1 AGGTCTGTAATCTCCGTCCGGTCCTTTGCTCGGTCGGCGAATTGTGGTCTGGAGAGACGT
+           6900      6910      6920      6930      6940      6950  
+
+               100       110       120        130       140        
+KX6685 AGTGT--CGTCCGCGCGACGCACGGCGGTCTAAGTTG-CTTGGAACGGCACATCGCAGAG
+       : :::  :::   : :  : :   : :  : :::: : :::::::::::    :  ::::
+NODE_1 ACTGTTCCGTTGTCACCGCTCCTAGGGCCCCAAGTCGACTTGGAACGGCGTGCCAGAGAG
+           6960      6970      6980      6990      7000      7010  
+
+      150       160             170       180       190            
+KX6685 GGTGAGAATCCCGT----CCTGG--ACCGTCGTGCACGCGCCACGAGG---CACTTTCGA
+       :::::::  :::::    ::: :  ::::  : ::  :::  ::::::   :  : ::  
+NODE_1 GGTGAGAGCCCCGTAGGGCCTAGAAACCG-GGAGC-GGCGGGACGAGGGTTCGTTCTCTT
+           7020      7030      7040        7050      7060      7070
+
+     200       210       220       230       240       250         
+KX6685 AGAGTCGGGTTGTTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAA
+       ::::::::::::::::::: ::::::: :::  :::::::: :::::: : :::::::::
+NODE_1 AGAGTCGGGTTGTTTGGGATTGCAGCCTAAATAGGGTGGTAGACTCCATCCAAGGCTAAA
+             7080      7090      7100      7110      7120      7130
+
+     260       270       280       290       300       310         
+KX6685 TACGGGCACGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATGAAAAGCACTTTGAA
+       ::::::: :::: :::::::   :::::::::::::::::::: ::::::::::::::::
+NODE_1 TACGGGCGCGAGTCCGATAGAAGACAAGTACCGTGAGGGAAAGGTGAAAAGCACTTTGAA
+             7140      7150      7160      7170      7180      7190
+
+     320       330       340       350       360       370         
+KX6685 AAGAGAGTTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCAATGCCT
+        :::::::: :: ::  ::::::::::::::  :::::::  : :  :::          
+NODE_1 GAGAGAGTTCAATAGAGCGTGAAACCGTTGGGAGGGAAGCTCAGGGTGCCGAGGCGGTAG
+             7200      7210      7220      7230      7240      7250
+
+     380       390       400       410       420       430         
+KX6685 CGGCGTAGATTCAGCGGGGCCGGCGGGCGAGTCGGACGTCGTCGGATTCGAAGGAACCGC
+                                                                   
+NODE_1 AGTCTGTCGGAGTTCAATTCGGACGCGAAAGCGACCGGGTGCATTTTTCGTCAGTCTTGG
+             7260      7270      7280      7290      7300      7310
+
+>--
+ initn: 193 init1: 158 opt: 217  Z-score: 259.9  bits: 62.7 E(214146): 1.4e-08
+banded Smith-Waterman score: 217; 61.8% identity (61.8% similar) in 254 nt overlap (571-811:7468-7707)
+
+              550       560       570       580           590      
+KX6685 CTTTCGGGGCCCCGCGTTATAGACGACGTCGTCGACGCGTCGTTCCAC----CGAGGAGA
+                                     ::::: : :  ::::  :     :::::: 
+NODE_1 CGAAGTTAATGAGCGACTTTCGCTCGAAGGGTCGAGGTGCGGTTCTCCTTTGGGAGGAG-
+      7440      7450      7460      7470      7480      7490       
+
+        600       610       620       630         640       650    
+KX6685 CGGAATGACGGCGGCAGCGCACGCCGTTTCGGCTAGA-CGGG-GCTCGTGCGTTGCGGCG
+       ::: : :: : ::: :: :   : :      :: ::: :::: :::: : ::: : : : 
+NODE_1 CGGGACGATGACGGTAGTGTTGGGC----AAGCGAGAGCGGGTGCTCAT-CGTGGGGACA
+       7500      7510      7520          7530      7540       7550 
+
+            660       670       680       690         700          
+KX6685 C--CTCCGTGCGGACTGCCCGCAGTGCGCGTGGAGGTCG--CCGTTGCGAGCGC-GCTCG
+       :  :::  : :::  ::  :   ::  ::::   :::::   : :: :: :  : : :: 
+NODE_1 CAGCTCGCTTCGG--TGTGCAACGTTGGCGT-TTGGTCGGTACTTTCCGTGGTCTGTTCA
+            7560        7570      7580       7590      7600        
+
+     710        720       730       740       750       760        
+KX6685 CGGTCTTA-GGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAA
+       ::   :::  :::: :  ::: :: :: ::: ::   :: : : :  : :::::::::::
+NODE_1 CG---TTACCGTGCCC--AGGTCGTTGACGTCGAGTCGGTCCCCTGTGCCCCGTCTTGAA
+     7610         7620        7630      7640      7650      7660   
+
+      770       780       790       800        810       820       
+KX6685 ACACGGACCAAGGAGTCTAGCGTGCGTGCGAGTCC-GTGGGTGTAGAAACCCCGGGGCGC
+       ::::::::::::::::  :    ::  :::::::: : :::: :                
+NODE_1 ACACGGACCAAGGAGTGCAAGAGGCACGCGAGTCCTGCGGGTTTGTCGCGTCGACCAGTT
+          7670      7680      7690      7700      7710      7720   
+
+       830       840       850       860       870       880       
+KX6685 AATGAAAGTGATCGCTGGGGTGAGAGCCGTGGCCTCTTGCGGCTGCGGCGCATCATCGGC
+                                                                   
+NODE_1 CGTCGCGCAGGTCAAACCCAAGAGTAGGCAAAGTGAGAGCAAGTTCCGGTAGCTTCCGGT
+          7730      7740      7750      7760      7770      7780   
+
+>--
+ initn: 177 init1: 177 opt: 178  Z-score: 201.5  bits: 51.9 E(214146): 2.5e-05
+banded Smith-Waterman score: 178; 73.0% identity (73.0% similar) in 74 nt overlap (1-66:6840-6913)
+
+                                             10        20        30
+KX6685                               CAACAGGTATTCCCTCAGTAACGGCGAGTG
+                                     ::::::: :::::::::::::::::::: :
+NODE_1 AAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTCCCTCAGTAACGGCGAGCG
+    6810      6820      6830      6840      6850      6860         
+
+                       40        50        60        70        80  
+KX6685 AAGTGGGAA--------CAGCTCAAGCCGTCAATCTCCGACCTGCGGTCGGCGAATTGTA
+       :::::::::          :: :: : :   :::::::: :: :                
+NODE_1 AAGTGGGAATGATTTTTGTGCCCAGGTCTGTAATCTCCGTCCGGTCCTTTGCTCGGTCGG
+    6870      6880      6890      6900      6910      6920         
+
+             90       100       110       120       130       140  
+KX6685 GTCTGGAGAAGTGTCGTCCGCGCGACGCACGGCGGTCTAAGTTGCTTGGAACGGCACATC
+                                                                   
+NODE_1 CGAATTGTGGTCTGGAGAGACGTACTGTTCCGTTGTCACCGCTCCTAGGGCCCCAAGTCG
+    6930      6940      6950      6960      6970      6980         
+
+>>NODE_129793_length_277_cov_0.730000                     (277 nt)
+rev-comp initn: 309 init1: 256 opt: 398  Z-score: 559.1  bits: 113.0 E(214146): 1e-23
+banded Smith-Waterman score: 398; 64.2% identity (64.2% similar) in 271 nt overlap (262-2:10-273)
+
+       290       280       270       260       250       240       
+KX668- CGGTACTTGTTCGCTATCGGTCTCGTGCCCGTATTTAGCCTTAGGTGGAGTTTACCACCC
+                                     :::::::::::::: ::::: :::::: ::
+NODE_1                      TCCCACTAGGTATTTAGCCTTAGCTGGAGCTTACCAGCC
+                                    10        20        30         
+
+       230       220       210       200       190       180       
+KX668- GCTTTGGGCTGCATTCCCAAACAACCCGACTCTTCGAAAGTGCCTCGTGGCGCGTGCACG
+       ::::::::::::: :: ::: :::::::::::  :::    :::  :  :::    : ::
+NODE_1 GCTTTGGGCTGCACTCTCAAGCAACCCGACTCCGCGACGACGCCGGGCCGCGACGACTCG
+      40        50        60        70        80        90         
+
+       170       160       150         140       130       120     
+KX668- ACGGTCCAGGACGGGATTCTCACCCTCTGC--GATGTGCCGTTCCAAGCAACTTAGACCG
+          : :  : :  ::  :  ::::: ::::  :  :  ::::::  ::  ::   :  ::
+NODE_1 TTTGGCGTGTAGAGGCCTGACACCCGCTGCGGGCAGACCCGTTCAGAGGTAC---GCGCG
+     100       110       120       130       140       150         
+
+         110       100        90         80        70        60    
+KX668- CCGTGCGTCGCGCGGACGACACTTCTCC-AGACTACAATTCGCCGACCGCAGGTCGGAGA
+       ::  : ::: :   : ::: ::  : :: : ::  ::  : ::  ::::: :: : ::::
+NODE_1 CC-AGAGTCACCGCGGCGAGACGCCGCCGAAACGCCACATTGC--ACCGC-GGCCAGAGA
+         160       170       180       190         200        210  
+
+           50               40        30        20        10       
+KX668- TTGACGGCT-------TGAGCTGTTCCCACTTCACTCGCCGTTACTGAGGGAATACCTGT
+         :  ::::       :: :::  ::::  ::: ::::::: ::::  :::::: :  ::
+NODE_1 CCGCGGGCTTCGGCGCTGGGCTCCTCCCGTTTCGCTCGCCGCTACTCGGGGAATCCTAGT
+            220       230       240       250       260       270  
+
+            
+KX668- TG   
+       :    
+NODE_1 TAGTT
+            
+
+>>NODE_8591_length_1784_cov_1.895138                      (1784 nt)
+ initn: 246 init1: 246 opt: 336  Z-score: 451.1  bits: 95.7 E(214146): 1.6e-18
+banded Smith-Waterman score: 336; 64.1% identity (64.1% similar) in 231 nt overlap (119-347:650-872)
+
+       90       100       110       120       130       140        
+KX6685 AGAAGTGTCGTCCGCGCGACGCACGGCGGTCTAAGTTGCTTGGAACGGCACATCGCAGAG
+                                     : :: : :   :::: : :  : :  ::: 
+NODE_8 GCCCTTTTCGCATCAACTCAACAGACTCAGCAAAATCGGCCGGAAAGCCGAACCATAGAA
+     620       630       640       650       660       670         
+
+      150       160        170        180       190       200      
+KX6685 GGTGAGAATCCCGT-CCTGGACCGTC-GTGCACGCGCCACGAGGCACTTTCGAAGAGTCG
+       ::::: : ::: ::    :: : ::: ::  : : ::    :  :   :  :  : : : 
+NODE_8 GGTGACAGTCCTGTATGCGGTCAGTCGGTTGAGGGGCGGAAAAACGAGTAAGGCGGGACA
+     680       690       700       710       720       730         
+
+        210       220       230       240       250       260      
+KX6685 GGTTGTTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAATACGGGC
+        : ::::     :: : : :  :::  :: :: :   ::: :: ::::::::::::  ::
+NODE_8 CG-TGTT-----ATCCTGTCTGAAGATGGGGGGACCATCCTCC-AAGGCTAAATACTCGC
+     740             750       760       770        780       790  
+
+        270       280       290       300       310       320      
+KX6685 ACGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATGAAAAGCACTTTGAAAAGAGAG
+       :   :::::::::::::::::::::::::::::::: ::::::: ::   :  : : :::
+NODE_8 AATCGACCGATAGCGAACAAGTACCGTGAGGGAAAGGTGAAAAGAACCCCGGGAGGGGAG
+            800       810       820       830       840       850  
+
+        330       340       350       360       370       380      
+KX6685 TTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCAATGCCTCGGCGTA
+       : ::: :: :: :::::::::                                       
+NODE_8 TGAAACAG-ACCTGAAACCGTGCGCAAGCAAACAGTAGAAGGAGGCACTCGTGCCTCTGA
+            860        870       880       890       900       910 
+
+>>NODE_136778_length_271_cov_0.752577                     (271 nt)
+ initn: 304 init1: 304 opt: 308  Z-score: 424.5  bits: 88.0 E(214146): 3.2e-16
+banded Smith-Waterman score: 308; 77.7% identity (77.7% similar) in 103 nt overlap (192-294:169-271)
+
+             170       180       190       200       210       220 
+KX6685 TCCTGGACCGTCGTGCACGCGCCACGAGGCACTTTCGAAGAGTCGGGTTGTTTGGGAATG
+                                     :: : :  ::::::: ::::::::: ::::
+NODE_1 GTGTGTTTGATGCTGCTTAAGGGCCTGCCGACATCCTGAGAGTCGCGTTGTTTGGAAATG
+      140       150       160       170       180       190        
+
+             230       240       250       260       270       280 
+KX6685 CAGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAATACGGGCACGAGACCGATAGCG
+       :::: : :: : ::: ::: :::: : :: :::::::::::   :::   :::: ::: :
+NODE_1 CAGCGCTAATCAGGTCGTAGACTCGATCTTAGGCTAAATACATCCACAGAACCGTTAGTG
+      200       210       220       230       240       250        
+
+             290       300       310       320       330       340 
+KX6685 AACAAGTACCGTGAGGGAAAGATGAAAAGCACTTTGAAAAGAGAGTTAAAGAGTACGTGA
+       :::::::::::::                                               
+NODE_1 AACAAGTACCGTG                                               
+      260       270                                                
+
+>>NODE_112092_length_304_cov_0.735683                     (304 nt)
+ initn: 210 init1: 210 opt: 289  Z-score: 395.1  bits: 82.7 E(214146): 1.3e-14
+banded Smith-Waterman score: 289; 71.0% identity (71.0% similar) in 131 nt overlap (216-345:175-304)
+
+         190       200       210       220       230       240     
+KX6685 CGAGGCACTTTCGAAGAGTCGGGTTGTTTGGGAATGCAGCCCAAAGCGGGTGGTAAACTC
+                                     : ::::: : :  ::   :: :: :   ::
+NODE_1 TATTGTGAAATCGAGTAGGACGGCACACGTGAAATGCTGTCTGAACATGGGGGGACCATC
+          150       160       170       180       190       200    
+
+         250       260       270       280       290       300     
+KX6685 CACCTAAGGCTAAATACGGGCACGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATG
+       : :: ::::::::::::   ::   ::::::::: :::: :::::::::::::::::  :
+NODE_1 CTCC-AAGGCTAAATACTCTCAGCTGACCGATAGTGAACCAGTACCGTGAGGGAAAGGCG
+           210       220       230       240       250       260   
+
+         310        320       330       340       350       360    
+KX6685 AAAAGCA-CTTTGAAAAGAGAGTTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATG
+       ::::: : :   :  : : :::: ::: :: :: :::::::                   
+NODE_1 AAAAGAACCCCGGCGAGGGGAGTGAAATAGAACCTGAAACC                   
+           270       280       290       300                       
+
+          370       380       390       400       410       420    
+KX6685 CGGCCAGCAATGCCTCGGCGTAGATTCAGCGGGGCCGGCGGGCGAGTCGGACGTCGTCGG
+
+>>NODE_169_length_8780_cov_14.675284                      (8780 nt)
+rev-comp initn: 246 init1: 246 opt: 269  Z-score: 338.3  bits: 77.1 E(214146): 6.4e-13
+banded Smith-Waterman score: 269; 76.4% identity (76.4% similar) in 106 nt overlap (346-245:1380-1484)
+
+           370       360       350       340       330        320  
+KX668- CATTGCTGGCCGCATTCGCTTCCCCTCCAACGGTTTCACGTACTCTTTAACT-CTCTTTT
+                                     :::::::: :: :: ::: ::: : ::  :
+NODE_1 GCAAGCAGGCTCCGACTGTTTGTAGGCGCTCGGTTTCAGGT-CTGTTTCACTCCCCTCGT
+    1350      1360      1370      1380      1390       1400        
+
+            310       300       290       280       270       260  
+KX668- CAAAGTGCTTTTCATCTTTCCCTCACGGTACTTGTTCGCTATCGGTCTCGTGCCCGTATT
+       :   :::::::::: ::::::::::::::::: ::::::::::::::        ::: :
+NODE_1 CGGGGTGCTTTTCACCTTTCCCTCACGGTACTGGTTCGCTATCGGTCAGTAAGGAGTACT
+     1410      1420      1430      1440      1450      1460        
+
+               250       240       230       220       210         
+KX668- TAGCCTT---AGGTGGAGTTTACCACCCGCTTTGGGCTGCATTCCCAAACAACCCGACTC
+       :::::::   ::::::                                            
+NODE_1 TAGCCTTCGAAGGTGGTCCTCCGATGTTCAAACAGGATTACACGTGTCCCGCCCTACTTA
+     1470      1480      1490      1500      1510      1520        
+
+>>NODE_16_length_17172_cov_27.327991                      (17172 nt)
+rev-comp initn: 114 init1: 114 opt: 194  Z-score: 220.7  bits: 56.3 E(214146): 1.1e-06
+banded Smith-Waterman score: 194; 64.3% identity (64.3% similar) in 115 nt overlap (343-229:8884-8990)
+
+        370       360       350       340       330       320      
+KX668- TGCTGGCCGCATTCGCTTCCCCTCCAACGGTTTCACGTACTCTTTAACTCTCTTTTCAAA
+                                     ::::: :: :: ::: ::: :: : ::   
+NODE_1 GACGATTTCGTCTGCTTATGAGTTAACAAATTTCAGGTTCTATTTCACTATCATCTC---
+          8860      8870      8880      8890      8900      8910   
+
+        310       300       290       280       270       260      
+KX668- GTGCTTTTCATCTTTCCCTCACGGTACTTGTTCGCTATCGGTCTCGTGCCCGTATTTAGC
+            ::::: ::::::::::: :::::  ::: : :: ::: :  :     ::::::: 
+NODE_1 -----TTTCAACTTTCCCTCACAGTACTAATTCACCATGGGTGTGTTATTATTATTTAGT
+                  8920      8930      8940      8950      8960     
+
+        250       240       230       220       210       200      
+KX668- CTTAGGTGGAGTTTACCACCCGCTTTGGGCTGCATTCCCAAACAACCCGACTCTTCGAAA
+       ::::: :: :   : :  : : :::                                   
+NODE_1 CTTAGATGTATGGTCCACCTCTCTTCAAATAATTTTACTCTTGATTACTTGATTACCTAG
+        8970      8980      8990      9000      9010      9020     
+
+>>NODE_126164_length_280_cov_2.729064                     (280 nt)
+ initn: 112 init1: 112 opt: 165  Z-score: 210.2  bits: 48.4 E(214146): 0.00027
+banded Smith-Waterman score: 165; 70.1% identity (70.1% similar) in 87 nt overlap (228-313:126-209)
+
+       200       210       220       230       240        250      
+KX6685 GAAGAGTCGGGTTGTTTGGGAATGCAGCCCAAAGCGGGTGGTAAAC-TCCACCTAAGGCT
+                                     ::  ::::::  :: : : :: : ::::: 
+NODE_1 TGAATTGAAGGATGTGAGTAGGATAATCTGAAGACGGGTG--AACCATACATCCAAGGCA
+         100       110       120       130         140       150   
+
+        260       270       280       290       300       310      
+KX6685 AAATACGGGCACGAGACCGATAGCGAACAAGTACCGTGAGGGAAAGATGAAAAGCACTTT
+       ::::: :      : :::::::: ::: ::::::::::: ::: :   ::: :::::   
+NODE_1 AAATAAGAATTACACACCGATAGAGAATAAGTACCGTGA-GGAGATCGGAAGAGCACACG
+           160       170       180       190        200       210  
+
+        320       330       340       350       360       370      
+KX6685 GAAAAGAGAGTTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCAATG
+                                                                   
+NODE_1 TCTGAACTCCAGTCACGCCAATATCTCGTATGCCGTCTTCTGCATGAAAATGGGGGGGGG
+            220       230       240       250       260       270  
+
+>>NODE_58740_length_477_cov_0.942500                      (477 nt)
+rev-comp initn:  65 init1:  65 opt: 158  Z-score: 195.2  bits: 46.4 E(214146): 0.0011
+banded Smith-Waterman score: 158; 63.5% identity (63.5% similar) in 148 nt overlap (737-595:217-359)
+
+            760       750       740       730        720       710 
+KX668- TCAAGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCC-CTCAGCGCACCTAAGACCGC
+                                     :: :::::: :   :: ::::  : :::::
+NODE_5 GTCTTGCCCAGCCCCATGGGGTTGCCGATGGCGAGCGCCGCATCGCCCACCCGA-ACCGC
+        190       200       210       220       230       240      
+
+             700       690       680       670         660         
+KX668- GAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGC--AGTCCGCACGGAGGCGCC
+          ::::::  ::::::  : :  :  ::   : ::::::   :::::: :: : :: ::
+NODE_5 CCTCGCGCTGCCAACGGGCATC-GCGGGCAGGCGGCGGGCGGCGTCCGC-CGCAAGCACC
+         250       260        270       280       290        300   
+
+     650       640         630       620       610       600       
+KX668- GCAACGCACGAG-CCCCGTC-TAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTC
+       :: :     : : :  :::: :::::::   :::: :::  : ::: :: :: ::: :  
+NODE_5 GCCAGATCGGCGTCTGCGTCGTAGCCGATGAGGCGGGCG--GACGCGGTGATGCCGCCGT
+           310       320       330       340         350       360 
+
+       590       580       570       560       550       540       
+KX668- CTCGGTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGC
+                                                                   
+NODE_5 CCAGCTCCACCTCAATGCCGGTGGCGCCGCGGACAATGTGCCAGCTGGTGAGCAGGTGCC
+             370       380       390       400       410       420 
+
+>>NODE_171124_length_246_cov_0.668639                     (246 nt)
+rev-comp initn:  71 init1:  71 opt: 155  Z-score: 196.3  bits: 45.7 E(214146): 0.0018
+banded Smith-Waterman score: 155; 60.0% identity (60.0% similar) in 145 nt overlap (777-637:14-152)
+
+            800       790       780       770       760            
+KX668- CCACGGACTCGCACGCACGCTAGACTCCTTGGTCCGTGTTTCAAGACGGGTC---GGATG
+                                     :: ::::::    : :::: ::   ::  :
+NODE_1                  CACGGCGGCGTCCGGCCCGTGTGATGACACGGCTCGAGGGTCG
+                                10        20        30        40   
+
+     750       740        730       720       710       700        
+KX668- AGGCCATTTCTACGC-CAGCGCCCTCAGCGCACCTAAGACCGCGAGCGCGCTCGCAACGG
+        ::: :  ::  ::: : :::::    ::::  :     :   : ::  :: :::   ::
+NODE_1 TGGCGA--TCGTCGCACCGCGCC----GCGCCGCCTCCCCGTGGCGCCGGCGCGCGGTGG
+              50        60            70        80        90       
+
+      690       680       670       660       650       640        
+KX668- CGACCTCCACGCGCACTGCGGGCAGTCCGCACGGAGGCGCCGCAACGCACGAGCCCCGTC
+       ::: : :: ::::::: :::::::: :::  ::: :::  ::    :: :: : :     
+NODE_1 CGATCGCCCCGCGCACCGCGGGCAGGCCGGGCGGCGGCCGCGTGGTGCCCGTGGCGAGCA
+       100       110       120       130       140       150       
+
+      630       620       610       600       590       580        
+KX668- TAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTCCTCGGTGGAACGACGCGTCGA
+                                                                   
+NODE_1 CGGTCGCGCCCCGGAACACGACGGCGCCCACGGACGGGTTGGGGAACACCCGGCCCTTGC
+       160       170       180       190       200       210       
+
+>>NODE_177639_length_242_cov_0.884848                     (242 nt)
+ initn:  65 init1:  65 opt: 151  Z-score: 190.5  bits: 44.6 E(214146): 0.004
+banded Smith-Waterman score: 151; 62.3% identity (62.3% similar) in 146 nt overlap (574-707:2-145)
+
+           550       560       570       580          590       600
+KX6685 TCGGGGCCCCGCGTTATAGACGACGTCGTCGACGCGTCGTTCCAC---CGAGGAGACGGA
+                                     : :: : :::: : :   ::::: : ::: 
+NODE_1                              TGGCGAGCCGTTTCGCGGGCGAGGCG-CGGC
+                                            10        20         30
+
+              610       620       630       640        650         
+KX6685 ATGACGGCGGCAGCGCACGCCGTTTCGGCTAGACGGGGCTCGTGCGT-TGCGGCGCCTC-
+        :  ::  ::: : ::::::::::::: :: :: ::::: :  ::::  : ::::: :: 
+NODE_1 GTTTCGAGGGCGGGGCACGCCGTTTCGTCT-GAGGGGGCGCTCGCGTGCGGGGCGCGTCT
+               40        50        60         70        80         
+
+         660        670          680       690       700       710 
+KX6685 ---CGTG-CGGACTGCCCGCAGT---GCGCGTGGAGGTCGCCGTTGCGAGCGCGCTCGCG
+          : :: :: :  :: ::  ::   : : ::::    :: :::  :::  :: ::    
+NODE_1 TTTCTTGTCGTATCGCGCGTCGTTTCGGGTGTGGGCAGCGTCGTGTCGAATGCACTGAGC
+      90       100       110       120       130       140         
+
+             720       730       740       750       760       770 
+KX6685 GTCTTAGGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAAACA
+                                                                   
+NODE_1 AACTCGCGCGGCGCGATGTTGCTTCGCGTGCGTACGGCGTCGTGTTTCGTGGATGCGCCG
+     150       160       170       180       190       200         
+
+>>NODE_95832_length_337_cov_0.842308                      (337 nt)
+ initn: 103 init1: 103 opt: 150  Z-score: 186.1  bits: 44.2 E(214146): 0.005
+banded Smith-Waterman score: 150; 60.0% identity (60.0% similar) in 150 nt overlap (595-741:23-167)
+
+          570       580       590       600       610       620    
+KX6685 GACGTCGTCGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCACGCCGTT
+                                     ::::::  :: ::  ::: :: :::  :  
+NODE_9         GGCAGGCGCGGCTGGAGTCGCTGACGGA--GATGGGCGCATCGGACGAGGAG
+                       10        20          30        40        50
+
+           630       640       650       660       670       680   
+KX6685 TCGGC-TAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTGCG--C
+         :::  :: ::  :  :: : : ::::  : :  :: :    : :: ::: : :::   
+NODE_9 CAGGCGCAGTCGCTGGCCGAGTGGTGCG--GGCAGCGCGGCATCGGCGCGC-GGGCGGAA
+               60        70          80        90        100       
+
+             690       700       710       720       730       740 
+KX6685 GTGGAGGTCGCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCGTAG
+       ::: :::::: :   :   : : :: ::::::     :::: ::: : ::::::::: ::
+NODE_9 GTGCAGGTCGGCAAGGGCTGGGAGCGCGCGGTGGACAGTGCCCTGGGCGCGCTGGCGGAG
+       110       120       130       140       150       160       
+
+             750       760       770       780       790       800 
+KX6685 AAATGGCCTCATCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGCGAGT
+                                                                   
+NODE_9 GCGCGGCTGGTTGCAGGCGAGGACGCGCTGCCGGTGGGCGGGGATGCGCCCGCCGCCGTC
+       170       180       190       200       210       220       
+
+>>NODE_159096_length_254_cov_0.824859                     (254 nt)
+rev-comp initn:  68 init1:  68 opt: 148  Z-score: 185.6  bits: 43.7 E(214146): 0.0071
+banded Smith-Waterman score: 148; 59.4% identity (59.4% similar) in 155 nt overlap (744-593:6-156)
+
+         770       760       750       740       730         720   
+KX668- CCGTGTTTCAAGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGCA--CCT
+                                     : :::  ::: :::: ::   : ::  :: 
+NODE_1                          GGTTGTGTCTTTGCC-GCGCGCTGCCCTCATGCCG
+                                        10         20        30    
+
+           710       700       690       680       670       660   
+KX668- AAGACCGCGAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTCCGCACGGA
+       ::: ::::   ::::: :   ::     ::: : :    :: :::::: : :::  ::  
+NODE_1 AAGCCCGCTGCCGCGCACAGGACCCGCCCCTGCGCCATGACGGCGGGCGGGCCG-TCG--
+           40        50        60        70        80         90   
+
+           650       640        630       620       610       600  
+KX668- GGCGCCGCAACGCACGAG-CCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCC
+          :::    :::: ::: :: ::    ::::  :  :   :::: :::::::  :: ::
+NODE_1 CCTGCCATCTCGCATGAGACCGCGCGCTGCCGGCAGCGGCCGCGCCGCCGCCGCGATCCC
+             100       110       120       130       140       150 
+
+            590       580       570       560       550       540  
+KX668- GTCTCCTCGGTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGC
+       :::::                                                       
+NODE_1 GTCTCACCCAATCGAGGATATTGCACCATGACCGGACGGTTGATCGCAATCGCACGGGCG
+             160       170       180       190       200       210 
+
+>>NODE_15_length_17288_cov_6.027308                       (17288 nt)
+ initn: 106 init1: 106 opt: 146  Z-score: 148.8  bits: 43.0 E(214146): 0.012
+banded Smith-Waterman score: 146; 60.0% identity (60.0% similar) in 130 nt overlap (253-377:4969-5096)
+
+            230       240       250       260       270       280  
+KX6685 AGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAATACGGGCACGAGACCGATAGCGA
+                                     ::: ::   :: ::     :::::::: : 
+NODE_1 GGAGTACGATAGGAAGGGAGCCGGATGGCGGGCGAAGAGCGAGCGATGAACCGATAGGG-
+     4940      4950      4960      4970      4980      4990        
+
+            290       300        310           320       330       
+KX6685 ACAAGTACCGTGAGGGAAAGATGAAA-AGC----ACTTTGAAAAGAGAGTTAAAGAGTAC
+          ::::::::::::::: ::::::: :::    :    :::: :   ::  ::  : : 
+NODE_1 -GTAGTACCGTGAGGGAAGGATGAAAGAGCGATGAAAGGGAAACGGCGGTGCAATGGCAG
+       5000      5010      5020      5030      5040      5050      
+
+       340       350       360       370       380       390       
+KX6685 GTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCAATGCCTCGGCGTAGATTCAGCGGG
+          : :  :::: :   :  ::  : : ::::::::: ::                    
+NODE_1 ACAAGAGTGTTGTACCTGGTGCATAAGGGGCCAGCAAGGCGAGGCGACAGCGAGCGGAAG
+       5060      5070      5080      5090      5100      5110      
+
+       400       410       420       430       440       450       
+KX6685 GCCGGCGGGCGAGTCGGACGTCGTCGGATTCGAAGGAACCGCGTCGCCCGTCTCTCGCCT
+                                                                   
+NODE_1 GGGAAGGCCGGAAGCGTAGCGAGAGCGAGTGAGTAGCGGCAGTTGTGGCGAACCCGAGAC
+       5120      5130      5140      5150      5160      5170      
+
+>>NODE_18065_length_1153_cov_1.147770                     (1153 nt)
+ initn:  73 init1:  73 opt: 145  Z-score: 168.6  bits: 42.8 E(214146): 0.014
+banded Smith-Waterman score: 147; 56.4% identity (56.4% similar) in 282 nt overlap (468-738:19-279)
+
+       440       450       460       470       480       490       
+KX6685 GCGTCGCCCGTCTCTCGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCC
+                                     :::::  ::  :: :::   :::: ::: :
+NODE_1             GCGGCGTCCAGCAGGAAGGCGCA-ATCGTCCAGAA---AGCCGGCGGC
+                           10        20         30           40    
+
+       500       510       520       530       540        550      
+KX6685 GGTGGGAGGTCGCGTGGTGGCGGCATCGTGAGGTGGCGGAGCCCTT-TCGGGGCCCCGCG
+       :::: :       ::::: :: ::  :: : ::::   : ::  :: ::   :: : : :
+NODE_1 GGTGAG-------GTGGTCGCCGCGCCGCGCGGTGCGCGTGCGGTTATCCACGCGCAGGG
+           50               60        70        80        90       
+
+        560       570       580       590          600       610   
+KX6685 TTATAGACGACGTCGTCGACGCGTCGTTCCACCGAGGAGA---CGGAATGACGGCGGCAG
+       :   : : :: :   :: : ::  :::: : : : ::  :     :  : :  ::::  :
+NODE_1 TGGCA-ATGAGGCAATCAAAGCACCGTTGCGCGGCGGCAATCCATGCGTCATTGCGGGCG
+       100        110       120       130       140       150      
+
+           620         630       640       650       660           
+KX6685 CGCACGCCGTT--TCGGCTAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGAC---T
+        ::  :::: :   :: : :: :: :::   :: :  :::   :  :::    :::   :
+NODE_1 AGCCTGCCGCTGCGCGCCAAGCCGCGGCAGATGAG-GGCGTTCCAGCCGGTGCGACTTTT
+        160       170       180       190        200       210     
+
+      670       680       690       700       710         720      
+KX6685 GCCCGCAGTGCGCGTGGAGGTCGCCGTTGCGAGCGCGCTCGCGGTCTT--AGGTGCGCTG
+         :  :: :: : : :: ::  : ::::::: ::::::     :::::  ::: : :  :
+NODE_1 ATCGTCAATGGGGGGGGCGG--GACGTTGCGCGCGCGC-----GTCTTGCAGG-GTGGCG
+         220       230         240       250            260        
+
+        730       740       750       760       770       780      
+KX6685 AGGGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAAACACGGACCAAGGAGTCT
+         ::::::::::                                                
+NODE_1 GTGGCGCTGGCGAGGTGGGCGCGGCAATCAGCGAGCGGTTGCGCGGTGGCGGCGGCGGTC
+       270       280       290       300       310       320       
+
+>>NODE_142622_length_266_cov_0.772487                     (266 nt)
+rev-comp initn: 104 init1:  63 opt: 140  Z-score: 173.2  bits: 41.5 E(214146): 0.033
+banded Smith-Waterman score: 153; 60.1% identity (60.1% similar) in 168 nt overlap (726-571:75-238)
+
+           750       740       730       720       710             
+KX668- CGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGCACCTAAGACCGCGAGCGCGCT---
+                                     ::::::      ::::: :: ::::::   
+NODE_1 TGCGGGGAAGTCGTCGCCGGCCGGAAGTGGCAGCGCCGAGGTGACCGTGACCGCGCTGTC
+           50        60        70        80        90       100    
+
+    700        690       680        670       660              650 
+KX668- CG-CAACGGCGACCTCCACGCG-CACTGCGGGCAGTCCGCACGGAGG---CGCCG----C
+       :: ::::: ::::: :  :::: : ::::::  ::  :::  :: ::     :::    :
+NODE_1 CGTCAACGTCGACCACGTCGCGACGCTGCGGCAAGCGCGCCTGGCGGGCTATCCGAGTCC
+          110       120       130       140       150       160    
+
+             640       630       620       610       600       590 
+KX668- AACGCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTCCTCG
+       :  : : :   : :: :: ::::::  :::: ::::   ::   :::   ::   : :: 
+NODE_1 ACTGGAGGCTGCGCGGCTCGCCGAAGAGGCGGGCGCGTTCGGGATCA---CGGTGCATCT
+          170       180       190       200       210          220 
+
+             580       570       560       550       540       530 
+KX668- GTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGCCACC
+       : :  ::::: :: :: :                                          
+NODE_1 GCGCCACGAC-CGACGTCACATTCAGGATCGAGACGTCACCGAGCT              
+             230        240       250       260                    
+
+>>NODE_166237_length_249_cov_0.848837                     (249 nt)
+rev-comp initn:  97 init1:  97 opt: 139  Z-score: 172.3  bits: 41.2 E(214146): 0.04
+banded Smith-Waterman score: 139; 59.5% identity (59.5% similar) in 173 nt overlap (734-567:31-198)
+
+         760       750       740       730       720       710     
+KX668- AGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGCACCTAAGACCGCGAGC
+                                     :::: : ::: :        : ::: :   
+NODE_1 GCCGAGGAGGAGAAGCAGACCCGGGCGAGAAGCGACGTCACCCGCGTGGCGGCCGAGGCG
+               10        20        30        40        50        60
+
+         700         690       680       670        660        650 
+KX668- GCGCTCGCAACGGC--GACCTCCACGCGCACTGCGGGCA-GTCCGCACGGAGGCGC-CGC
+       :: :::: : ::::  : : ::: :  ::    ::  :: ::  :: :::  : :: :::
+NODE_1 GCCCTCG-AGCGGCTGGTCTTCCCCCGGCTTCCCGCCCACGTGAGCGCGGCCGAGCTCGC
+                70        80        90       100       110         
+
+             640       630       620        610       600          
+KX668- AACGCACGAGCCCCGTCTAGCCGAAACGGCG-TGCGCTGCCGCCGTCATTCCGTCTCCTC
+         ::  :: : : : ::  :::::::::::: ::: :  : :: :  :: ::: :::   
+NODE_1 --CGGCCGGGTCGCCTC-GGCCGAAACGGCGCTGCTCGCCTGCGGCAATCCCGCCTCGCT
+       120       130        140       150       160       170      
+
+    590       580       570       560       550       540          
+KX668- GGTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGCCAC
+       :: :: ::  :: ::::::  ::                                     
+NODE_1 GGCGG-ACATCGAGTCGACCGCGAAGCGGCGTCAGGTGCGTTTCGAGCGCGATGCGTGGT
+        180        190       200       210       220       230     
+
+>>NODE_145655_length_264_cov_0.705882                     (264 nt)
+rev-comp initn:  90 init1:  58 opt: 138  Z-score: 170.3  bits: 40.9 E(214146): 0.048
+banded Smith-Waterman score: 152; 59.5% identity (59.5% similar) in 148 nt overlap (622-483:77-222)
+
+       650       640       630       620       610       600       
+KX668- CCGCAACGCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTC
+                                     : ::::  :: ::::::: : ::::  :::
+NODE_1 CTCCATACGTTGCTTCATCTGCTGCTCCGCCTGCGTCTGCCGCCGCCGGCGTTCCTCCTC
+         50        60        70        80        90       100      
+
+       590            580       570       560       550       540  
+KX668- CTCGGT-----GGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGC
+         :  :      ::  : :::   : : : ::: ::     ::::  :: :  :   : :
+NODE_1 GGCCTTCTTCGCGAGTGCCGCCCTGCCCAAGTCTTC--GGCCGCGTCGCGCGAACGCGCC
+        110       120       130       140         150       160    
+
+            530       520       510         500        490         
+KX668- TCCGCCACCTCACGATGCCGCCACCACGC--GACCTCCCACCGGCG-CTGGCTCGCTTCG
+        ::::: ::::::: :  :::: :: :::  :  :: :::   ::: ::: ::::: :  
+NODE_1 GCCGCCTCCTCACGTTCACGCCGCCTCGCCTGGGCTTCCAGACGCGCCTGCCTCGCGTAT
+          170       180       190       200       210       220    
+
+     480       470       460       450       440       430         
+KX668- GGTAGAAATGCGCAACGACGGGAAGGCGAGAGACGGGCGACGCGGTTCCTTCGAATCCGA
+                                                                   
+NODE_1 TCGCGCGCCCGCTCCAGCCGTTCCAGCTCCTCGGCCTCAC                    
+          230       240       250       260                        
+
+>>NODE_81409_length_376_cov_0.976589                      (376 nt)
+rev-comp initn: 107 init1:  72 opt: 137  Z-score: 165.8  bits: 40.6 E(214146): 0.061
+banded Smith-Waterman score: 137; 65.1% identity (65.1% similar) in 106 nt overlap (742-639:21-121)
+
+       770       760       750       740       730         720     
+KX668- GTGTTTCAAGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGC--ACCTAA
+                                     ::  :::: :::  : :: :::  :: :  
+NODE_8           GGCGGCGCTGCTGCTGGCGCTCGGCGCCTGCGAGCGCACCGCCGACAT-T
+                         10        20        30        40          
+
+         710       700       690       680       670       660     
+KX668- GACCGCGAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTCCGCACGGAGG
+       ::: ::::::::  ::::::::  :::    :  ::  :  : ::: :  ::::::  ::
+NODE_8 GACGGCGAGCGCATTCGCAACGCGGACAGGGAGCCGGGCAACTGGCTG-GCGCACG--GG
+      50        60        70        80        90        100        
+
+         650       640       630       620       610       600     
+KX668- CGCCGCAACGCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTC
+       :::  : :::: ::::                                            
+NODE_8 CGCACCTACGC-CGAGGAGCGCTTCAGCCCGCTGACGCAGGTCAACGCGGACAGCGTGGG
+        110        120       130       140       150       160     
+
+>>NODE_130797_length_276_cov_0.733668                     (276 nt)
+rev-comp initn:  63 init1:  63 opt: 135  Z-score: 165.4  bits: 40.1 E(214146): 0.087
+banded Smith-Waterman score: 135; 56.9% identity (56.9% similar) in 216 nt overlap (748-545:38-241)
+
+             770       760       750       740             730     
+KX668- TGGTCCGTGTTTCAAGACGGGTCGGATGAGGCCATTTCTACGCCA------GCGCCCTCA
+                                     :::  :::: : :::      :: ::::: 
+NODE_1 CCCTCTCCTTCAGAAGCTGATACGCCACTCGCCGCTTCTTCTCCAGTCGACGCTCCCTCT
+        10        20        30        40        50        60       
+
+         720       710       700       690       680       670     
+KX668- GCGCACCTAAGACCGCGAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTC
+        ::   : :  ::::  :::   :::::  : ::: :: :::  : : :: :   : :::
+NODE_1 TCGGGTCAAGCACCG-TAGCCTCCTCGC--CCGCG-CCCCCATCCTC-CTCCTCACCGTC
+        70        80         90          100       110        120  
+
+            660       650       640          630       620         
+KX668- CGCA---CGGAGGCGCCGCAACGCACGAGCCCCGT---CTAGCCGAAACGGCGTGCGCTG
+       ::::   ::  :: ::: :: : ::::   : : :   : :::     :: :   :::  
+NODE_1 CGCACCTCGCCGGAGCCCCAGCCCACGGTTCGCTTTCGCGAGCGTCTTCGCCAATCGCGC
+            130       140       150       160       170       180  
+
+     610       600       590       580       570       560         
+KX668- CCGCCGTCATTCCGTCTCCTCGGTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGG
+        :::: ::   :::  :::::    :  :   ::::::  : ::::::::    :::: :
+NODE_1 GCGCCTTCGCGCCGCGTCCTC----GTCCTCTGCGTCGTGGTCGTCGTCT---TCGCGAG
+            190       200           210       220          230     
+
+     550       540       530       520       510       500         
+KX668- GCCCCGAAAGGGCTCCGCCACCTCACGATGCCGCCACCACGCGACCTCCCACCGGCGCTG
+        : :::                                                      
+NODE_1 TCGCCGGTCGGAATTGCCTCGCCGTCGTGGCGTCGTCGACG                   
+         240       250       260       270                         
+
+>>NODE_130791_length_276_cov_0.733668                     (276 nt)
+ initn:  87 init1:  87 opt: 135  Z-score: 165.4  bits: 40.1 E(214146): 0.087
+banded Smith-Waterman score: 135; 62.3% identity (62.3% similar) in 114 nt overlap (603-709:154-265)
+
+            580       590       600       610       620       630  
+KX6685 CGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCACGCCGTTTCGGCTAG
+                                     : :::: ::: ::: ::::: :   : : :
+NODE_1 CACCGCGCCCCGGTTGCGCCCCGCGATGCAGCCGGCCGCAACGC-CGCCGGTGATGTTGG
+           130       140       150       160        170       180  
+
+               640       650           660       670       680     
+KX6685 ---ACGGGGCTCGTGCGTTGCGG----CGCCTCCGTGCGGACTGCCCGCAGTGCGCGTGG
+           : :: : :   ::::::::    :::: ::::  :  ::::::: :  :: : :::
+NODE_1 CGTCCTGGACACCCACGTTGCGGATGACGCCGCCGT-TGTTCTGCCCGAACAGCCCCTGG
+            190       200       210        220       230       240 
+
+         690       700       710       720       730       740     
+KX6685 AGGTCGCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCGTAGAAAT
+        ::  ::::  :  :::::: : :                                    
+NODE_1 GGGCTGCCGCCGGCAGCGCGGTTGATCATCAGGTT                         
+             250       260       270                               
+
+>>NODE_19913_length_1082_cov_1.200000                     (1082 nt)
+ initn:  75 init1:  75 opt: 133  Z-score: 151.1  bits: 39.4 E(214146): 0.14
+banded Smith-Waterman score: 133; 66.2% identity (66.2% similar) in 80 nt overlap (280-355:82-161)
+
+     250       260       270       280       290       300         
+KX6685 TAAGGCTAAATACGGGCACGAGACCGATAGCGAACAAGTACCGTGAGGGAA--AGATGAA
+                                     : ::: : ::: ::: :   :  : :: ::
+NODE_1 ACTCCCTATAAATAATGAAGTATTGAACCTCTAACCACTACAGTGGGACCACCAAATAAA
+              60        70        80        90       100       110 
+
+       310       320       330         340       350       360     
+KX6685 AAGCACTTTGAAAAGAGAGTTAAAGAGTA--CGTGAAACCGTTGGAGGGGAAGCGAATGC
+          ::::::: ::  ::  :::::::: :   ::  :: :::::::::::          
+NODE_1 GGACACTTTGGAACCAGGCTTAAAGAGAAGCTGTCCAATCGTTGGAGGGGTTCAAAATGT
+             120       130       140       150       160       170 
+
+         370       380       390       400       410       420     
+KX6685 GGCCAGCAATGCCTCGGCGTAGATTCAGCGGGGCCGGCGGGCGAGTCGGACGTCGTCGGA
+                                                                   
+NODE_1 ATTGTAAATATAAGAAAATGAGTATTTTTGGGATCATGAACAGTGTCTTTTGTAGAAAGG
+             180       190       200       210       220       230 
+
+>>NODE_64443_length_445_cov_0.788043                      (445 nt)
+rev-comp initn:  74 init1:  74 opt: 132  Z-score: 156.9  bits: 39.2 E(214146): 0.16
+banded Smith-Waterman score: 132; 66.7% identity (66.7% similar) in 72 nt overlap (751-680:369-438)
+
+      780       770       760       750       740       730        
+KX668- CCTTGGTCCGTGTTTCAAGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCG
+                                     : ::::::  : :::::  :: :: ::   
+NODE_6 GCCTCGAAATCCGCGCCCAGATCCAGCTCGGGGGCCATGACGACGCCCACGACCACA--C
+      340       350       360       370       380       390        
+
+      720       710       700       690       680       670        
+KX668- CACCTAAGACCGCGAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTCCGC
+       : :: :::::: ::::: ::   ::  :  :::::: : :::                  
+NODE_6 CCCCGAAGACCCCGAGCCCGACAGCGTCACCGACCTGCGCGCCGAACTC           
+        400       410       420       430       440                
+
+      660       650       640       630       620       610        
+KX668- ACGGAGGCGCCGCAACGCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCA
+
+>>NODE_151977_length_259_cov_0.802198                     (259 nt)
+ initn:  66 init1:  66 opt: 131  Z-score: 160.0  bits: 39.0 E(214146): 0.19
+banded Smith-Waterman score: 131; 61.0% identity (61.0% similar) in 136 nt overlap (611-741:118-247)
+
+              590       600       610       620       630          
+KX6685 CGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGCACGCCGTTTCGGCTAGA----CGG
+                                     :::::: :: : :   :::  ::    :: 
+NODE_1 TTGGGCTGAGGCCTGGGCTCTGCCGTAGCACAGCGCGCGGCAT---GGCCCGAGCACCGA
+        90       100       110       120       130          140    
+
+        640       650       660       670       680       690      
+KX6685 GGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTGCGCGTGGAGGTCGCCGTT
+       ::: :  ::: ::  :: : ::   :: : ::::: ::: : ::: ::: : :  : :  
+NODE_1 GGCACCCGCG-TGGTGCACATCTCGGCCGGCTGCCTGCACT-CGC-TGGCGCTTTCGGCG
+          150        160       170       180         190       200 
+
+        700       710       720       730        740       750     
+KX6685 GCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCG-CTGGCGTAGAAATGGCCTCATCC
+       : : ::::::::   : ::  ::::::: :  :  : : ::::: :              
+NODE_1 GAGGGCGCGCTCTTCGCCTGGGGTGCGCCGTTGCAGTCAGGCGTGGCCTCACACGCGT  
+             210       220       230       240       250           
+
+         760       770       780       790       800       810     
+KX6685 GACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGCGAGTCCGTGGGTGTAGAA
+
+>>NODE_3047_length_2940_cov_1.421586                      (2940 nt)
+ initn:  75 init1:  75 opt: 129  Z-score: 137.2  bits: 38.3 E(214146):  0.3
+banded Smith-Waterman score: 129; 57.6% identity (57.6% similar) in 231 nt overlap (491-712:1497-1721)
+
+              470       480       490       500       510          
+KX6685 CGTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCCGGTGGGAGGTCGC-GTGGTGGCG
+                                     :::: ::::  :: ::: :: : :  ::::
+NODE_3 CCAGCGATGTGCGCTGGGCGGTTGCCGGCACAGCACCGG-CGGCGGTGGCGGCGCGGGCG
+       1470      1480      1490      1500       1510      1520     
+
+     520       530       540        550        560        570      
+KX6685 GCATCGTGAGGTGGCGGAGCC-CTTTCGGGGC-CCCGCGTTATAGACGAC-GTCGTCGAC
+       :: : ::  :  ::::  ::: :   :::  :  : :::       :: : :: :  :  
+NODE_3 GCGTGGTCTGTCGGCGACGCCGCAGACGGCACGGCGGCGGCCGGTGCGGCGGTGGCGGTG
+        1530      1540      1550      1560      1570      1580     
+
+        580         590       600        610       620       630   
+KX6685 GCGTCGTT--CCACCGAGGAGACGGA-ATGACGGCGGCAGCGCACGCCGTTTCGGCT-AG
+       : :::: :   ::  : :  ::::::  :::::::::  :  ::: ::::::    : ::
+NODE_3 GTGTCGCTGGGCAATGCGTTGACGGATGTGACGGCGGACGACCACACCGTTTATATTCAG
+        1590      1600      1610      1620      1630      1640     
+
+            640       650       660       670       680       690  
+KX6685 ACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTGCGCGTGGAGGTCGC
+        ::: :   :  :  : :  :::: :: : ::  ::   ::: :::   :: :  : :: 
+NODE_3 GCGGCGGATGACCTGTCCACCGCCACC-TTCGCCCT---CGCCGTGGATGT-GTCGCCGT
+        1650      1660      1670       1680         1690       1700
+
+             700       710       720       730       740       750 
+KX6685 CGTT-GCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCTC
+       :::: :::   ::   :::::                                       
+NODE_3 CGTTGGCGTTGGCATACGCGGAGACGAGTGTTCGGGCGTTATATACGAGTGATGTTGTCC
+             1710      1720      1730      1740      1750      1760
+
+>>NODE_151903_length_259_cov_0.802198                     (259 nt)
+rev-comp initn:  76 init1:  76 opt: 128  Z-score: 155.5  bits: 38.2 E(214146): 0.33
+banded Smith-Waterman score: 128; 56.9% identity (56.9% similar) in 211 nt overlap (764-562:32-230)
+
+         790       780       770       760       750       740     
+KX668- CGCACGCTAGACTCCTTGGTCCGTGTTTCAAGACGGGTCGGATGAGGCCATTTCTACGCC
+                                     :: ::  ::::  ::::::::    : : :
+NODE_1 GTCGTTGCAGAGGCACGGGGTGGAACTGATAGGCGCCTCGGTGGAGGCCATAGAGAAGGC
+              10        20        30        40        50        60 
+
+          730       720       710       700       690       680    
+KX668- AGCG-CCCTCAGCGCACCTAAGACCGCGAGCGCGCTCGCAACGGCGACCTCCACGCGCAC
+        : :  :: :: :      :  : :::::  : :  :::: ::::   : :::  : :: 
+NODE_1 GGAGAACCGCAACCTGTTCATCAACGCGATGGAG--CGCATCGGC-CTCGCCAGCCCCAG
+              70        80        90         100        110        
+
+          670       660       650       640       630       620    
+KX668- TGCGGGCAGTCCGCACGGAGGCGCCGCAACGCACGAGCCCCGTCTAGCCGAAACGGCGTG
+         ::::::   ::::: :    ::::   ::::::::       ::::::   ::: :::
+NODE_1 GTCGGGCATAGCGCACAGCCTTGCCGAGGCGCACGAG------ATAGCCG-GGCGG-GTG
+      120       130       140       150             160         170
+
+          610         600            590       580       570       
+KX668- CGCTGCCGC--CGTCATTCCGTC-----TCCTCGGTGGAACGACGCGTCGACGACGTCGT
+        ::: :: :  : ::: :::: :     : : :  :::   :  ::: :: :: : ::: 
+NODE_1 GGCTTCCCCTGCATCA-TCCGCCCCAGTTTCACCCTGGGCGGCAGCGGCGGCGGCATCGC
+              180        190       200       210       220         
+
+       560       550       540       530       520       510       
+KX668- CTATAACGCGGGGCCCCGAAAGGGCTCCGCCACCTCACGATGCCGCCACCACGCGACCTC
+       :                                                           
+NODE_1 CCGCGACAGCGCGGAGTTTGAGCGGATCTG                              
+     230       240       250                                       
+
+>>NODE_52022_length_523_cov_1.753363                      (523 nt)
+ initn:  70 init1:  70 opt: 127  Z-score: 148.0  bits: 37.8 E(214146): 0.42
+banded Smith-Waterman score: 127; 60.8% identity (60.8% similar) in 143 nt overlap (396-529:304-443)
+
+         370       380       390       400        410       420    
+KX6685 GGCCAGCAATGCCTCGGCGTAGATTCAGCGGGGCCGGCGGGC-GAGTCGGACGTCGTCGG
+                                     :::  ::  ::: : :: :: ::: :    
+NODE_5 CCTCGGGGAGTGGTTCTGGTACGAATGGAAGGGAAGGAAGGCGGCGTGGGCCGTGGAATT
+           280       290       300       310       320       330   
+
+          430       440       450       460       470          480 
+KX6685 ATTCGAAGGAACCGCGTCGCCCGTCTCTCGCCTTCCCGTCGTTGCGC--AT-TTCTACCC
+         : ::   :: :    : :::: :: :    :::: :   ::::::  :: ::: :  :
+NODE_5 CATGGAGAAAAACTATCCACCCGACTTTACATTTCCGGATTTTGCGCCGATGTTCAAGGC
+           340       350       360       370       380       390   
+
+                  490       500       510       520       530      
+KX6685 GAAGC-----GAGCCAGCGCCGGTGGGAGGTCGCGTGGTGGCGGCATCGTGAGGTGGCGG
+       : :::     :: :::: :  :::::: ::  :: :::::::::::::: :::       
+NODE_5 GGAGCTGTATGACCCAG-GGTGGTGGGCGG-AGC-TGGTGGCGGCATCGGGAGCGCGCTA
+           400       410        420         430       440       450
+
+        540       550       560       570       580       590      
+KX6685 AGCCCTTTCGGGGCCCCGCGTTATAGACGACGTCGTCGACGCGTCGTTCCACCGAGGAGA
+                                                                   
+NODE_5 CACTGTGCTAGCCACCAAGCATCACAGTGGCTGGTGCAACTGGCCCACCAAGACCGCCTG
+              460       470       480       490       500       510
+
+>>NODE_58667_length_477_cov_1.642500                      (477 nt)
+ initn:  73 init1:  73 opt: 125  Z-score: 145.8  bits: 37.3 E(214146): 0.62
+banded Smith-Waterman score: 128; 55.3% identity (55.3% similar) in 253 nt overlap (475-711:79-320)
+
+          450       460       470       480       490       500    
+KX6685 CCGTCTCTCGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCCGGTGGGA
+                                     :: ::: : : :::::: : : ::::::  
+NODE_5 CGGTGGACACCGGCAACCCCAGGGGCAGGCTCAACCGGGA-CGAGCCGGAGGCGGTGGCG
+       50        60        70        80         90       100       
+
+          510            520       530       540       550         
+KX6685 GGTCGCGTGGTG-----GCGGCATCGTGAGGTGGCGGAGCCCTTTCGGGGCCCCG----C
+       :   :::::: :     : :::      : :::: :  : :::    :  :: ::    :
+NODE_5 GAGAGCGTGGCGCTGATGGGGCTGGACTATGTGGTGCTGACCTCAGTGAACCGCGATGAC
+       110       120       130       140       150       160       
+
+         560       570       580         590       600       610   
+KX6685 GTTATAGACGACGTCGTCGACGCGTCGTTCCA--CCGAGGAGACGGAATGACGGCGGCAG
+        :    :::: :: ::  ::   ::    :::  : : :::: : :: :  : :: :: :
+NODE_5 CTGCCGGACGGCGGCGCGGAGCAGTACGCCCAGGCGGTGGAGGC-GATTATCCGCCGCTG
+       170       180       190       200       210        220      
+
+             620       630       640       650       660       670 
+KX6685 --CGCACGCCGTTTCGGCTAGACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCC
+         :: :: ::    ::: : :: :: : : ::::    :::     : : :::  :::: 
+NODE_5 CCCGGACACC----CGGGTGGA-GGCGTTGGTGC----CGGACTTCCAGGGCGATCTGCG
+        230           240        250           260       270       
+
+                680       690       700       710       720        
+KX6685 CGCAGT---GCGCGTGGAGGTCGCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTGAG
+       ::: ::   ::: :::: :: : :::      ::: : :::::                 
+NODE_5 CGCCGTGGAGCGGGTGGCGGACTCCGGGATATGCGTGTTCGCGCAGAATATTGAGACGGT
+       280       290       300       310       320       330       
+
+      730       740       750       760       770       780        
+KX6685 GGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAG
+                                                                   
+NODE_5 GGAGCGCCTGACCCACCAGGTGCGCGACATCCGCGCCGGCTATGCCCAGACCCTTGGGGT
+       340       350       360       370       380       390       
+
+>>NODE_205290_length_152_cov_3.400000                     (152 nt)
+ initn: 156 init1: 121 opt: 124  Z-score: 154.3  bits: 37.2 E(214146): 0.66
+banded Smith-Waterman score: 124; 76.6% identity (76.6% similar) in 47 nt overlap (66-110:24-70)
+
+          40        50        60        70        80        90     
+KX6685 GGAACAGCTCAAGCCGTCAATCTCCGACCTGCGGTCGGCGAATTGTAGTCTGGAGA--AG
+                                     :::::::::::::::: :::::::::   :
+NODE_2        AAATCTCCGACCGGACCGATTGCGCGGTCGGCGAATTGTGGTCTGGAGAGCGG
+                      10        20        30        40        50   
+
+           100       110       120       130       140       150   
+KX6685 TGTCGTCCGCGCGACGCACGGCGGTCTAAGTTGCTTGGAACGGCACATCGCAGAGGGTGA
+        :  ::::  : : :::                                           
+NODE_2 AGCTGTCCCGGAGTCGCGTTCCCAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTGCA
+            60        70        80        90       100       110   
+
+>>NODE_89430_length_353_cov_0.601449                      (353 nt)
+rev-comp initn: 106 init1:  72 opt: 124  Z-score: 146.8  bits: 37.0 E(214146): 0.73
+banded Smith-Waterman score: 124; 61.5% identity (61.5% similar) in 143 nt overlap (739-600:16-147)
+
+    770       760       750       740       730       720          
+KX668- TTTCAAGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGCACCTAAGACCG
+                                     :: ::  :: :: : : ::::  ::    :
+NODE_8                GTGATGTGAAAACTCACACCGTCGACCGCCG-GCACAAAA----G
+                              10        20        30             40
+
+    710       700       690       680       670       660          
+KX668- CGAGCGCGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTCCGCACGGAGGCGCCG
+       :: :::::: :: ::::::: :  : : :: :::  ::   :  :  : :: : :: : :
+NODE_8 CG-GCGCGCCCGAAACGGCGGCGGCGATGC-CACACCG---AAACATCGCGCACGCACAG
+                50        60         70           80        90     
+
+    650        640       630         620       610       600       
+KX668- CAAC-GCACGAGCCCCGTCTAGCC--GAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTC
+       :::: :: ::    : :::  : :   : :::::: :::: :: : : :::::       
+NODE_8 CAACGGCGCGGCGGCGGTCATGGCTTCAGACGGCG-GCGCGGCGGTCATCATTTTCACCG
+         100       110       120       130        140       150    
+
+       590       580       570       560       550       540       
+KX668- CTCGGTGGAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGC
+                                                                   
+NODE_8 TTTTGCCGGCGCAGTTGTGCCGAAAAAAAGCAACGCACCTGATGCGTGTCGTCGCCGCGC
+          160       170       180       190       200       210    
+
+>>NODE_147756_length_262_cov_0.789189                     (262 nt)
+ initn:  72 init1:  72 opt: 123  Z-score: 147.9  bits: 36.8 E(214146): 0.86
+banded Smith-Waterman score: 123; 59.2% identity (59.2% similar) in 120 nt overlap (344-462:132-247)
+
+           320       330       340       350       360       370   
+KX6685 TTTGAAAAGAGAGTTAAAGAGTACGTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCA
+                                     ::: ::: : :   :     : :: :: ::
+NODE_1 CCGAGGCGATGGCGCAAAACGCGCCCGGGGCCGATGGCGAGCGCGGCGTGGTGGTCAACA
+             110       120       130       140       150       160 
+
+           380        390       400       410       420       430  
+KX6685 ATGCCTCG-GCGTAGATTCAGCGGGGCCGGCGGGCGAGTCGGACGTCGTCGGATTCGAAG
+         :: :::  ::  :  :  :  :::: :  :::: :: : : :  :: ::  : :  : 
+NODE_1 CCGCGTCGATCGCCGCCTTCGACGGGCAGCGGGGCCAGGCCGCCTACGCCGCCTCC--AA
+             170       180       190       200       210           
+
+            440       450       460       470       480       490  
+KX6685 GAACCGCGTCGCCCGTCTCTCGCCTTCCCGTCGTTGCGCATTTCTACCCGAAGCGAGCCA
+       :: : :::::::: : :::::::  :::::                              
+NODE_1 GAGCGGCGTCGCCGGCCTCTCGC--TCCCGATGGCCCGCGACCTT               
+     220       230       240         250       260                 
+
+>>NODE_75445_length_396_cov_2.742947                      (396 nt)
+rev-comp initn:  86 init1:  86 opt: 123  Z-score: 144.4  bits: 36.7 E(214146): 0.89
+banded Smith-Waterman score: 123; 63.4% identity (63.4% similar) in 93 nt overlap (357-267:111-202)
+
+            380       370       360       350       340       330  
+KX668- CTACGCCGAGGCATTGCTGGCCGCATTCGCTTCCCCTCCAACGGTTTCACGTACTCTTTA
+                                     :: :  :: :: ::::::  ::  ::::::
+NODE_7 ATTTTTTCTTCAGGTTCTTTATTGTCTTCATTACTTTCTAAAGGTTTCGAGTCTTCTTTA
+               90       100       110       120       130       140
+
+            320       310        300        290       280          
+KX668- ACTCTCTTTTCAAAGTGCTTTTCATCTT-TCCCTC-ACGGTACTTGTTCGCTATCGGTCT
+        :  ::: :  : :    :: ::::::: :  ::: :: ::: :  ::: :::  ::: :
+NODE_7 TCCTTCTCTGAAGACACTTTATCATCTTCTGTCTCTACTGTA-TCTTTCTCTACTGGTTT
+              150       160       170       180        190         
+
+    270       260       250       240       230       220          
+KX668- CGTGCCCGTATTTAGCCTTAGGTGGAGTTTACCACCCGCTTTGGGCTGCATTCCCAAACA
+        ::                                                         
+NODE_7 GGTATCTACAGACAGTTCCTCGTCAGGATCTTTCTGTACTGTATCGTCTTTTTCTTCCTT
+     200       210       220       230       240       250         
+
+>>NODE_205303_length_152_cov_1.786667                     (152 nt)
+rev-comp initn: 100 init1: 100 opt: 121  Z-score: 149.8  bits: 36.4 E(214146):  1.2
+banded Smith-Waterman score: 121; 72.6% identity (72.6% similar) in 62 nt overlap (162-103:37-96)
+
+       190       180       170       160       150       140       
+KX668- TGCCTCGTGGCGCGTGCACGACGGTCCAGGACGGGATTCTCACCCTCTGCGATGTGCCGT
+                                     :::::  :::::::::::  :  : :::::
+NODE_2 TCGTCCCGTCGCTCCCGGTTTCTAGGCCCTACGGGGCTCTCACCCTCTTGGGCGCGCCGT
+         10        20        30        40        50        60      
+
+       130        120        110       100        90        80     
+KX668- TCCAAG-CAACTTAGA-CCGCCGTGCGTCGCGCGGACGACACTTCTCCAGACTACAATTC
+       :::::: : ::  ::: : :  : :::::: :                            
+NODE_2 TCCAAGTCGAC--AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTGCAATGGAGTGTAG
+         70          80        90       100       110       120    
+
+          70        60        50        40        30        20     
+KX668- GCCGACCGCAGGTCGGAGATTGACGGCTTGAGCTGTTCCCACTTCACTCGCCGTTACTGA
+                                                                   
+NODE_2 ATCTCGGTGGTCGCCGTATCATTAAAAA                                
+          130       140       150                                  
+
+>>NODE_200774_length_229_cov_0.960526                     (229 nt)
+ initn:  82 init1:  82 opt: 121  Z-score: 146.1  bits: 36.3 E(214146):  1.2
+banded Smith-Waterman score: 121; 61.0% identity (61.0% similar) in 146 nt overlap (603-743:71-210)
+
+            580       590       600       610        620       630 
+KX6685 CGACGCGTCGTTCCACCGAGGAGACGGAATGACGGCGGCAGCGC-ACGCCGTTTCGGCTA
+                                     : ::  :::: :::   : :: :  ::  :
+NODE_2 TCGGCCGAGCGTGAGGTCTCGCTGATGTCCGGCGCGGGCATCGCGGAGGCGCT--GGAGA
+               50        60        70        80        90          
+
+             640       650       660       670       680        690
+KX6685 GACGGGGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTGCGCGTGGAGG-TC
+       : : ::::    ::: ::  :::: ::     ::::  : ::  :: ::::  :::: ::
+NODE_2 GCCTGGGCCACCGCG-TGACGCGCATCGACATGGAC--CGCGACGT-CGCGCTGAGGATC
+      100       110        120       130         140        150    
+
+              700       710       720        730         740       
+KX6685 GCCGTTGCGAGCGCGCTCGCGGTCTTAGGTGCGCTG-AGGG--CGCTGGCGTAGAAATGG
+       ::::  ::: :  ::  :: ::: ::   ::::::: : ::  ::: :: : :: :    
+NODE_2 GCCGAGGCGCGGCCGGACGTGGTGTTCAATGCGCTGCATGGCACGCCGGGGGAGGACGGC
+          160       170       180       190       200       210    
+
+       750       760       770       780       790       800       
+KX6685 CCTCATCCGACCCGTCTTGAAACACGGACCAAGGAGTCTAGCGTGCGTGCGAGTCCGTGG
+                                                                   
+NODE_2 ACGGTGCAGGGCATG                                             
+          220                                                      
+
+>>NODE_168040_length_248_cov_0.853801                     (248 nt)
+rev-comp initn:  71 init1:  71 opt: 121  Z-score: 145.4  bits: 36.2 E(214146):  1.3
+banded Smith-Waterman score: 121; 56.4% identity (56.4% similar) in 179 nt overlap (734-564:48-222)
+
+         760       750       740       730       720       710     
+KX668- AGACGGGTCGGATGAGGCCATTTCTACGCCAGCGCCCTCAGCGCACCTAAGACCGCGAGC
+                                     : :: :  :: ::   : :::: ::  : :
+NODE_1 GATCTCAAATCGGCGCTCGACGGCGAGGATAACGACGCCATCGAGGCCAAGATCGATACC
+        20        30        40        50        60        70       
+
+           700        690           680       670       660        
+KX668- --GCGCTCGCA-ACGGCGA----CCTCCACGCGCACTGCGGGCAGTCCGCACGGAGGCGC
+         ::::  :::  ::  ::    :  : : :: : :: : : :: :: ::: :  :::::
+NODE_1 CTGCGCCAGCATTCGATGAAAATCGGCGAGGCCCTCTACCGTCA-TCAGCAAGCCGGCGC
+        80        90       100       110       120        130      
+
+      650       640       630       620       610       600        
+KX668- CGCAACGCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTCC
+       :::  :   ::   ::  :   ::::   : ::    : :::::::: :    :  : ::
+NODE_1 CGCCCCCGGCGGCACCGATGACGCCG---CCGCCGATGATGCCGCCGCCGCCGCACCGCC
+        140       150       160          170       180       190   
+
+      590       580        570       560       550       540       
+KX668- TCGGTGGAACGACG-CGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGC
+         :  :::: :::: ::::: ::: : ::                               
+NODE_1 CGGCCGGAATGACGACGTCGTCGATGCCGATTTCGAGGAGGTCAGCGACAAGAAC     
+           200       210       220       230       240             
+
+>>NODE_82678_length_372_cov_0.949153                      (372 nt)
+rev-comp initn:  65 init1:  65 opt: 121  Z-score: 141.9  bits: 36.2 E(214146):  1.3
+banded Smith-Waterman score: 131; 60.3% identity (60.3% similar) in 184 nt overlap (656-486:20-199)
+
+           680       670       660       650       640        630  
+KX668- TCCACGCGCACTGCGGGCAGTCCGCACGGAGGCGCCGCAACGCACGAGCCCCG-TCTAGC
+                                     :::::::   :::    ::: :: ::  ::
+NODE_8            GCCTTCCACCGCCATCACCGGCGCCG--GCGCCGTCGCCACGATCGCGC
+                          10        20          30        40       
+
+             620       610           600       590         580     
+KX668- CG-AAACGGCGTGCGCTGCCGCCGT----CATTCCGTCTCCTCGGTGGAACGA--CGCGT
+       ::   :: ::  :: : ::::::::    ::: :::::    ::: ::   ::  :: ::
+NODE_8 CGCGGACCGCAAGCCCGGCCGCCGTCAGCCATGCCGTCCAGGCGGCGGCGAGATCCGGGT
+        50        60        70        80        90       100       
+
+         570        560         550        540       530       520 
+KX668- CGACGACGT-CGTCTATAACGCGG--GGCCCCG-AAAGGGCTCCGCCACCTCACGATGCC
+       :: :: : :   ::   : ::  :   :::::: :    :: :: ::::: : ::  :::
+NODE_8 CGGCGTCATAACTCCCGATCGGCGCCAGCCCCGCATCAAGCACCACCACC-CGCGTCGCC
+       110       120       130       140       150        160      
+
+              510       500       490       480       470          
+KX668- GCCACCA-CGCGACCTCCCACCGGCGCTGGCTCGCTTCGGGTAGAAATGCGCAACGACGG
+        : :::: :::: ::   : : : ::: :: :::                          
+NODE_8 ACGACCACCGCGCCCGGGCCCAGCCGC-GGATCGAGACCGCCGCCCACCCCCACCGCCAT
+        170       180       190        200       210       220     
+
+    460       450       440       430       420       410          
+KX668- GAAGGCGAGAGACGGGCGACGCGGTTCCTTCGAATCCGACGACGTCCGACTCGCCCGCCG
+                                                                   
+NODE_8 CACCGCCTCGGCGCCCCGCGCCCGCAACAAGGCAACGCCATCGCCGCAAGCCGCCCCGAC
+         230       240       250       260       270       280     
+
+>>NODE_176533_length_242_cov_1.763636                     (242 nt)
+rev-comp initn:  61 init1:  61 opt: 120  Z-score: 144.1  bits: 36.0 E(214146):  1.5
+banded Smith-Waterman score: 120; 60.6% identity (60.6% similar) in 99 nt overlap (615-517:126-219)
+
+          640       630       620       610       600       590    
+KX668- GCACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTCCTCGGTG
+                                     :::: :::::: :   ::::: :: ::   
+NODE_1 CACCCACTTTTTCAACCGCCCGAACCAACCCGCTTCCGCCGCC---CCGTCGCCACGCCC
+         100       110       120       130          140       150  
+
+          580       570       560       550       540       530    
+KX668- GAACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGCCACCTCA
+          :: ::: ::  :  :::: ::     :::    : : :::    : :: :: :::::
+NODE_1 CGCCGCCGCCTCATC--CGTCATCGTATCCGCCAACCGCTGAAGCACCGCCACCGCCTCA
+            160         170       180       190       200       210
+
+          520       510       500       490       480       470    
+KX668- CGATGCCGCCACCACGCGACCTCCCACCGGCGCTGGCTCGCTTCGGGTAGAAATGCGCAA
+       :: ::::::                                                   
+NODE_1 CGCTGCCGCGCATTCGCCTCCAAAACCCCGTA                            
+              220       230       240                              
+
+>>NODE_138954_length_269_cov_0.760417                     (269 nt)
+rev-comp initn: 100 init1:  65 opt: 120  Z-score: 143.2  bits: 36.0 E(214146):  1.5
+banded Smith-Waterman score: 120; 62.2% identity (62.2% similar) in 90 nt overlap (673-584:180-266)
+
+        700       690       680       670       660       650      
+KX668- CGCTCGCAACGGCGACCTCCACGCGCACTGCGGGCAGTCCGCACGGAGGCGCCGCAACGC
+                                     :::  :::::: ::::::::::  ::::: 
+NODE_1 AGTTCGATTCACGTGGCTCTCGGATTTTCTCGGCGAGTCCG-ACGGAGGCGC--CAACGG
+     150       160       170       180       190        200        
+
+        640       630       620       610       600       590      
+KX668- ACGAGCCCCGTCTAGCCGAAACGGCGTGCGCTGCCGCCGTCATTCCGTCTCCTCGGTGGA
+         ::: :     : : ::   : :::  ::   : : :     :::::::::::::  ::
+NODE_1 CGGAGGCGTTCGTCGGCGTCGCCGCGACCGTCACGGGCTCGGGTCCGTCTCCTCGGACGA
+        210       220       230       240       250       260      
+
+        580       570       560       550       540       530      
+KX668- ACGACGCGTCGACGACGTCGTCTATAACGCGGGGCCCCGAAAGGGCTCCGCCACCTCACG
+                                                                   
+NODE_1 GTC                                                         
+                                                                   
+
+>>NODE_132623_length_274_cov_1.482234                     (274 nt)
+rev-comp initn:  97 init1:  97 opt: 120  Z-score: 143.0  bits: 36.0 E(214146):  1.5
+banded Smith-Waterman score: 120; 61.9% identity (61.9% similar) in 84 nt overlap (364-281:134-215)
+
+         390       380       370       360       350       340     
+KX668- GCTGAATCTACGCCGAGGCATTGCTGGCCGCATTCGCTTCCCCTCCAACGGTTTCACGTA
+                                     :: :  ::::: :::   :  :::: :   
+NODE_1 TTATAGTATACTACCATGCATCATCATAATCACTTCCTTCCTCTCTTTCTCTTTCTC--T
+           110       120       130       140       150       160   
+
+         330       320       310       300       290       280     
+KX668- CTCTTTAACTCTCTTTTCAAAGTGCTTTTCATCTTTCCCTCACGGTACTTGTTCGCTATC
+       ::::::  :::::: :      : :::::  :::::::::: :  :   : :::      
+NODE_1 CTCTTTCTCTCTCTCTCTCTCTTTCTTTTTCTCTTTCCCTCTCCCTTTCTTTTCAGGTGT
+             170       180       190       200       210       220 
+
+         270       260       250       240       230       220     
+KX668- GGTCTCGTGCCCGTATTTAGCCTTAGGTGGAGTTTACCACCCGCTTTGGGCTGCATTCCC
+                                                                   
+NODE_1 TATTTAGAAGAGAGCTACTATTGACCCCGGGCAAGGCCTAAATATTAAATTTT       
+             230       240       250       260       270           
+
+>>NODE_158840_length_254_cov_0.824859                     (254 nt)
+ initn:  76 init1:  76 opt: 119  Z-score: 142.2  bits: 35.7 E(214146):  1.9
+banded Smith-Waterman score: 119; 58.1% identity (58.1% similar) in 136 nt overlap (632-759:40-173)
+
+             610       620       630       640         650         
+KX6685 TGACGGCGGCAGCGCACGCCGTTTCGGCTAGACGGGGCTCGTGCGTT--GCGGCGCCTCC
+                                     : :: : : :  ::: :  :::::: : ::
+NODE_1 CGCGGCGCCGAGCAGCTTGAGGACCTCCGCGTCGTGCCACCCGCGGTCCGCGGCGTCCCC
+      10        20        30        40        50        60         
+
+     660       670         680           690       700       710   
+KX6685 GTGCGGACTGCCCGCAGTG--CGCGTGGA----GGTCGCCGTTGCGAGCGCGCTCGCGGT
+       : : :::  :::::: : :   :::  ::    :: ::  :  ::  :: ::: :: :  
+NODE_1 GAGGGGAACGCCCGCGGCGACGGCGGCGACCACGGCCGGGGCCGCCGGCCCGCGCGGGCC
+      70        80        90       100       110       120         
+
+           720       730       740       750       760       770   
+KX6685 CTTAGGTGCGCTGAGGGCGCTGGCGTAGAAATGGCCTCATCCGACCCGTCTTGAAACACG
+       ::     :::     ::::: :::   :::  ::::::  : ::::              
+NODE_1 CTCGACGGCGGCCTCGGCGCAGGCCAGGAA--GGCCTCCGCGGACCGCTTGGTCACGAGC
+     130       140       150         160       170       180       
+
+           780       790       800       810       820       830   
+KX6685 GACCAAGGAGTCTAGCGTGCGTGCGAGTCCGTGGGTGTAGAAACCCCGGGGCGCAATGAA
+                                                                   
+NODE_1 GCCGCGTGCTTTTCGGCGGCCCCCTGCGAGCAGGCCGTCGCGGAGGACCCGCCGGAGGAC
+       190       200       210       220       230       240       
+
+>>NODE_104439_length_318_cov_1.211618                     (318 nt)
+ initn:  74 init1:  74 opt: 119  Z-score: 140.2  bits: 35.7 E(214146):  1.9
+banded Smith-Waterman score: 119; 61.0% identity (61.0% similar) in 136 nt overlap (492-622:171-302)
+
+             470       480       490       500       510       520 
+KX6685 GTCGTTGCGCATTTCTACCCGAAGCGAGCCAGCGCCGGTGGGAGGTCGCGTGGTGGCGGC
+                                     :::: ::: ::  ::: :: ::    :: :
+NODE_1 GGCGCCCGTGTCGCTTTCGGTTATGCGGTGAGCGACGGCGG--GGT-GCTTGCCAACGCC
+              150       160       170       180          190       
+
+               530       540         550       560       570       
+KX6685 ATCG--TGAGGTGGCGGAGCC-CTTTCGG-GGCCCCGCGTTATAGACGACGTCGTCGACG
+        :::  :  :: :  :  ::: :  :::: : :: : :: : :: :   :  :: ::   
+NODE_1 GTCGCTTTCGGCGATGTTGCCGCCATCGGCGACCACACGGTTTATATTTCCGCGGCGGAC
+       200       210       220       230       240       250       
+
+       580       590       600        610       620       630      
+KX6685 CGTCGTTCCACCGAGGAGACGGA-ATGACGGCGGCAGCGCACGCCGTTTCGGCTAGACGG
+        ::  ::::::::  ::::::::  ::  :: ::: :  :::::::              
+NODE_1 GGTTTTTCCACCGCCGAGACGGAGGTGGTGGTGGC-GGTCACGCCGAGCGTCGGTTTTCG
+       260       270       280       290        300       310      
+
+        640       650       660       670       680       690      
+KX6685 GGCTCGTGCGTTGCGGCGCCTCCGTGCGGACTGCCCGCAGTGCGCGTGGAGGTCGCCGTT
+                                                                   
+NODE_1 CA                                                          
+                                                                   
+
+>>NODE_46405_length_574_cov_1.732394                      (574 nt)
+ initn:  98 init1:  98 opt: 119  Z-score: 135.3  bits: 35.6 E(214146):    2
+banded Smith-Waterman score: 119; 67.1% identity (67.1% similar) in 70 nt overlap (251-317:362-431)
+
+              230       240       250       260       270       280
+KX6685 GCAGCCCAAAGCGGGTGGTAAACTCCACCTAAGGCTAAATACGGGCACGAGACCGATAGC
+                                     :::::::::  :  : : :::: ::: :::
+NODE_4 GAAACTTCTCTTGCTGAGGAAAAATCTGAAAAGGCTAAAGTCTTGGAAGAGAGCGAAAGC
+             340       350       360       370       380       390 
+
+                290       300        310       320       330       
+KX6685 GAAC--AAGTACCGTGAGGGAAAG-ATGAAAAGCACTTTGAAAAGAGAGTTAAAGAGTAC
+       ::::  ::  :   ::: : :: : ::::::: :  :: :                    
+NODE_4 GAACTTAAAAAAACTGAAGAAATGTATGAAAATCGTTTGGCCGAACTTGGAAACAAAAAT
+             400       410       420       430       440       450 
+
+       340       350       360       370       380       390       
+KX6685 GTGAAACCGTTGGAGGGGAAGCGAATGCGGCCAGCAATGCCTCGGCGTAGATTCAGCGGG
+                                                                   
+NODE_4 GCAAAGAAGATTGACGATATGTCATTGCAGCATAAACAAGAAATGGAAACTTTGAGAGAA
+             460       470       480       490       500       510 
+
+
+
+899 residues in 1 query   sequences
+113895405 residues in 214146 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Thu Oct  5 12:08:24 2023 done: Thu Oct  5 12:08:45 2023
+ Total Scan time:  7.070 Total Display time:  0.050
+
+Function used was FASTA [36.3.8i May, 2023]
