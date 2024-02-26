@@ -1,0 +1,25 @@
+;; pepper version 3.7 run on manim2mt.mf
+;;
+;; First non-blank line of input file:
+;; >NODE_2170_length_11824_cov_25.568145
+;;
+;; Genetic code used: 1
+;;
+;;
+;; Protein(s) reported:
+;;	cox2  atp8
+;;
+;; The switch '-m' was not used.
+;;
+
+>manim2mt.mf cox2 ; 249 aa
+; Warning ! 2 stop codons found for cox2 
+MGITWGGDVAENWQLGLLESATGMMEELSGFHDEVMYVATVIMTLVMWVMVRAGMGRRYN
+RYLTEGTWLEVIWTIIPAGILIGIAFPSLRLLYLVDEVVDVGVTVKAIGHQWYWSYEYSD
+YGGEGIQYDSYMVPTSELKSGELRLLEVDNRLVLPIGTGIRVMVTGADVLHAFALPSMGV
+KVDAIPGRLNQVGMHIKRPGVYYGQCSELCGANHSFMPIVVEAVGVDRYVEWVVGGGNS*
+WVLIGQRIGM*
+
+>manim2mt.mf atp8 ; 6 aa
+MEKSEN*
+

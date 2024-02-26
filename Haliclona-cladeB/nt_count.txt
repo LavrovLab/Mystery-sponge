@@ -1,0 +1,1 @@
+hplakmt.fa (1)  G=4029 A=4605 T=6289 C=2172 IUB=0    ?=0    %AT=63.7  ATskew=-0.15   GCskew=0.30    TOT=17095
