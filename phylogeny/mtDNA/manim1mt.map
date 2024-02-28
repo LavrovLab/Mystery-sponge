@@ -1,0 +1,70 @@
+#!/usr/bin/env map2ps
+@TITLE
+
+manim1mt.all, Unknown DNA
+
+@SCALE
+
+5000
+5000
+5000
+2211
+
+@GENOME
+
+0         59        
+0         70        +"trnG(ucc)"        
+0         70        
+0         2281      +"rnl"              
+0         70        
+0         69        +"trnA(ugc)"        
+0         6         
+0         69        +"trnK(uuu)"        
+0         70        
+0         202       +"nad4L"            
+0         70        
+0         1509      +"cox1"             
+0         70        +"overlap"          
+0         31        +"trnS(uga)"        
+0         93        
+0         187       +"atp8"             
+0         70        +"overlap"          
+0         610       +"atp6"             
+0         70        
+0         67        +"trnR(ucu)"        
+0         70        
+0         652       +"cox3"             
+0         70        +"overlap"          
+0         68        +"trnQ(uug)"        
+0         2         
+0         69        +"trnW(uca)"        
+0         43        
+0         70        +"trnM(cau)"        
+0         70        
+0         1237      +"nad2"             
+0         150       
+0         1846      +"nad5"             
+0         70        
+0         1113      +"cob"              
+0         70        +"overlap"          
+0         34        +"trnT(ugu)"        
+0         70        
+0         168       +"atp9"             
+0         70        
+0         70        +"trnS(gcu)"        
+0         12        
+0         69        +"trnD(guc)"        
+0         95        
+0         1021      +"nad1"             
+0         70        
+0         1836      +"rns"              
+0         70        
+0         1131      +"nad4"             
+0         70        +"overlap"          
+0         61        +"trnH(gug)"        
+0         16        
+0         67        +"trnE(uuc)"        
+0         70        
+0         381       +"nad6"             
+0         70        +"overlap"          
+17211     417       +"nad3"             
