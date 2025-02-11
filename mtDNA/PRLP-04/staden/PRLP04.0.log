@@ -1,0 +1,19 @@
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] opening rw... by dlavrov(1746205941)
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] ...opened
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] auto assemble
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] close database
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] closing...
+Mon 10 Feb 14:57:02 2025 [50223@ee-dlav-mini20.eeob.iastate.edu] ...closed
+Mon 10 Feb 14:57:25 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] opening rw... by dlavrov(1746205941)
+Mon 10 Feb 14:57:25 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] ...opened
+Mon 10 Feb 14:57:25 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] check database
+Mon 10 Feb 14:57:25 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] > Register id=1 cnum=1 func=0x10637b730 data=0x102008580 :Contig selector
+Mon 10 Feb 14:57:25 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] Database information
+Mon 10 Feb 14:57:30 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] edit contig
+Mon 10 Feb 14:57:30 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] > Register id=2 cnum=1 func=0x1063bee80 data=0x10083e000 :Contig editor @ =1
+Mon 10 Feb 14:57:35 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] > Deregister id=2 cnum=1 func=0x1063bee80 data=0x10083e000 :Contig editor @ 3
+Mon 10 Feb 14:57:41 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] calculate a consensus
+Mon 10 Feb 14:57:43 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] > Deregister id=1 cnum=1 func=0x10637b730 data=0x102008580 :Contig selector
+Mon 10 Feb 14:57:43 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] close database
+Mon 10 Feb 14:57:43 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] closing...
+Mon 10 Feb 14:57:43 2025 [50321@ee-dlav-mini20.eeob.iastate.edu] ...closed

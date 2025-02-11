@@ -1,0 +1,13 @@
+[passed files]
+NODE_865_length_13210_cov_28.347369.exp (EXP) PASSED
+NODE_20407_length_1551_cov_31.857531.exp (EXP) PASSED
+NODE_12403_length_2681_cov_29.981951.exp (EXP) PASSED
+
+[failed files]
+
+[passed file history]
+NODE_865_length_13210_cov_28.347369.exp (EXP)
+NODE_20407_length_1551_cov_31.857531.exp (EXP)
+NODE_12403_length_2681_cov_29.981951.exp (EXP)
+
+[failed file history]
