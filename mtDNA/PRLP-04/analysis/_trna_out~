@@ -1,6 +1,6 @@
-Sequence                        tRNA    Bounds  tRNA    Anti    Intron Bounds   Cove
-Name                    tRNA #  Begin   End     Type    Codon   Begin   End     Score
---------                ------  ----    ------  ----    -----   -----   ----    ------
+Sequence                             		tRNA 	Bounds	tRNA	Anti	Intron Bounds	Inf	      
+Name                                 	tRNA #	Begin	End  	Type	Codon	Begin	End	Score	Note
+--------                             	------	-----	------	----	-----	-----	----	------	------
 NODE_20407_length_1551_cov_31.857531 	1	2421 	2489 	Ala	TGC	0	0	18.1	
 NODE_20407_length_1551_cov_31.857531 	2	2496 	2564 	Lys	TTT	0	0	33.2	
 NODE_20407_length_1551_cov_31.857531 	3	4448 	4516 	Ser	TGA	0	0	18.6	

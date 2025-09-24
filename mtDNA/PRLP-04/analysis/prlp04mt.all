@@ -49,15 +49,22 @@
   2294  agggccggtccgaggaggaggtgacggctactaagggggggcattgcagcaggggctgct
   2354  aggagtgcgcgtagca
 ;     G-rnl ==> end
-  2370  cggctactttcggcgtagcaggatgggggtggatccctggtagcagagggggttccattg
-  2430  gtgaagcgatcacacgggcattgcaagcgcgagggatgggtgtgggacccatatgggacg
-  2490  tgggggcg
+  2370  cggctactttcggcgtagcaggatgggggtggatccctggtagcagagggg
+;     G-trnA(ugc) ==> start
+  2421  gttccattggtgaagcgatcacacgggcat!tgc!aagcgcgagggatgggtgtgggacc
+  2479  catatgggacg
+;     G-trnA(ugc) ==> end
+  2490  tggggg
+;     G-trnK(uuu) ==> start
+  2496  cg
 ;     G-orf328 <== end
   2498  ctacatagcatagggagtgcaagcgg
 ;; mfannot: G-nad4L ==> start Def by similarity
-  2524  ctt
+  2524  ct!t
 ;;     G-nad4L ==> start ;; mfannot: alternative ATG start pos 2566
-  2527  ttgaccgcagtgtgccaatgggagcttggctgtagcggg
+  2527  tt!gaccgcagtgtgccaatgggagcttggctgtagcgg
+;     G-trnK(uuu) ==> end
+  2565  g
 ;     G-nad4L ==> start 
 	atgtgggggggaaggtggagc
   2587  gcgtggatctgggggacggggatagtgggggtgatgcagaacaggggtagcttgatggga
@@ -96,9 +103,13 @@
   4265  cgatctcattgggagcgacagggttgttcgtctacacggtgtacgaggcgctgtcatcgg
   4325  ggcgggagtacggagggaaaggggggatagagggtctacatgggtacccggcgcgcgagc
   4385  acacgtacgaggagttggcgtatgtatatgaggtgcgggaggcaggcacagggaatgagg
-  4445  ggagtgagcggagcttgtgaaagcggctaccttgagagtag
+  4445  gga
+;     G-trnS(uga) ==> start
+  4448  gtgagcggagcttgtgaaagcggctacct!tga!gagtag
 ;     G-cox1 ==> end
-  4486  caggaaggcggtgggagtccgtcggctcacggggagtacgtgagagagtgggagtggagg
+  4486  caggaaggcggtgggagtccgtcggctcacg
+;     G-trnS(uga) ==> end
+  4517  gggagtacgtgagagagtgggagtggagg
   4546  agcatagtgatgcgtaccgttgtaggcggtgagaacggggggcggagtcccggtccacta
   4606  ggggatgccacagttggacgtgacggcgtacatgggggagtacgtggcgctggtggcggc
   4666  aatgtacgggttgcaggcgatgctgataggcggtgggat
@@ -122,8 +133,11 @@
   5453  tgttggaagtgggagtggcggtggtgcaagcgtacgtgtacgggctgttgacggccatct
   5513  acatcgggggaggagaggagctgcactag
 ;     G-atp6 ==> end
-  5542  ggggagcccacgtagcgtaagggagcgcttgcgttctaagcaagaggagcgggtgagagc
-  5602  ctgccgtgggcg
+  5542  gggga
+;     G-trnR(ucu) ==> start
+  5547  gcccacgtagcgtaagggagcgcttgcgt!tct!aagcaagaggagcgggtgagagcctg
+  5605  ccgtgggcg
+;     G-trnR(ucu) ==> end
 ;     G-cox3 ==> start
   5614  atggaggggaagaggcatgcgtatcacatggtggaccggagtccatggccgatagtgggt
   5674  gcgtcgggagcggtaacgacggcggtggggttggtggggtacttgcagtatggggctgga
@@ -139,11 +153,19 @@
   6212  cgacaggagcgcacgggatgcatgtgctagtggggagtgtgttcttagcggtgtgttggt
   6272  ggcgactggtgagagggcactttagcgtagggcacatgatggggtacgaggcagcggcgt
   6332  ggtactggcacttcgtggatgtggtgtggttgtgtctgtacgtgttggtgtactggtggg
-  6392  gaggacgggggtag
+  6392  gaggacggggg
+;     G-trnQ(uug) ==> start
+  6403  tag
 ;     G-cox3 ==> end
-  6406  aggctggccgaaggggaaggcgcggcgtgttgggcgccgaagtacgagatcgtggctcgt
-  6466  gcctctagaacggggattaggtaaagtataccgggccccttcaaagggcctgttgcgtgt
-  6526  gagggtcacgcatccctggaggggatgaaggggaagggggattggcgtaggcggggcggc
+  6406  aggctggccgaaggggaaggcgcggcgtg!ttg!ggcgccgaagtacgagatcgtggctc
+  6464  gtgcctctag
+;     G-trnQ(uug) ==> end
+  6474  aa
+;     G-trnW(uca) ==> start
+  6476  cggggattaggtaaagtataccgggcccct!tca!aagggcctgttgcgtgtgagggtca
+  6534  cgcatccctgg
+;     G-trnW(uca) ==> end
+  6545  aggggatgaaggggaagggggattggcgtaggcggggcggc
   6586  tg
 ;     G-trnM(cau) ==> start
   6588  ggctgtgtggactaacggaggtcgataggtt!cat!ggcctataggcgggggatcggggc
@@ -235,12 +257,15 @@
  11046  tggatcgggcaagtgggagcggtagggta
 ;     G-orf350 <== end
  11075  ctacgcgtacatgctgttgatagggccgtacgggcagcaggtggaagataagctaatgga
- 11135  gcgaacaggagggggtcgggtgaaggatgatgaatgaggggcggggcccactaagtacag
- 11195  cggtacggatgtgttgtag
+ 11135  gcgaacaggagggggtcgggtgaaggatgatgaatgaggggcggg
+;     G-trnT(ugu) ==> start
+ 11180  gcccactaagtacagcggtacggatgtgt!tgt!ag
 ;;     G-nad5 ==> end
 ;     G-cob ==> end
 ;; G-nad5_cob ==> end
- 11214  gcatcgaagggcacgtgagagcgtgcagtgggcggatgcgtgaatggggcgcatagggag
+ 11214  gcatcgaagggcacgtgagagcgtgcagtgggcg
+;     G-trnT(ugu) ==> end
+ 11248  gatgcgtgaatggggcgcatagggag
  11274  aaggaagggcgga
 ;     G-atp9 ==> start ;; mfannot: alternative ATG start pos 11161
 	atgacgggggagctg
@@ -249,11 +274,18 @@
  11422  aagcagcagctactgacgtacgcgatcctggggtttgcgttgtcggaggcgatggggctg
  11482  ttctgcttgatggtggcgttcctgctgctattcgcgctgtag
 ;     G-atp9 ==> end
- 11524  gggagagcatgaggagtgggaacgaagggggagttaggctggctgagaagaggcggttgc
- 11584  ttgctatgcgacgagacaggggatagcggcccctgcctaacaggggaggaggagggggca
- 11644  gtggtgt
+ 11524  gggagagcatgaggagtgggaacgaaggggga
+;     G-trnS(gcu) ==> start
+ 11556  gttaggctggctgagaagaggcggttgctt!gct!atgcgacgagacaggggatagcggc
+ 11614  ccctgcctaaca
+;     G-trnS(gcu) ==> end
+ 11626  ggggaggaggag
+;     G-trnD(guc) ==> start
+ 11638  ggggcagtggtgt
 ;     G-orf407 ==> start
- 11651  atggaacacggcagggcgtcatcctgcggaagtaggtgggaagcctatcggccccgcaag
+ 11651  atggaacacggcagggc!gtc!atcctgcggaagtaggtgggaagcctatcggccccg
+;     G-trnD(guc) ==> end
+ 11707  caag
  11711  ggaggggcgt
 ;;     G-nad1 ==> start
  11721  atgggggtgttggcatgaagcgtcggcgagtgcaagttgctggaaggcgggagcgaggcc
@@ -276,8 +308,12 @@
  12548  ccagtgactgggggcgaaggtggcgggggtgatcctatggatgatctgagtgcgtgggac
  12608  gatgccgcggatacggtacgatcagatgatggggctgctatggaagtgctacatagtagg
  12668  cggattggcaggcgtggtgtgagtggcaggagcgttgaagggtctgagtgggaatgcggg
- 12728  ggattgctctggtggaaggaggagacacggcgccgtcaaagggcgctgacgagagtcgtg
- 12788  caggtgggaagcctgcgggcaatggggggtgaggggggtcggttggggatgagagggacg
+ 12728  gg
+;     G-trnL(caa) ==> start
+ 12730  attgctctggtggaaggaggagacacggcgccgt!caa!agggcgctgacgagagtcgtg
+ 12788  caggtgggaagcctgcgggcaatg
+;     G-trnL(caa) ==> end
+ 12812  gggggtgaggggggtcggttggggatgagagggacg
  12848  tacggggtaa
 ;     G-nad1 ==> end
  12858  caaccgtaccggcgtag
@@ -347,11 +383,15 @@
  15782  tagggatggtggtgacagcggcgtacagcatgtacctctatagcagggtggcgtacgggc
  15842  gatcgcaaggggtgtacgggatgcgtgacatgaacaggcgtgagagcgtagtgatgtggt
  15902  tggtggtagtgggagtgtacgggttaggggtgagcccgtgattggtgacgtcgggtatga
- 15962  gcgaggcggtggaaggggggtgaatggggcgaaggtag
+ 15962  gcgaggcggtggaaggggggtgaatggg
+;     G-trnT(agu) ==> start
+ 15990  gcgaaggtag
 ;     G-nad4 ==> end
 ;; G-orf137_nad4 ==> end
- 16000  ctaaggaggaagcacgcagtcagtggagctgcgaatgcgagtgggaagctcgcccttcgc
- 16060  aaggggaggagagaggggctcctagggccggggtggcgataggcgttcgtcctataggga
+ 16000  ctaaggaggaagcacgcagtc!agt!ggagctgcgaatgcgagtgggaagctcgcccttc
+ 16058  gca
+;     G-trnT(agu) ==> end
+ 16061  aggggaggagagaggggctcctagggccggggtggcgataggcgttcgtcctataggga
  16120  acggagcgaggccgt
 ;     G-orf296 <== end
  16135  ttaggagcgggcg
@@ -374,10 +414,13 @@
  16754  cgagtgcgggttcatgccgtacggtgaggtgcgggtgccgtacacggtgccgttcatcat
  16814  ggtgggcgtgctgttcatgctgtttgacgtggaggtggcgtacctgtatccgtgggcgct
  16874  ggtgcaagggggaatgaagggttcagcgtacggttggatgtgcgggttcgtggcgatagt
- 16934  gacatggggattggtgtacgagtgagaggaaggggcgttggaatggcgaggtgagggggt
- 16994  tgctctggtggaaggaggagacacggcgccat
+ 16934  gacatggggattggtgtacgagtgagaggaaggggcgttggaatggcgaggtgagggg
+;     G-trnL(uag) ==> start
+ 16992  gttgctctggtggaaggaggagacacggcgccat
 ;     G-orf296 <== start
- 17026  tagggggcgctgacgagagtcgtgcaggtgggaagcctgcgggcaatggaggctag
+ 17026  !tag!ggggcgctgacgagagtcgtgcaggtgggaagcctgcgggcaatg
+;     G-trnL(uag) ==> end
+ 17074  gaggctag
 ;     G-nad3 ==> end
  17082  tatgaaggcctatgggagtgcaggagaggaggaagagagcgaatgagtgggcgggcgggg
  17142  cctacgtagtataaggagagaatgcctcaattccagtgaggaggaagcgggtaaggaccg
