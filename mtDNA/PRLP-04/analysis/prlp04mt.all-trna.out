@@ -1,0 +1,16 @@
+Sequence                             		tRNA 	Bounds	tRNA	Anti	Intron Bounds	Inf	      
+Name                                 	tRNA #	Begin	End  	Type	Codon	Begin	End	Score	Note
+--------                             	------	-----	------	----	-----	-----	----	------	------
+NODE_20407_length_1551_cov_31.857531 	1	2421 	2489 	Ala	TGC	0	0	18.1	
+NODE_20407_length_1551_cov_31.857531 	2	2496 	2564 	Lys	TTT	0	0	33.2	
+NODE_20407_length_1551_cov_31.857531 	3	4448 	4516 	Ser	TGA	0	0	18.6	
+NODE_20407_length_1551_cov_31.857531 	4	5547 	5613 	Arg	TCT	0	0	28.2	
+NODE_20407_length_1551_cov_31.857531 	5	6403 	6473 	Gln	TTG	0	0	20.3	
+NODE_20407_length_1551_cov_31.857531 	6	6476 	6544 	Trp	TCA	0	0	33.6	
+NODE_20407_length_1551_cov_31.857531 	7	6588 	6657 	Met	CAT	0	0	36.8	
+NODE_20407_length_1551_cov_31.857531 	8	11180	11247	Thr	TGT	0	0	17.0	
+NODE_20407_length_1551_cov_31.857531 	9	11556	11625	Ser	GCT	0	0	24.0	
+NODE_20407_length_1551_cov_31.857531 	10	11638	11706	Asp	GTC	0	0	20.7	
+NODE_20407_length_1551_cov_31.857531 	11	12730	12811	Leu	CAA	0	0	18.5	
+NODE_20407_length_1551_cov_31.857531 	12	15990	16060	Thr	AGT	0	0	21.4	
+NODE_20407_length_1551_cov_31.857531 	13	16992	17073	Leu	TAG	0	0	17.6	
