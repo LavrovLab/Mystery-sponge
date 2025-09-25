@@ -1,0 +1,69 @@
+#!/usr/bin/env map2ps
+@TITLE
+
+G3_Metilla_boricua, mtDNA
+
+@SCALE
+
+5000
+5000
+5000
+2211
+
+@GENOME
+
+0         2         
+0         2348      +"rnl"              
+0         70        
+0         69        +"trnA(ugc)"        
+0         6         
+0         69        +"trnK(uuu)"        
+0         70        
+0         202       +"nad4L"            
+0         70        
+0         1509      +"cox1"             
+0         70        +"overlap"          
+0         70        +"trnS(uga)"        
+0         275       
+0         646       +"atp6"             
+0         70        
+0         67        +"trnR(ucu)"        
+0         70        
+0         652       +"cox3"             
+0         70        +"overlap"          
+0         68        +"trnQ(uug)"        
+0         2         
+0         69        +"trnW(uca)"        
+0         43        
+0         70        +"trnM(cau)"        
+0         70        
+0         1237      +"nad2"             
+0         150       
+0         1813      +"nad5"             
+0         70        
+0         1146      +"cob"              
+0         70        +"overlap"          
+0         34        +"trnT(ugu)"        
+0         70        
+0         168       +"atp9"             
+0         70        
+0         70        +"trnS(gcu)"        
+0         12        
+0         69        +"trnD(guc)"        
+0         86        
+0         874       +"nad1"             
+0         70        +"overlap"          
+0         70        +"trnL(caa)"        
+0         70        
+0         1657      +"rns"              
+0         70        
+0         1326      +"nad4"             
+0         70        +"overlap"          
+0         61        +"trnT(agu)"        
+0         87        
+0         447       +"nad6"             
+0         70        +"overlap"          
+0         263       +"nad3"             
+0         70        
+0         70        +"trnL(uag)"        
+17211     144       

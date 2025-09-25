@@ -1,0 +1,74 @@
+#
+# SubInfo dump by mf2sd version 2.23
+#
+
+%SUBINFO = (
+'Completeness information' => +{
+    'COMPLETE' => 'TRUE',
+    },
+'Enter the affiliation information' => +{
+    'AFFILIATION' => 'Iowa State University',
+    'CITY' => 'Ames',
+    'COUNTRY' => 'USA',
+    'DIVISION' => 'Ecology, Evolution, and Organismal Biology',
+    'POSTALCODE' => '50011',
+    'REGION' => 'IA',
+    'STREET' => '2200 Osborn Dr.',
+    },
+'Enter the submission date' => +{
+    'SUBDAY' => '12',
+    'SUBMONTH' => '1',
+    'SUBYEAR' => '2018',
+    },
+'Genome information' => +{
+    'GENOME' => 'GENOME_mitochondrion',
+    },
+'Information about the organism' => +{
+    'SCIENTIFIC' => 'Myceliospongia araneosa Vacelet & Perez, 1998',
+    'TAXONOMY' => 'Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha; Tetractinellida; Spirophorina; Myceliospongia.',
+    },
+'Organism genetic codes' => +{
+    'CYTOCODE' => '1',
+    'MITOCODE' => '4',
+    'TRANSCODE' => 'M',
+    },
+'Sequence information' => +{
+    'LENGTH' => '13098',
+    'MOLCLASS' => 'MOLECULE_CLASS_DNA',
+    'MOLTYPE' => 'MOLECULE_TYPE_GENOMIC',
+    'STRANDEDNESS' => 'STRANDEDNESS_DOUBLE',
+    'TOPOLOGY' => 'TOPOLOGY_CIRCULAR',
+    },
+'Submission information' => +{
+    'AFFILIATION' => 'Iowa State University',
+    'CITY' => 'Ames',
+    'COUNTRY' => 'USA',
+    'DAY' => '01',
+    'DIVISION' => 'Ecology, Evolution, and Organismal Biology',
+    'EMAIL' => 'dlavrov@iastate.edu',
+    'FAX' => '(515) 294-1337',
+    'FIRST' => 'Dennis',
+    'HOLD' => 'TRUE',
+    'INITIALS' => 'D.V.',
+    'LAST' => 'Lavrov',
+    'MIDDLE' => 'V.',
+    'MONTH' => '01',
+    'PHONE' => '(515) 294-9091',
+    'POSTALCODE' => '50011-1020',
+    'REGION' => 'IA',
+    'STREET' => '2200 Osborn Dr.',
+    'YEAR' => '2019',
+    },
+'Submission, author #1' => +{
+    'FIRST' => 'Dennis',
+    'INITIALS' => 'D.V.',
+    'LAST' => 'Lavrov',
+    'MIDDLE' => 'V.',
+    },
+'Title/Description for the whole sequence' => +{
+    'TITLE' => 'Myceliospongia araneosa voucher MRS1151 mitochondrial DNA, complete sequence',
+    },
+);
+
+1;
+
