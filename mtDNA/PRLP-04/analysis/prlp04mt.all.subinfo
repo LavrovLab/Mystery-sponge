@@ -16,24 +16,50 @@
     'STREET' => '2200 Osborn Dr.',
     },
 'Enter the submission date' => +{
-    'SUBDAY' => '12',
-    'SUBMONTH' => '1',
-    'SUBYEAR' => '2018',
+    'SUBDAY' => '24',
+    'SUBMONTH' => '9',
+    'SUBYEAR' => '2025',
     },
 'Genome information' => +{
     'GENOME' => 'GENOME_mitochondrion',
     },
 'Information about the organism' => +{
-    'SCIENTIFIC' => 'Myceliospongia araneosa Vacelet & Perez, 1998',
-    'TAXONOMY' => 'Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha; Tetractinellida; Spirophorina; Myceliospongia.',
+    'SCIENTIFIC' => 'Metilla boricua',
+    'TAXONOMY' => 'Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha; Haplosclerida incertae sedis; Metilla',
     },
 'Organism genetic codes' => +{
     'CYTOCODE' => '1',
     'MITOCODE' => '4',
     'TRANSCODE' => 'M',
     },
+'Reference for the whole submission' => +{
+    'STATUS' => 'PUB_STATUS_UNPUBLISHED',
+    'TITLE' => 'Hidden in plain sight: a novel symbiotic haplosclerid sponge species revealed by its mitochondrial genome',
+    },
+'Reference for the whole submission, author #1' => +{
+    'FIRST' => 'Momin',
+    'INITIALS' => 'M.',
+    'LAST' => 'Ahmed Khaki',
+    },
+'Reference for the whole submission, author #2' => +{
+    'FIRST' => 'Jan',
+    'INITIALS' => 'J.',
+    'LAST' => 'Vicente',
+    },
+'Reference for the whole submission, author #3' => +{
+    'FIRST' => 'Russell',
+    'INITIALS' => 'R.T.',
+    'LAST' => 'Hill',
+    'MIDDLE' => 'T',
+    },
+'Reference for the whole submission, author #4' => +{
+    'FIRST' => 'Dennis',
+    'INITIALS' => 'D.V.',
+    'LAST' => 'Lavrov',
+    'MIDDLE' => 'V',
+    },
 'Sequence information' => +{
-    'LENGTH' => '13098',
+    'LENGTH' => '17211',
     'MOLCLASS' => 'MOLECULE_CLASS_DNA',
     'MOLTYPE' => 'MOLECULE_TYPE_GENOMIC',
     'STRANDEDNESS' => 'STRANDEDNESS_DOUBLE',
@@ -57,7 +83,7 @@
     'POSTALCODE' => '50011-1020',
     'REGION' => 'IA',
     'STREET' => '2200 Osborn Dr.',
-    'YEAR' => '2019',
+    'YEAR' => '2026',
     },
 'Submission, author #1' => +{
     'FIRST' => 'Dennis',
@@ -66,9 +92,8 @@
     'MIDDLE' => 'V.',
     },
 'Title/Description for the whole sequence' => +{
-    'TITLE' => 'Myceliospongia araneosa voucher MRS1151 mitochondrial DNA, complete sequence',
+    'TITLE' => 'Metilla boricua voucher PRLP2404 mitochondrial DNA, complete sequence',
     },
 );
 
 1;
-
