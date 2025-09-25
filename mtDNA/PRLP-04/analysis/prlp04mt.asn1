@@ -84,9 +84,10 @@ Seq-submit ::= {
                       {
                         name
                           name {
-                            last "Ahmed Khaki" ,
+                            last "Khaki" ,
                             first "Momin" ,
-                            initials "M." } } ,
+                            middle "Ahmed" ,
+                            initials "M.A." } } ,
                       {
                         name
                           name {

@@ -38,8 +38,9 @@
     },
 'Reference for the whole submission, author #1' => +{
     'FIRST' => 'Momin',
-    'INITIALS' => 'M.',
-    'LAST' => 'Ahmed Khaki',
+    'INITIALS' => 'M.A.',
+    'LAST' => 'Khaki',
+    'MIDDLE' => 'Ahmed',
     },
 'Reference for the whole submission, author #2' => +{
     'FIRST' => 'Jan',
