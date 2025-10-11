@@ -23,9 +23,11 @@ G3_Metilla_boricua, mtDNA
 0         70        
 0         1509      +"cox1"             
 0         70        +"overlap"          
-0         70        +"trnS(uga)"        
-0         275       
-0         646       +"atp6"             
+0         31        +"trnS(uga)"        
+0         93        
+0         187       +"atp8"             
+0         70        +"overlap"          
+0         610       +"atp6"             
 0         70        
 0         67        +"trnR(ucu)"        
 0         70        

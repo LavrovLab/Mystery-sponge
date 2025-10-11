@@ -98,7 +98,9 @@
   4486  caggaaggcggtgggagtccgtcggctcacg
 ;     G-trnS(uga) ==> end
   4517  gggagtacgtgagagagtgggagtggaggagcatagtgatgcgtaccgttgtaggcggtg
-  4577  agaacggggggcggagtcccggtccactaggggatgccacagttggacgtgacggcgtac
+  4577  agaacggggggcggagtcccggtccactagggg
+;     G-atp8 ==> start
+	atgccacagttggacgtgacggcgtac
   4637  atgggggagtacgtggcgctggtggcggcaatgtacgggttgcaggcgatgctgataggc
   4697  ggtgggat
 ;;     G-atp6 ==> start ;; mfannot: alternative ATG start pos 4555
@@ -106,7 +108,9 @@
   4765  aatagcgagtgggcgtgggggggtggtactaggggtgctgtacacgtgggggagagaggg
   4825  acggta
 ;     G-atp6 ==> start ;; mfannot: alternative ATG start pos 4555
-  4831  gtgacagggtactactttgagcagttcgcggtagtggggatagggggggtggtgacgaac
+  4831  g
+;     G-atp8 ==> end
+	tgacagggtactactttgagcagttcgcggtagtggggatagggggggtggtgacgaac
   4891  agcgcgatagggctgtggataggggggatgggggtgtggatgtacgtgggagcgccgggg
   4951  gtagtaggggggagatggcagcgggtggtggaggggtgatacggggaagtgggctcacta
   5011  gtgggcgagaacgcggggaagcgcgggggaaggtacagggcgaagatagcggcggtagta
