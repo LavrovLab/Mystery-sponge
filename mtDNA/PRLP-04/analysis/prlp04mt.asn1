@@ -44,8 +44,8 @@ Seq-submit ::= {
       date
         std {
           year 2025 ,
-          month 9 ,
-          day 24 } } ,
+          month 10 ,
+          day 13 } } ,
     hup TRUE ,
     reldate
       std {
@@ -63,8 +63,8 @@ Seq-submit ::= {
           create-date
             std {
               year 2025 ,
-              month 9 ,
-              day 24 } ,
+              month 10 ,
+              day 13 } ,
           source {
             genome mitochondrion ,
             org {
@@ -494,6 +494,17 @@ GCGGGGCCTACGTAGTATAAGGAGAGAATGCCTCAATTCCAGTGAGGAGGAAGCGGGTAAGGACCGTTGGTAGGCG" } 
                         int {
                           from 4447 ,
                           to 4515 ,
+                          id
+                            local
+                              str "PRLP04" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 4609 ,
+                          to 4830 ,
                           id
                             local
                               str "PRLP04" } } ,
@@ -1065,6 +1076,40 @@ SERSLWKRLPWE" } ,
           seq {
             id {
               local
+                str "atp8" } ,
+            descr {
+              molinfo {
+                biomol peptide } ,
+              method concept-trans } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 73 ,
+              topology not-set ,
+              seq-data
+                iupacaa "MPQLDVTAYMGEYVALVAAMYGLQAMLIGGGMWELSSVAAIRGQEGAREGGSI
+ASGRGGVVLGVLYTWGREGR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } ,
+                          ec {
+                            "3.6.3.14" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 72 ,
+                          id
+                            local
+                              str "atp8" } } } } } } ,
+          seq {
+            id {
+              local
                 str "atp6" } ,
             descr {
               molinfo {
@@ -1478,6 +1523,23 @@ RVPYTVPFIMVGVLFMLFDVEVAYLYPWALVQGGMKGSAYGWMCGFVAIVTWGLVYEWEEGALEWRGEG" } ,
                     int {
                       from 2883 ,
                       to 4484 ,
+                      id
+                        local
+                          str "PRLP04" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "atp8" ,
+                  location
+                    int {
+                      from 4609 ,
+                      to 4830 ,
                       id
                         local
                           str "PRLP04" } } ,

@@ -1,4 +1,4 @@
-LOCUS       PRLP04                 17211 bp    DNA     circular     24-SEP-2025
+LOCUS       PRLP04                 17211 bp    DNA     circular     13-OCT-2025
 DEFINITION  Metilla boricua voucher PRLP2404 mitochondrial DNA, complete
             sequence.
 ACCESSION   PRLP04
@@ -16,7 +16,7 @@ REFERENCE   1  (bases 1 to 17211)
 REFERENCE   2  (bases 1 to 17211)
   AUTHORS   Lavrov,D.V.
   TITLE     Direct Submission
-  JOURNAL   Submitted (24-SEP-2025) Ecology, Evolution, and Organismal Biology,
+  JOURNAL   Submitted (13-OCT-2025) Ecology, Evolution, and Organismal Biology,
             Iowa State University, 2200 Osborn Dr., Ames, IA 50011, USA
 FEATURES             Location/Qualifiers
      source          1..17211
@@ -73,6 +73,16 @@ FEATURES             Location/Qualifiers
                      /anticodon=(pos:4477..4479,aa:Ser)
      gene            4448..4516
                      /gene="trnS(uga)"
+     gene            4610..4831
+                     /gene="atp8"
+     CDS             4610..4831
+                     /gene="atp8"
+                     /EC_number="3.6.3.14"
+                     /codon_start=1
+                     /transl_table=4
+                     /product="ATP synthase F0 subunit 8"
+                     /translation="MPQLDVTAYMGEYVALVAAMYGLQAMLIGGGMWELSSVAAIRGQ
+                     EGAREGGSIASGRGGVVLGVLYTWGREGR"
      gene            4831..5541
                      /gene="atp6"
      CDS             4831..5541

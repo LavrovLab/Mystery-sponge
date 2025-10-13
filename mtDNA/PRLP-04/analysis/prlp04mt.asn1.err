@@ -17,6 +17,7 @@
 [sd2asn] ERROR: Unparsed product qualifier in tRNA FEATURE: tRNA: Leu [lcl|PRLP04:16992-17073] [lcl|PRLP04: raw, dna len= 17211]
 [sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|nad4L: raw, aa len= 97
 [sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|cox1: raw, aa len= 533
+[sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|atp8: raw, aa len= 73
 [sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|atp6: raw, aa len= 236
 [sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|cox3: raw, aa len= 263
 [sd2asn] ERROR: Method descriptor is obsolete DESCRIPTOR: Method: concept-trans BIOSEQ: lcl|nad2: raw, aa len= 433

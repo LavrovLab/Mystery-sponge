@@ -24,8 +24,8 @@
     'GENOME' => 'GENOME_mitochondrion',
     },
 'Information about the organism' => +{
-    'SCIENTIFIC' => 'Metilla boricua',
-    'TAXONOMY' => 'Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha; Haplosclerida incertae sedis; Metilla',
+    'SCIENTIFIC' => 'Xestospongia deweerdtae',
+    'TAXONOMY' => 'Eukaryota; Metazoa; Porifera; Demospongiae; Heteroscleromorpha; Haplosclerida; Petrosiidae; Xestospongia',
     },
 'Organism genetic codes' => +{
     'CYTOCODE' => '1',
@@ -60,7 +60,7 @@
     'MIDDLE' => 'V',
     },
 'Sequence information' => +{
-    'LENGTH' => '17211',
+    'LENGTH' => '19915',
     'MOLCLASS' => 'MOLECULE_CLASS_DNA',
     'MOLTYPE' => 'MOLECULE_TYPE_GENOMIC',
     'STRANDEDNESS' => 'STRANDEDNESS_DOUBLE',
@@ -93,7 +93,7 @@
     'MIDDLE' => 'V.',
     },
 'Title/Description for the whole sequence' => +{
-    'TITLE' => 'Metilla boricua voucher PRLP2404 mitochondrial DNA, complete sequence',
+    'TITLE' => 'Xestospongia deweerdtae mitochondrial DNA, complete sequence',
     },
 );
 
