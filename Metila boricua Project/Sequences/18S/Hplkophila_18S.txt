@@ -1,0 +1,34 @@
+>PX206797.1 Haliclona plakophila voucher PRLP2410 small subunit ribosomal RNA gene, partial sequence.
+        1 tgatcctgcc agtagtcata tgcttgtctc aaagactaag ccatgcatgt gcaagtataa
+       61 acgcttgaac agtaagactg cgaatggctc attaaatcag ttatagttta tttgatggtg
+      121 gcccactacg tggataaccg tggtaattct agagctaata catgcaaaaa gttccgactc
+      181 ttagcgggaa gggacgtatt tattagatcc aaaaccaact cgagttgggc tcgttccagc
+      241 tcggtgaaat tggtgattca tggtaactgg tcgaatcgct tggcctttgc gccggcgatg
+      301 gttcattcaa gtttctgccc tatcaacttt cgatggtagg gtattggcct accatggtcg
+      361 caacgggtga cggagaatta gggttcgatt ccggagaggg agcctgagaa acggctacca
+      421 catccaagga aggcagcagg cgcgcaaatt acccaatccc gactcgggga ggtagtgaca
+      481 ataaataaca atgccggtcc ctcatgtggt ccggcaattg gaatgagatc aatccaaacc
+      541 ccttaacgag gaacaattag agggcaagtc tggtgccagc agccgcggta attccagctc
+      601 taatagcgta tattaaagtt gttgcagtta aaaagctcgt agttggattt cggggcccgc
+      661 ttcggtccgg gcggtttgcg tggttccttt aaccgggttc tacgtggagc tgttcgggag
+      721 gagcgctcgg ccggcgcggt ccgccgagag gcgagcactg cccggcggct ccaagtttct
+      781 cggagtttcc gtctgctctt gattgcagcg gtcgggggat ccgggacgtt tactttgaac
+      841 aaattagagt gttccaagca ggcaggtcgc tttgaatacg ttagcatgga ataatggaat
+      901 agggctggtc gtcctgtttt gttggtttta cggagggcag tcatggtcga tagggacagt
+      961 tgggggcgtt cgtattcagt tgtcagaggt gaaattctcg gatttacgga agacggtcaa
+     1021 atgcgaaagc attcgccaag catgttttca ttaatcaaga acgaaagttg ggggttcgaa
+     1081 gacgatcaga taccgtcgta gtcccaacca taaacgatgc cggctaggga tcggcggacg
+     1141 tcgggtgcga ctccgtcggc accttgcgag aaatcgaagc ctttgggttc cggggggagt
+     1201 atggtcgcaa ggctgaaact taaaggaatt gacggaaggg caccaccagg agtggagcct
+     1261 gcggcttaat ttgactcaac acggggaacc tcaccaggtc cggacatggg aaggattgac
+     1321 agatcgagag ctctttcttg attctatggg tggtggtgca tggccgttct tagttggtgg
+     1381 agtgatttgt ctggttgatt ccgttaacga acgagacctt aacctgctaa ctagtcgtgc
+     1441 cgtttccgaa cggcgggcgc ggttccttgg ggcttgcttt cgggcgagtt ggtagggtcg
+     1501 cgttccggct ggaaggccag gcgacttctt agagggacac tcggcgttgc agccgaggga
+     1561 ggattgaggc aataacaggt ctgtgatgcc cttagatgtt ctgggccgca cgcgcgctac
+     1621 actgacggat tcagcgagcg tgtccttcgc cggaaggtgc gggcaatctt gcgagtttcc
+     1681 gtcgtgctgg ggatagatgg ttgcaattgt cgatcttcaa cgaggaattc ctagtaagcg
+     1741 cgagtcatca gctcgcgctg attacgtccc tgccctttgt acacaccgcc cgtcgctact
+     1801 accgattgag cggctttgtg agaaattcgg attggatctg gaggcgttcg gcaacgtgcg
+     1861 ctccagcctc cgagaagttt ttctagcggc gccgcttaga ggaagtaaaa gtcgtaacaa
+     1921 ggtttccgta gg

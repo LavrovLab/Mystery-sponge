@@ -1,0 +1,202 @@
+>Features Seq1 [organism=Xestospongia deweerdtae] complete mtDNA
+1	2521	gene
+			gene	rnl
+1	2521	rRNA
+			product	large subunit ribosomal RNA
+2533	2603	gene
+			gene	trnR(tcg)
+2533	2603	tRNA
+			product	tRNA-Arg
+2607	2906	gene
+			gene	nad4L
+2607	2906	CDS
+			product	NADH dehydrogenase subunit 4L
+			EC_number	1.6.5.3
+2944	4512	gene
+			gene	cox1
+2944	4512	CDS
+			product	cytochrome c oxidase subunit 1
+			EC_number	1.9.3.1
+			transl_table    4
+4609	4693	gene
+			gene	trnS(tga)
+4609	4693	tRNA
+			product	tRNA-Ser
+4695	4767	gene
+			gene	trnD(gtc)
+4695	4767	tRNA
+			product	Aspartate
+4770	4842	gene
+			gene	trnC(gca)
+4770	4842	tRNA
+			product	tRNA-Cys
+4856	5800	gene
+			gene	nad1
+4856	5800	CDS
+			product	NADH dehydrogenase subunit 1
+			EC_number	1.6.5.3
+			transl_table    4
+5817	5903	gene
+			gene	trnL(taa)
+5817	5903	tRNA
+			product	tRNA-Leu
+5910	5983	gene
+			gene	trnI(gat)
+5910	5983	tRNA
+			product	tRNA-Ile
+5993	6075	gene
+			gene	trnY(gta)
+5993	6075	tRNA
+			product	tRNA-Tyr
+6088	6160	gene
+			gene	trnM(cat)
+			note	copy 1
+6088	6160	tRNA
+			product	tRNA-Met
+6162	6232	gene
+			gene	trnM(cat)
+			note	copy 2
+6162	6232	tRNA
+			product	tRNA-Met
+6243	7607	gene
+			gene	nad2
+6243	7607	CDS
+			product	NADH dehydrogenase subunit 2
+			EC_number	1.6.5.3
+			transl_table    4
+7633	9516	gene
+			gene	nad5
+7633	9516	CDS
+			product	NADH dehydrogenase subunit 5
+			EC_number	1.6.5.3
+			transl_table    4
+9494	9567	gene
+			gene	trnA(tgc)
+9494	9567	tRNA
+			product	tRNA-Ala
+9594	10334	gene
+			gene	cox2
+9594	10334	CDS
+			product	cytochrome c oxidase subunit 2
+			EC_number	1.9.3.1
+			transl_table    4
+10361	10433	gene
+			gene	trnK(ttt)
+10361	10433	tRNA
+			product	tRNA-Lys
+10435	10647	gene
+			gene	atp8
+10435	10647	CDS
+			product	ATP synthase F0 subunit 8
+			EC_number	3.6.3.14
+			transl_table    4
+10671	11405	gene
+			gene	atp6
+10671	11405	CDS
+			product	ATP synthase F0 subunit a
+			EC_number	3.6.3.14
+			transl_table    4
+11435	11507	gene
+			gene	trnR(tct)
+11435	11507	tRNA
+			product	tRNA-Arg
+11526	12311	gene
+			gene	cox3
+11526	12311	CDS
+			product	cytochrome c oxidase subunit 3
+			EC_number	1.9.3.1
+			transl_table    4
+12333	12405	gene
+			gene	trnQ(ttg)
+12333	12405	tRNA
+			product	tRNA-Gln
+12412	12482	gene
+			gene	trnW(tca)
+12412	12482	tRNA
+			product	tRNA-Trp
+12495	12566	gene
+			gene	trnN(gtt)
+12495	12566	tRNA
+			product	tRNA-Asn
+12572	12644	gene
+			gene	trnL(tag)
+12572	12644	tRNA
+			product	tRNA-Leu
+12646	13791	gene
+			gene	cob
+12646	13791	CDS
+			product	apocytochrome b
+			EC_number	1.10.2.2
+			transl_table    4
+13822	13894	gene
+			gene	trnT(tgt)
+13822	13894	tRNA
+			product	tRNA-Thr
+13956	14198	gene
+			gene	atp9
+13956	14198	CDS
+			product	ATP synthase F0 subunit c
+			EC_number	3.6.3.14
+			transl_table    4
+14215	14305	gene
+			gene	trnS(gct)
+14215	14305	tRNA
+			product	tRNA-Ser
+14440	14511	gene
+			gene	trnM(cat)
+			note	copy 3
+14440	14511	tRNA
+			product	tRNA-Met
+14513	14585	gene
+			gene	trnP(tgg)
+14513	14585	tRNA
+			product	tRNA-Pro
+14585	16051	gene
+			gene	nad4
+14585	16051	CDS
+			product	NADH dehydrogenase subunit 4
+			EC_number	1.6.5.3
+			transl_table    4
+16515	16588	gene
+			gene	trnH(gtg)
+16515	16588	tRNA
+			product	tRNA-His
+16591	16662	gene
+			gene	trnE(ttc)
+16591	16662	tRNA
+			product	Glu
+16665	17234	gene
+			gene	nad6
+16665	17234	CDS
+			product	NADH dehydrogenase subunit 6
+			EC_number	1.6.5.3
+			transl_table    4
+17219	17602	gene
+			gene	orf127
+17219	17602	CDS
+			product	Hypothetical protein
+			EC_number	1.6.5.3
+			transl_table    4
+17603	17989	gene
+			gene	nad3
+17603	17989	CDS
+			product	NADH dehydrogenase subunit 3
+			EC_number	1.6.5.3
+			transl_table    4
+18380	18452	gene
+			gene	trnF(gaa)
+18380	18452	tRNA
+			product	tRNA-Phe
+18447	19758	gene
+			gene	rns
+18447	19758	rRNA
+			product	small subunit ribosomal RNA
+19753	19824	gene
+			gene	trnG(tcc)
+19753	19824	tRNA
+			product	tRNA-Gly
+19843	19915	gene
+			gene	trnV(tac)
+19843	19915	tRNA
+			product	tRNA-Val
+
