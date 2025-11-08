@@ -1,0 +1,167 @@
+>Feature Seq1 [organism=Metilla boricua] complete mtDNA Table1
+1994	2369	gene
+			gene	rnl
+1994	2369	rRNA
+			product	large subunit ribosomal RNA
+			protein_id	lcl| G-rnl
+2421	2489	gene
+			gene	trnA(tgc)
+2421	2489	tRNA
+			product tRNA-Ala
+			
+			
+2496	2564	gene
+			gene	trnK(ttt)
+2496	2564	tRNA
+			product tRNA-Lys
+			
+			
+2527	2859	gene
+			gene	nad4L
+2527	2859	CDS
+			product	NADH dehydrogenase subunit 4L
+			protein_id	lcl| G-nad4L
+			EC_number	1.6.5.3
+			transl_table    4
+2884	4485	gene
+			gene	cox1
+2884	4485	CDS
+			product	cytochrome c oxidase subunit 1
+			protein_id	lcl| G-cox1
+			EC_number	1.9.3.1
+			transl_table    4
+4448	4516	gene
+			gene	trnS(tga)
+4448	4516	tRNA
+			product tRNA-Ser
+			
+			
+4705	5541	gene
+			gene	atp6
+4705	5541	CDS
+			product	ATP synthase F0 subunit a
+			protein_id	lcl| G-atp6
+			EC_number	3.6.3.14
+			transl_table    4
+5547	5613	gene
+			gene	trnR(tct)
+5547	5613	tRNA
+			product tRNA-Arg
+5614	6405	gene
+			gene	cox3
+5614	6405	CDS
+			product	cytochrome c oxidase subunit 3
+			protein_id	lcl| G-cox3
+			EC_number	1.9.3.1
+			transl_table    4
+6403	6473	gene
+			gene	trnQ(ttg)
+6403	6473	tRNA
+			product tRNA-Gln
+			
+			
+6476	6544	gene
+			gene	trnW(tca)
+6476	6544	tRNA
+			product tRNA-Trp
+			
+			
+6588	6657	gene
+			gene	trnM(cat)
+6588	6657	tRNA
+			product	tRNA-Met
+			
+6663	7964	gene
+			gene	nad2
+6663	7964	CDS
+			product	NADH dehydrogenase subunit 2
+			protein_id	lcl| G-nad2
+			EC_number	1.6.5.3
+			transl_table    4
+8115	11213	gene
+			gene	nad5
+8115	11213	CDS
+			product	NADH dehydrogenase subunit 5
+			protein_id	lcl| G-nad5
+			EC_number	1.6.5.3
+			transl_table    4
+9996	11213	gene
+			gene	cob
+9996	11213	CDS
+			product	apocytochrome b
+			protein_id	lcl| G-cob
+			EC_number	1.10.2.2
+			transl_table    4
+11180	11247	gene
+			gene	trnT(tgt)
+11180	11247	tRNA
+			product tRNA-Thr
+			
+			
+11302	11523	gene
+			gene	atp9
+11302	11523	CDS
+			product	ATP synthase F0 subunit c
+			protein_id	lcl| G-atp9
+			EC_number	3.6.3.14
+			transl_table    4
+11556	11625	gene
+			gene	trnS(gct)
+11556	11625	tRNA
+			product tRNA-Ser
+			
+			
+11638	11706	gene
+			gene	trnD(gtc)
+11638	11706	tRNA
+			product tRNA-Asp
+12730	12811	gene
+			gene	trnL(caa)
+12730	12811	tRNA
+			product tRNA-Leu
+			
+			
+11721	12857	gene
+			gene	nad1
+11721	12857	CDS
+			product	NADH dehydrogenase subunit 1
+			protein_id	lcl| G-nad1
+			EC_number	1.6.5.3
+			transl_table    4
+13608	14461	gene
+			gene	rns
+13608	14461	rRNA
+			product	small subunit ribosomal RNA
+			protein_id	lcl| G-rns
+14204	15999	gene
+			gene	nad4
+14204	15999	CDS
+			product	NADH dehydrogenase subunit 4
+			protein_id	lcl| G-nad4
+			EC_number	1.6.5.3
+			transl_table    4
+15990	16060	gene
+			gene	trnT(agt)
+15990	16060	tRNA
+			product tRNA-Thr
+			
+			
+16148	16633	gene
+			gene	nad6
+16148	16633	CDS
+			product	NADH dehydrogenase subunit 6
+			protein_id	lcl| G-nad6
+			EC_number	1.6.5.3
+			transl_table    4
+16992	17073	gene
+			gene	trnL(tag)
+16992	17073	tRNA
+			product tRNA-Leu
+16626	17081	gene
+			gene	nad3
+16626	17081	CDS
+			product	NADH dehydrogenase subunit 3
+			protein_id	lcl| G-nad3
+			EC_number	1.6.5.3
+			transl_table    4
+

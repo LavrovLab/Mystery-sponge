@@ -1,0 +1,1346 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Last" ,
+            first "First" ,
+            initials "F." } ,
+        affil
+          std {
+            affil "Affilation" ,
+            div "Division" ,
+            city "City" ,
+            sub "Province" ,
+            country "Country" ,
+            street "Street" ,
+            email "Name@serveur.com" ,
+            fax "999 999-9999" ,
+            phone "999 999-9999" ,
+            postal-code "X9X 8Y8" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Last" ,
+                  first "First" ,
+                  initials "F." } } } ,
+        affil
+          std {
+            affil "Affilation" ,
+            div "Division" ,
+            city "City" ,
+            sub "Province" ,
+            country "Country" ,
+            street "Street" ,
+            postal-code "X9X 8Y8" } } ,
+      date
+        std {
+          year 2024 ,
+          month 5 ,
+          day 5 } } ,
+    subtype new ,
+    tool "tbl2asn 25.8 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class genbank ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                org {
+                  taxname "Genus species" ,
+                  orgname {
+                    mod {
+                      {
+                        subtype type ,
+                        subname "genomic" } } ,
+                    gcode 4 ,
+                    mgcode 4 } } } ,
+              comment "Complete genome" ,
+              user {
+                type
+                  str "NcbiCleanup" ,
+                data {
+                  {
+                    label
+                      str "method" ,
+                    data
+                      str "SeriousSeqEntryCleanup" } ,
+                  {
+                    label
+                      str "version" ,
+                    data
+                      int 8 } ,
+                  {
+                    label
+                      str "month" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "day" ,
+                    data
+                      int 5 } ,
+                  {
+                    label
+                      str "year" ,
+                    data
+                      int 2024 } } } ,
+              create-date
+                std {
+                  year 2024 ,
+                  month 5 ,
+                  day 5 } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "C_0" } ,
+                descr {
+                  molinfo {
+                    biomol genomic ,
+                    completeness complete } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 17095 ,
+                  topology circular ,
+                  seq-data
+                    iupacna "TGATAGGGGGGTAGTGTAACTACCTTTTGATTTAGGAAAAATTAGTATA
+ATATGGGTAATAGGTGGAGGGTTGGGGTGTTATATAATAGGACGGGTTTAATAACGAAAAATTGGTAAGGAGATACGA
+TGAAGACCAAATTTTCCTATGGGAAACTACTTGGGAGGCGTTTTGTTTCTTTTTGTATGCTCTGGGAATTGAAACATC
+TTAGTACTAGGGGGAATAAAAATCAAGCGAGATTCCGTTAGTAGCGGCGAGCGAAGGCGGATATAGATGTAAGAGGCC
+GGCAAAAACAAATCCGAAGAGGGTGACAGGCCCGTAGATTAGTCGGCTGCTAGGTAATCAAGTAATCAAGAGTAAAAT
+TATTTGAAGAGAGGTGGACCATACATCTAAGACTAAATAATAATAACACACCCATGGTGAATTAGTACTGTGAGGGAA
+AGTTGAAAGAGATGATAGTGAAATAGAACCTGAAATTTGTTAACTCATAAGCAGACGAAATCGTCGTACCTTTTGTAT
+AATGGGTTCGCAAGATTAATATTTGGCAAACTTAAGTCGTAAGATGGAGGTGTAGTGAAAGCGAGTTTAAATGGAGCA
+ATAGTCAAATAGAACCCGAAACTAAGTGATCTAGCTATGGACAGTTTGAAATCTGCCGAGCAGGTGGATGGAGGAGCG
+AACCGGTGATTGTAGCAAAATTCTCGGAAGATCTGTGGTTAGGGGTAAAAAGCCAATCGAACTTAGAAATAGCTGGTT
+TTCTGCGAAAACTATTTAAGTAGTGCGTCATGGTGATATTCTTACACGGTAAAGCACTGAATAGGTTAGGGGTTTACT
+AAATTTAATCAAACTATGAATGTGTAGGAAGTAATAATGATAGACAGACAATGGGCAAGAAGGTCAATTGTCAAAAGG
+GGAATAGCCAAGATCAGAAGCTAAGGTCGTAAAAATTAATATTTAAGTGTAAAGGGTATTTGTAAATAAAACAATGAG
+AAAGTAGGCTTTAAACCAGCTAACTTTGAAAGATTACGTAACAGTTCATTCAATAAATTTAGGTGGCTTAAGTAGTTG
+TTTATATGTTATCCAGGCTCTGAATAAATATAGTAGTAGAACGGACTATAAGTAGGTTATAAATTAGATAGCGAAAGC
+AAATATTAGTCGTGATAATGCGAACATAAGTAACAAAACAGTGAGAGAAGCACTGCTCATGGCCTAAGGTTTCCAATT
+ATAAGATAATCTGGATTGGGTTATACAGCCCCTTAGAGGCTTGAAGTTGATGGGATAATAATAAATAAACAGGGGAAA
+AATTTATTTATATGAGGCTGTACTAAAAACTAACACAAGTAGGCTTAAAGTGATGGTAGAATTTATTTTAAGGAACTC
+GGCAAAATGTCTCTGTAAGTTCGCGAGAAAGGGAGCCGGGGTAAGGACAGGGGGAGCCTTGTATGGCTCCCCGGGTGT
+ATTCTGGTCTCAGAAAAGAGGGGGTGTCGACTGTTTACCAAAAACATAGCTTCCAGCAAAGAGCCAGGGGGCTTGAAG
+TATTGGAGGTGATGCCTGCCCAATGATTGTATTTAAACCCAAGTAATAAAATATAAAGTTAGCTTGGCTAAGGACAAT
+TAAATGGCCGCGGTAAAATTGACCGTGATAATGTAGCGCAATCAATAGCCAATTAATTGTTGGCAAGTATGAATGGCT
+TAACGAATGCCCCACTGTCTCAAGATAAAAACCAGTGAAATTGAATTTGTAGTGAAGATGCTACATACAAGTTGTTAG
+ACGAGAAGACCCTATTGAGCTTTACTGGGCGCTTATATGGTTATTTTTATGATTATTGTGTAGACTATGTGGGAGATC
+TGTGTATAGCCGGATAATGAAAACCCACTCTTTAATTAAAAAAGAACTAAAATCAGATGTTAGATTAAAAGGTGTAAG
+CTGGACAGTTTGGTTGGGGCGACTACCTTCTAAAGAGTAACGAAGGTGTGCATAAGGTAAATTCTAAAATAGAATAAA
+GTAAAAGCCTGACAGCAAGGAGGACATACCGAGCTGACACGGGGGGGTGCCTGTGGGTTATATTGACCCGTTAGTATA
+GGGTGGTATTGTTAACGAGCAACGAATAAAAGTTACCATAGGGATAACAGCGTAATATTGTTCGAGAGTTCATATCGA
+CGACGATGTTTGCGACCTCGATGTTGAATTGCGGTTTCCTGGAGGTGCAGCGGCTTCCAAGGGTTGGACTGTTCGTCC
+ATTAAAACCGTACATGATTTGAGTTCAGACCGGCGTGAGCCAGGTCGGTTTCTATCTACAATTTGTTTAAGAAACATT
+ATATATAACTATATTCTAGTACGAAAGGACCGAATTTTATTGTTATCCTCTGGTGTACCAATTATTATTGTTGTTGGG
+TGGCTACGATAATTAAAAGAACCACTGAAAGCATCTTAAGTGGGAAATTAAATATTAGTCTATGTTTCTTTATGTTTG
+AAGACCGTTTGAGAATAAGACGTGGATAGGGTCTGTGTGCGCTTCGATATAAGCTAAAGACTACTAATAGGTTTATAT
+ACTAATTTTTTGGGGGGGGAAGTAACTGGGGGATAATTCTTTCTAGGTGCTTGTGATTAAAGGGTAAAATATCTGTCT
+TTGGAACAGAATATAGGGGTTCGAGTCCCTTTGGGCATTTGAATGTACTATGGGTATCTAACAGTGGGTATAATATTA
+TTTATCTTGGGAATATTGGGGATCGTTTTAAATAGGAGCAACCTGATAATAATGTTAATGTCTATAGAGTTGATGCTA
+TTGGCTATTTCATTTACGATGGCATTGTTTTCAGTAATAATTGATAATTTAATAGGTCAGGTTTTTACTATAATGGTC
+TTAACGGTGGCTGCTGCAGAATCTGCAATAGGCTTAGGAATATTAGTGGCATATTATAGGGTGCGGGGGACAATAGCG
+GTAAAATCATTAAATCTATTGCGGGGTTAGTTAGAAATAAAATTGTTAGGGGGTTTGTAAACGATTAGAGGTTTGATA
+AAATAGAACGATTGTGCAGGTTATAAGAGAGATATTATGAGTTTATATTTAAGTCGTTGATTATTTTCTACAAATCAT
+AAAGATATTGGAACACTTTATTTGTTATTCGGGGCTTTTGCGGGGATGATTGGTACAGCATTTAGCATGCTGATAAGA
+CTAGAATTATCCGCCCCGGGGGCAATGTTGGGGGATGATCATTTATATAATGTTATAGTGACAGCCCATGCATTTGTT
+ATGATATTTTTTTTGGTTATGCCAGTAATGATAGGTGGTTTTGGTAATTGGTTGGTTCCTTTGTATATTGGTGCGCCA
+GATATGGCTTTTCCTCGATTAAATAATATTAGTTTTTGATTATTACCCCCTGCTTTAACTTTATTATTGGGCTCTGCT
+TTTGTTGAACAAGGAGCTGGGACAGGATGGACTGTATATCCGCCATTATCTAGTATCCAAACCCATTCGGGGGGGTCT
+GTAGATATGGTAATATTTAGTCTACATCTAGCCGGGATTTCTTCCATATTGGGGGCAATGAATTTTATTACTACTATT
+TTTAATATGCGGGCTCCGGGGATGACTATGGATAGAATCCCATTATTTGTATGATCTATATTAGTTACTGCTTTTTTA
+TTATTATTGTCGTTGCCGGTATTAGCGGGAGCAATTACGATGCTTTTAACTGATAGGAATTTTAATACTACATTTTTT
+GATCCGGCTGGGGGGGGAGATCCTATATTGTTTCAACACCTATTTTGGTTTTTTGGGCATCCGGAGGTATATATATTA
+ATTTTGCCGGGGTTTGGGATGATTTCTCAAATTATTCCTACATTTGCGGCTAAGAAACAAATATTTGGTTATTTAGGA
+ATGGTTTATGCTATGGTGTCTATTGGGGTCTTGGGGTTTATTGTTTGAGCACATCACATGTTTACGGTAGGGATGGAT
+GTGGATACTAGGGCATATTTTACGGCTGCAACTATGATTATAGCGGTTCCAACTGGAATAAAAATATTTAGTTGAATG
+GCTACGATATTTGGGGGGTCTATAAGATTAGATACGCCCATGCTTTGAGCAATCGGGTTTGTTTTTTTATTTACGATA
+GGTGGTTTAACTGGGATTGTTTTAGCTAATAGTTCTTTAGATGTTGTCTTACATGATACTTATTATGTTGTGGCTCAC
+TTCCACTATGTTTTATCTATGGGGGCGGTTTTTGCTATATTTGGGGGGTTTTACTATTGATTTGGTAAGATATCTGGT
+TATTGCTATAATGAGGTATATGGTAAAATACACTTCTGATTAATGTTTATTGGTGTTAATTTAACTTTTTTCCCACAA
+CATTTTTTAGGGTTAGCTGGGTTACCCCGGCGGTATTCTGATTATCATGATAGTTTTGCAGGATGGAACCAAATTAGT
+TCTATGGGGTCAGTAATATCTATTGTGGCAGTAGTGTGGTTTATTTATATAGTATATGATGCTTACGCTCGAGAAATC
+CCTTTTGTAGGATGGGTGGAAGATAGTGGGCATTATCCATCTTTAGAATGGGCACAAACATCTCCACCAGCCCATCAT
+ACTTATAATGAGTTACCTTTTGTTTATGCAGGAACAACCCAATAGGGTTGTTCTTTAAATAAAGTAGCATTAAGTAAA
+AATGCAACATATGTGTAAGTTAATTTATTACCTTTATTTGCGCATCAATGTTTGGGAGAAAAAACATGGTAATTGATT
+TTATTAAAATATTAGTTATTTTAGTTCCATTGCTTGTCTCTATTGCATATTTAACATTGGCGGAACGAAAGGGCCTAG
+GTTATATTCAAAGTAGGAAGGGTCCAAACATCGTGGGATTATATGGACTATTGCAGCCTATTGCGGATGGGATAAAAT
+TATTTACTAAAGAAATTATTATACCAAGCCATGCTAATTTGTTTATATATATTCTGGCTCCAATTTTATCGTTGACTT
+TAGCTTTTGTTGCTTGGGGTGTGATACCCTATGGGGAGGGGGTAGTGTTAAGTGATTTAGGGATTGGGATTTTATATA
+TATTCGCAGTATCTTCGATAAGTGTATATGCTGTGTTAATGTCTGGGTGGGCGAGTAATTCTAAGTATGCATTTTTAG
+GGGCGATTCGGGCAGCGGCCCAAATGATAAGTTACGAGGTATCAATTGGATTAATTATTATTTCTGTTGTTTTGTGTG
+TTGGGTCTTTAAATTTAACTGATGTGGTTTTAGCTCAAAAAAATATCTGGTTTTTCTTGCCATTGTTTCCTGCTGCGA
+TAATGTTTTTTGTTTCTGCTCTTGCCGAGACCAATAGAGTACCATTTGATTTAACGGAGGGGGAGTCTGAATTGGTAT
+CTGGGTTTAATGTAGAGTATTCTAGTATGTCTTTTGCTTTATTTTTTTTAGCAGAGTATGCAAATATTATTCTAATGT
+CGGCCCTAGGGGTAATATTATTTTTTGGGGGGGGTTTAGGATTAATGTGGTTGGGGACGAAGACAGCTATTGTTATTT
+TTTTTTTTATTTGAATTCGGGCTTCTTTTCCAAGAATAAGGTATGACCAGCTAATGGTTTTATTGTGGAAGTCTTATT
+TGCCTTTGAGTTTGGCGTATGTTGTTTTAGTGTCGGGGGCATTGATTGGGTTTGACGGGCTCCCTCCTTTTTAAAATA
+GGGTTGTATTTAAAACTAGGAATATAGTTTGTGGAAAGGGGTTGTACTACGGAGGAATGTGCAGGTTAATTTGATGTC
+GGTATCAATTAATCAACACTATTATTACAGGGTTTGATTTCAATTTAGTTTATTATATTGTAGAGTAAACTAAAGGTT
+AGTTACCAGACTCATTATCTGGGGATGTAGGTTCGAGTCCTACCTCTATGTTGTATTAAAAATGTATTTAATGAATTC
+GGAGGTGTTATTAAGTATTGTGGTATTAGGTTTAGTATTTTATGGTGTTTATTATCCTATATTAAAATGGTCTGTGGG
+CACATTACTAATTATCGGGGTAATAACAATAGGTGGGTGGTTACCGGATGCGTGGGGGGCTTTAATCGGGTCCAATGG
+GCTATTGATGGTAAGTGGTTGAATATTAATTTTGAAGGTAATAATTATTGTCGGCTCGATTTCTATTTTATTAATGAG
+CGGTAATGTGGAGCCAGGGTTGATTATGATGGTGGGATTAAGTTCTATATTATTAGTTTCGTCTGTTAATTGGCTTTC
+GGTTTATTTGGCGATAGAGCTACAGACATTGTCGTTGTTTATTTTGGCGGCGTTAAAAAGAGATAGTACATATAGTAC
+TGAGGCAGGATTAAAGTATTTTGTATTGGGGGCTGTTTCTTCGGGTTTGTTTTTATTTGGTTGTGCTTTATTATATGG
+ATTTGCGGGAGAAACGAGTATACAGGGGATCAATTCGGTATTGAGTGGGGATGTTGGTAAAATTTTGATTACGGTTTC
+TATGTTATTTAAGCTATCTGCGGCTCCCTTTCATATGTGAGCGCCTGATGTGTATGATGGGGCTCCTACTACTACTAC
+GGCGTTGTTGGCTACAATACCTAAAGTTGGGGTCTTTTCTATTTTAGTTCAAATTGGTTCTGTAACTAATGTGGTGTT
+GGTGTGTGCTGTTTTATCAATTATTTATGGGGCTTTGGGGGCATTAAATCAAACAAAAATAAAACGTCTATTAGCGTA
+TAGTGGAATTGGGCATATGGGGTTTATTTTGTTGGGGGTGGCCATCGGGACTTTTGAGGGCATCCAAGCTAGTTTAAT
+TTATATTATTGTGTACGTAATTATGTCCATCTGTGGGTTTTCAATTATATTGGCTGTGGCTTCTCGCTGAAGTTTAAT
+TGTTGAGTTTAGCCCTTTATCAAGAGATAATCCGGTGATTGCGGTTACGTTGGCTTTAACTTTTTTATCTATTGCGGG
+GATTCCCCCTTTGTCTGGGTTTTTGAGTAAATGGCTAATACTATTATCTGGGGTATCTAGTGGATATTATATAATATG
+TATGGTGGCGGTTATAAGTTCGGTAGTAGCTGGGGTGTATTACGTTCGGGTTGTTCAAATAATTTATTTTCAAACAGA
+TGGTCGTGGGTCCATATTAGTTTGACAAAAAGTACTAAATAGAGAAAATAGGGTAGATTTTAGTAAGTCTTTATTGAT
+AGGATTGGCTTTTTTTATTATTTTATTCTTGATGGTTTCTCCTAATTTTTTACTACAAATAACGCACGACGCTACAAT
+AAGTTTATATTAAATCAAAAATGTATGTATTAGTTTTATTATTTCCTTTATTAAGTGCAATAATATCTGGATTGTTGG
+GAAGAAAAATAGGAACAAGGGGGGCAGGAATATTAACTTCTAGTTGTATGGTAGTTTGTGTGGTTCTATCTTGTTGTA
+TATTATATGGGGTCCCTTTAAGTTTATCTGTAACTAATAATAAGCTATGAAAATGGTTTGATTCAGAATTATTAACTA
+CTTATTTTGGTTTACAATTTGATGGTTTAACGTCTATTATGTTAATTGTTATTACAAGTGTTTCTGCTTTAGTACATA
+TTTATTCTACGGGCTATATGTTAGGAGATCCTCATATTCCACGATTTATGTCTTATTTGTCTTTATTTACTTTTTTAA
+TGATTGTATTAGTAACAAGTGATAATTATGTTCAACTATTTATAGGTTGGGAGGGGGTTGGTTTATGTTCGTATCTTT
+TAATTAATTTTTGACTAACTAGAATAAAAGCAAATAAGGCGGCAATAAAGGCTATGTTAATTAATAGGGTGGGGGATA
+TAGGATTAGTTTTGGCAATGTTGATGATGTTTAAAGAATTTGGTGCTTTAGATTTTTCTACTACTAATGGTTTGTTGG
+TTAGCCCAGGGGCCGAAGGTAAAAAAGTAACGATTATTTGCATATTATTATTTATTGGGGCGGTGGGGAAATCAGCAC
+AGTTGGGATTACATACTTGGCTTCCTGACGCCATGGAGGGGCCTACCCCTGTGTCGGCTTTAATACATGCGGCAACCA
+TGGTTACTGCGGGGGTGTTTTTAATAATAAGATCTGGTCCACTTTTTGAGGGTTCTCCTTTAGCTCTAACTGTTGTTA
+CGATATTAGGGGCTTTAACTGCTTTTTTTGCTGCAACTACTGGGGTTGTTCAGAACGATTTAAAGAAAGTTGTGGCTT
+ATTCCACATGTAGCCAATTGGGATATATGGTTATGGTTTGTGGTATCTCTAATTATTCTACGAGTTTGTTTCATTTAA
+TGAATCATGCTTTTTTTAAGGCGTTATTGTTTTTAAGTGCTGGTTCTGTTATCCATGCAGTAAGCGATGAGCAGGATA
+TGAGAAAAATGGGCGGATTAATCAAATCAATTCCATTTACATACGTTATGATTTTAATTGGTTCGTTATCCTTAATGG
+GATTTCCTTATTTGACGGGTTTTTATTCTAAAGATTTAATATTGGAGTTGGCTTATGGGAAATATTATATAGCCTTTG
+CTTATTGATTGGGTAGTTTTTCTGCTTTATTGACGGCCTTTTATTCGATAAGGTTAATATATTTAACTTTTATTACGA
+ATACTAATTCTCAGAAAGAGGTATTTATGGGTGTTCATGAGCCTTCTTTAAATATAACGGTTCCTTTGGTTTTATTGG
+CTTTTGGCAGCATTTTTGTTGGGTATTTGGGGAAAGAGATAGTTTTATCTAATGTCATGTCTCCGATTGTAGCTAATT
+CGGTAAAGATTATTCCCCTATTATTTAGTTTGTTGGGGGGTATGTTGGCCTTTGTGGTTTATTGTTTTACTATGGTTT
+CTACGGCTTGGTTGGAGAGCCGTAGGGGTCTTTTCCTTTATATGGGTCATTCGGTATATACTTTTTTTAACTCTGCTT
+GACAGTTTAATTATATAATAAACCACTTTATTGTTAAAAATATATGAAAGTTTGGGCATTTAATAACTTATAGAGTAA
+TTGACCGGGGGTTATTAGAAATTATTGGACCTAGGGGGGTATCTCGTGTCTTTGTCCATTTAACTCAAAATATTAGTA
+ATTTACAATCTGGGATGGTTTTTAATTATGCTTTAATTATGATTGTGTTTACAGCTTTATTTATCTCGGGCGCGTTGG
+GGGCTTAATGTGGGAGGTTTGCTTCGAACACCAAGAGGATAGGTTGTAAATGATTGGGGGTTTGAGAAATAGAAAGGT
+GGCCCCAAAGAGAGAAAATATGATATACTATTGTTATGCAAAATTTGCTTATGGGGATGCTCCTGAACCGTGACAGTT
+GGGGTTTCAAGATGCAGCCAGTCCAGTTATGGAGGAAATAATATTTTTTCATGACCAAATAATGTTTATTTTGACCCT
+TATTGTTATTTTTGTGTTGTGGTTAATTATAAGATCTTTAACTACTAGCCACTATCACAGATATTTAATTGATGGTAC
+TTCGATTGAAATCATTTGGACTTTAATTCCGGCGGCCATATTAATATTTATTGCATTCCCTTCTTTAAAATTATTATA
+TTTGATGGATGAAGTTATTGATCCTGCTTTGACTATTAAAGCAATAGGCCACCAGTGGTATTGGTCGTATGAGTATTC
+TGACTATGGTACAGAGACAATAGAATTTGATTCTTATATGATTCCAACTACTGATTTAAATAGTGGGGATTTAAGATT
+ATTAGAGGTAGATAATCGGTTAGTGGTGCCAATTCAAACACAAGTGCGAGTATTAGTAACAGGGGCGGATGTTTTACA
+TGCATTTGCCGTTCCATCGTTGTCGGTTAAAATAGATGCAGTGCCAGGGCGATTGAATCAAACAAGTTTTTTTATTAA
+AAGACCGGGAGTATTTTATGGTCAATGCTCAGAAATATGTGGAGCAAATCATTCTTTTATGCCGATAGTAATCGAAGC
+TGTTTCAATGGATAAATATATCCACTGGGTAGCAACACAATCGGGATCTAGCCAATAGGGCGGGTTCCTTTGTATTTT
+GCGTTTTTTACGAGATCAGTAATTAAACAACATATGTAATGTATGCAGCATATTTTGATCAGTTTAATATTGTAAGAT
+TAATAACAATCCAAGCCTTTTTAGGGGATTGATTAGTAACTTTTACTAACTCTTCAATGATGATGGGGTTAGCTGTTA
+CTATTTTTTGATTATTATTAAGGGGGGATAGGTTAATACCTAATAGATGACAGTCTGTGATGGAGTTAATACATTTAA
+ATATACGTCTGGTTGTTCACGATAATTTAGGTAATGTGGGTCAAAAATATTTTCCTTTTGTTTTATGTCTTTTTTTAT
+TTATCGTTGTCTTAAATGTTTTAGGTTTATTCCCATATGTATTTACTCCAACTGTGCACTTAATTGTGACTTTTGGGT
+TATCTTTATCTATAATCATCGGGGTGACTTTGTTGGGGTTTCTTACTTTTAGGTTTAATTTTCTAAGTATTTTAATGC
+CGGGTGGGGCTCCATTGGTTTTAGCTCCTTTTCTTGTTATTATTGAGACTATAAGTTATGTATCTCGTGCTATTTCAT
+TGGGGGTGCGATTGGCAGCAAATTTAATTGCCGGCCACCTATTATTTGCTATTATGTCTGGTTTCGCTTTTAATATGA
+TTACTAATGGGTTAGTTGTTTTAAGTATTTTTCCTATGTTAATTATGCTATTTATTACTTTATTAGAAATGGCGGTGG
+CTGTTATCCAAGCTTATGTTTTTTGTCTGCTTACTGCTATTTATTTAGGAGATACGGTGGCATTACATTAGTTCGGGT
+TTGATGGATATGGCTCGATTGGCAGGGGATATCCGGGGAGAGAATAAATGATGCAACATACTTATCATCCTTATCATT
+TGGTGGAGCCAAGTCCATGGCCATATATTGGCGCATGTGGTGCTTTTTTTACTACCGGGGGGGCAGTAATGTATTTTC
+ATTATAGTCAAGGCTGGGTATTAATTTTAGGTTTGATTACAATAATATTTACAATGATTGTGTGATGGCGGGATGTAA
+TTAGGGAGGCAACTTATCAAGGACATCATACATTAATAGTAAAACAGGGGTTAAAGTACGGGATGATTTTATTTATTA
+TTTCAGAGGTTTGTTTGTTTTTTTCTTTCTTTTGGGCTTTTTTCCATAGTAGTTTGGCTCCTGCTGTAGAAATTGGGG
+CGGTTTGGCCTCCAAGGGGGGTAGATCCCCTAAACCCATTTTCGGTTCCTTTATTAAATACTGCTGTTTTATTAAGTT
+CTGGGGCTACGGTGACTTGGGCTCATCATGCCATAATTAGTGGTAAAAGAAGGGAAGCTATTATAGGATTAGCTTTAA
+CGGCGACACTAGGAATTATATTTACAGCATTACAGGGTATGGAGTATTATGAGGCTCCTTTTACTATTTCAGATTCGG
+TGTATGGGTCAACTTTTTTTGTTACGACTGGTGCTCACGGGGGGCATGTGTTAGTTGGTAGTTCTTTTTTATTAGTAT
+GTTTGGGTAGACTAATTAATCACCAATTTACTAGACATCATCATTTGGGATTTGAGGCCGCAGCATGATATTGACATT
+TTGTGGATGTTGTTTGATTATTTCTTTTTGTCTTTATGTATTGGTGGGGTTCATAAAGTGTTGGTCTCAATAATATAA
+CAAGTTCGAGTTTTGTCCCCACAGGAGATTGGGTTAATGGTAGACCGGTAGCCTTCAAAGTTTTTAGTGTTGGTTCGA
+TTCCAGCATCTTCTGTTTTGTGGTATATGTTAATTAAAATAATCTTAGGAGTGTGGGGGTAGACACGATGTGGGTCAG
+GAATTTGCAGGTTCAAGTCCTGTTGCTCTTAAAATGACGAAATCTATTAGAAAAGAAAATCCGGTTTTATCTTTAGTT
+AATAGTATGTTTATTGATCTGCCTTCTCCATCAAATATAAGCTATTTATGGAATTTTGGTTCTTTGTTGGGGGGTTGT
+TTGATTATTCAGATTATTACAGGTATTTTTTTAGCAATGCACTATTGTGCTGATGTAAATTTGGCATTTTTGTCAGTA
+GCACATATTACGCGGGATGTTAATTATGGGTTTCTATTGAGATACTTACACGCCAATGGGGCATCTATTTTTTTTTTA
+TGTGTCTATATGCATATCGGACGTGGTATTTATTATGGTAGTTATACTAAGCAAATAGTGTGGAATGTGGGGGTATTG
+TTGTATATATTAATGATGGGTACCGCTTTTATAGGATATGTCCTACCTTGGGGTCAAATGTCTTTTTGGGCAGCTACT
+GTTATTACTAATATATTATCGGCCATTCCGTATATAGGGGATGAAATAGTAAGATGGGTTTGAGGGGGATTTAGTGTT
+TCCAATGCCACTTTAAACCGATTTTACAGTCTACACTACTTATTACCATTTATCTTAGCTGGTTTGGCCTTGGTACAC
+TTAATTGCTTTACATGAAGATGGATCTAATAATCCTATCGGGGTGAGATCTGATATCGATAAAATACCGTTCCATTAT
+TACTATGTGGTAAAAGATTTATATGGAGTGGTGATATTAGCAATAGTACTTTCTATTTTTGTGTTCTTATTTCCGTAT
+GTATTAGGGGATCCAGAGAATTTTAGACAGGCAAATCCATTAGTAACCCCAGTACATATTCAGCCGGAGTGGTATTTT
+TTATTTGCTTATGCTATATTGCGATCTATACCAAATAAATTGGGGGGGGTTGTGGCTTTAGCAGCGAGTTTATTAGTT
+TTGTTTTTATTACCTCTTTTACATAAAAGCCGGCTACGGGGGTTAACGTTTAGACCGTTAAGTAAAATTTTATTTTGA
+TTTTTGGTTGCGGATTTTTTGCTTTTAACTTGAATAGGGGGGCAGCCAGTTGAAGACCCCTATATATTAATCGGCCAA
+CTCGCGTCAATTTATTATTTTTCTTATTTTTTTATTCTTGGTCCTATGGTAGGTTATTTGGAAAATAAGTTATTATCT
+ATGTAAATTTTTAGGTTTGATGGATATAGCTCGATTGGTAGCCTGTGGTAGGCAAATCGTGGAGTAAGTTAGCATATA
+GGTAAAAAATAATTTAGCTGTTGATGTAGTTTGATTTGATCTATAAATGGAGAGAGAATATGTTGGTGTTTATTTTTT
+TCTTTCTTTTATTGGGTGGGGTTCATTTAATATTGATTACAAGAGATGATAGTGTAAGGTTGAAAAAAGCTGCCTTGT
+CTTGGTCTTTAATTATCCTGGCCGTTACAATCCTCTTATGGGTTTCTTTTGATGGGGATGGGCAATTTCAAGCTGTTA
+TTAGATTAAAGTGGATCCCGGGGGTGGAGCCAATTTTTGGTCCGGTTGTTTTTGCGGTGGATGGGGTTTCTATTTTTT
+TTTTAATATTGACGGCATTATTGGTTCCGATTTGTGTTCTAATAAGTTGAAATGCTATTAGGTTTTTAGTTAAAGAGT
+TTTTATTGTGTTTATTATTAATTGAAGGATTATTAATGGGTGTTTTTACGGTATTAGATTTAGTGGGGTTTTATATAC
+TATTTGAGGGAATATTAATACCAATGTTTTTAATAATAGGGATTTGGGGCACAAGGGAAGAAAAAGTGCAAGCATCTT
+ATTATTTTTTTTTTTATACTTTTTTGGGGTCTGTTTTTATGTTGTTGGCTATTTTTATTTTGTATAGCCAGGTGGGTA
+CAACGGATTATCAGGCTTTATGTTGTCTTCGGTTTGAAGGGGGGTTGCAGTGTTTTATCTTTTTGGGGTTTTTTTTAA
+GTTTGGCCATCAAAATACCTAAAATTCCATTTCATATATGATTACCGCAGGCACATGTGGAGGCTCCTGTTGCCGGGT
+CGGTTATTTTGGCGGGGGTGTTATTAAAATTGGGGGGATATGGGTTTATCAGATTTACATGGCCACTTTTACCAGATG
+CGGCGGAGTATTTTGCTCCCCTTATTCAGTCTTTGAGCTTACTTGCAATAATATATGGGAGTTTAACTACTTGCCGAC
+AGGTAGATTTAAAACGGATTATTGCTTACTCTTCGGTTGCACATATGGGATTAGTAACGCTAGGGATATTTAGTCATA
+CGGTTCAGGGGTTGGTGTCAGCTATTTTTTTAATGTTGGCTCATGGGCTAGTTAGTTCTGCCTTGTTTATCGCTGTAA
+CTTTTCTTTATGAGCGACATCATACACGTTTGGTAAAATATTATCGGGGGATGGTAATTACAATGCCTCTATTTGGTA
+TATTAATGCTTTCATTGGTGTTGGCTAATGCTTCTATCCCACTAAGTTGTAATTTTATTGGGGAGTTTATTTCGCTAT
+TGGCTGCTTTTGAATATAGTTATTTTGTGGGGATTTTGGCTTCATTGGGTATGGTACTATCGGCGGGGTATTCTATAT
+ATTTATATAATCGGGTTTGTTTTGGGTCTCCTTCAAGGTATTTACATTTTACTAAGGATTTAAATAGGCGGGAGTATT
+ATGCATTATTACCATTAGTTGTCCTAATTTTTTTGATGGGTATTTTTCCTTTTATAACCATAGATGAAATTAAAAGTA
+CTATTGTATGCCAAGAATCCGGGTGAAAGTAACGGGAGAGTTATGGTCGAGTGTACAAGTCTCTTTTTGCCCTTAGTG
+GTTAGGACATTAGGTTTTCAACGGGAGTTCGATTCTCCTCGGGGGTTGGTGGAAGGATTATTTTATTTATTTACTTTG
+GGGGTTATTATATCTGGAACTATGGTAATATCTGCTCTTAGTCCTGTTTATTCGGTTCTTTGGTTAATTACGGCTTTT
+ATTAGTGCTTCTGCTCTTTTTATTTTATTGGAGGTGGAGTTTATTGCTTTTATTTTTATAATAGTGTACGTGGGGGCG
+ATTGCTATTTTATTTTTATTTGTGATTATGATGTTAAATTTAACAGAGGAGGCTATTGGGGACGATATGTCTAATTAT
+TTGCCGGCCGGGTTTATAATTGGGGTGGTTTTTTTATTTGAAATTTTTCTTTTTCGAAATGGTACGACAGATGGGGGA
+CAAATAGGTACATACTGGGTTGTTAAGAATACTAATATTGAAGTATTGGGCCGAGTATTATATACTGATTATTATTAT
+TTATTTATTGTGGCTAGTTTTATTTTATTGGTTGCTATGGTTGGGGCGATAGTATTAACCCACGACACAGGCACAGAA
+ATTCAGGATAGAAAAAGGCAAGATATTTTTGTTCAAATTAGCCGTCAATTATGACAAGAAAGATAGGGGTTGGTTCTT
+CGGGTTTATTTTTCAATTCAAATGAGTACGGAATTTATCAGTATTTTTTTGTTATTTTTTTTTAGTATAGTTCTTTCT
+ACTGTTATATCTGGTGCTTCTTATATAGTAGGAGTAAAACAACCGGACAGTGAGAAAGTGTCGGTATATGAGTGCGGG
+TTTGATCCTTTTGAGTCTTCAAGAGTCCCATTTTCAGTTAGATTTTTTTTAGTGGGGATTCTTTTTATGATCTTTGAT
+TTGGAGATTTCTTTTCTTTTTCCTTGGTGCGTGGTTTATAATCAAGTTGGGTTGTTTGGTTTTTGAATTATGTTTTTA
+TTTTTAATTATTTTAACGGTGGGGCTAATTTACGAATGGGTAAAAGGTGGTTTGGAGTGAGAATAGAAACCCACCGGG
+TGACTACTAGGTCTGTGGTAAAATGATTAGTTTATCCGCCATTAGATGGGGTTTCGAGTTCTTTTTTTGCCAGCTAAG
+TTTTGATGATTTTCTAGTGGGGTTTAAAAAGAAATACCAGTTTTGTCGGCTTAGGTAGCTCAATTGGCAGAGTAAAAC
+ATTTAAAATGTTTGGGTTGTCGGTTCAAAGCCGATCTTAAGCAATTCTTTTGATTTTGGGGGTAATATAAAGCGTGCG
+ACACCTATAATCCATGCTGGGCAACGAAATGTAGAGAGATTAAATTTATTTCTTTTCTTGATGGATTCGTCCCATACA
+GGTGAGTAATGCTCTGGAACTAATTAATTGGTAGGTTGTAAAATAACTAATATATAAGATAGCCAGTTATTGGGCCAG
+AGTCGTATTAGGTTTAAGGTGCATAGGTTTGCCTTACCAAGGATGCGTAGCCGAGAGGCCACACTTCCACAGGGGAGA
+CTCAGAATAGAGGCAGCAGCAGAGAATATTGTGCAATGTATGAAAGTATGACCCAGGGATGTCGCATAAATAGTCCGT
+CTAATATACGTGCCAGCAGACGCGGTTATACGTAAGGGCTAAGTTTTTATTAGGAAAGGCGTAAAGAGTGTATAGGTG
+GGGGGGTTTTAACGAGGTAGTTGTAACTTTTATGTAGCGGTGGAATGCTTTTATATAAAATGGAACACCAGAGGCAAA
+GGCGAATTACTAGTTATAACTGACGCTGATACACGAAAGTGGGGGTAGTAAACAGGATTAGGTACCCTGGTAGTCCCT
+GCTGTAGACCATGAAAATTAAATTGCGGCATTAGCTGTGGTTGAGGATAACTTAAGAAATTTCCGCCTGAAGAGTACG
+GTCGCAAGATTAAAATTCAAAAAATTTGGCGGTTCACTAAACTAATTAGAGGAGCGTGTAGTTTAATTCGATAGTCCG
+CGATAAACCTTACCAAAACTTGAATATTAAAAATTTAGGGGCAAAAATATTAATAACAGGTATTGCATGGCCGTCGTC
+AGTTCGTGTTGTGTAAGAAGTAGAACGGACTTAAACCCTAACCATAATAGGGGGTGTCTTTTACGGAATGGGGGATGA
+CGTCAGGTCTTTATGATCTAAATGTTTTGGGCTACATATGCGCTACAGTTTTTATTACACAAAGAAGCTAATTTTTAA
+AAGTAAAAGGTTCGGATTGTCTTATGTAAAATGGGGCATGAAGTTGGATTTAATAGTAATCAGGAAGTAGCGCGTCTT
+GGTGAATGTGGCTCTAGTGTTCGTACAAATCGCCCGTCATTTTTACCGAGTAGAGAACACTTAAAGTGTTGGCTTAGC
+AATATAAGAAGTAGGGGTTGTGTGGCAAAATAAAGTGTATATATTGGTGGTTCGACATTATTGATTATTTGCGAGGTA
+GAAGAAGTCGTAACACAGCGAGGGTATTGGAAAATGTTCTCGGACTAATGCATGTATCGACAATTGGTAGAATAAGTG
+ACTAATAGTCATTTAGGGTGGGTTAAAGTCCTACTATGTGCA" } ,
+                annot {
+                  {
+                    desc {
+                      name "Table1" } ,
+                    data
+                      ftable {
+                        {
+                          data
+                            gene {
+                              locus "rnl" } ,
+                          location
+                            int {
+                              from 20 ,
+                              to 2557 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "large subunit ribosomal RNA" } ,
+                          location
+                            int {
+                              from 20 ,
+                              to 2557 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnQ(ttg)" } ,
+                          location
+                            int {
+                              from 2591 ,
+                              to 2661 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 81 ,
+                                  anticodon
+                                    int {
+                                      from 2623 ,
+                                      to 2625 ,
+                                      strand plus ,
+                                      id
+                                        local
+                                          str "C_0" } } } ,
+                          location
+                            int {
+                              from 2591 ,
+                              to 2661 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad4L" } ,
+                          location
+                            int {
+                              from 2653 ,
+                              to 2964 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "cox1" } ,
+                          location
+                            int {
+                              from 3049 ,
+                              to 4617 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad1" } ,
+                          location
+                            int {
+                              from 4698 ,
+                              to 5660 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnM(cat)" } ,
+                          location
+                            int {
+                              from 5801 ,
+                              to 5871 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 77 ,
+                                  anticodon
+                                    int {
+                                      from 5833 ,
+                                      to 5835 ,
+                                      strand plus ,
+                                      id
+                                        local
+                                          str "C_0" } } } ,
+                          location
+                            int {
+                              from 5801 ,
+                              to 5871 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad2" } ,
+                          location
+                            int {
+                              from 5882 ,
+                              to 7237 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad5" } ,
+                          location
+                            int {
+                              from 7245 ,
+                              to 9104 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "cox2" } ,
+                          location
+                            int {
+                              from 9158 ,
+                              to 9934 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "atp6" } ,
+                          location
+                            int {
+                              from 9993 ,
+                              to 10727 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "cox3" } ,
+                          location
+                            int {
+                              from 10785 ,
+                              to 11570 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnW(tca)" } ,
+                          location
+                            int {
+                              from 11615 ,
+                              to 11685 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 87 ,
+                                  anticodon
+                                    int {
+                                      from 11647 ,
+                                      to 11649 ,
+                                      strand plus ,
+                                      id
+                                        local
+                                          str "C_0" } } } ,
+                          location
+                            int {
+                              from 11615 ,
+                              to 11685 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "cob" } ,
+                          location
+                            int {
+                              from 11782 ,
+                              to 12924 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad4" } ,
+                          location
+                            int {
+                              from 13056 ,
+                              to 14510 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad6" } ,
+                          location
+                            int {
+                              from 14605 ,
+                              to 15168 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "nad3" } ,
+                          location
+                            int {
+                              from 15202 ,
+                              to 15558 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "trnL(taa)" } ,
+                          location
+                            int {
+                              from 15697 ,
+                              to 15769 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type tRNA ,
+                              ext
+                                tRNA {
+                                  aa
+                                    ncbieaa 76 ,
+                                  anticodon
+                                    int {
+                                      from 15730 ,
+                                      to 15732 ,
+                                      strand plus ,
+                                      id
+                                        local
+                                          str "C_0" } } } ,
+                          location
+                            int {
+                              from 15697 ,
+                              to 15769 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            gene {
+                              locus "rns" } ,
+                          location
+                            int {
+                              from 16050 ,
+                              to 17029 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } ,
+                        {
+                          data
+                            rna {
+                              type rRNA ,
+                              ext
+                                name "small subunit ribosomal RNA" } ,
+                          location
+                            int {
+                              from 16050 ,
+                              to 17029 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "C_0" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad4L" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4L [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 103 ,
+                  seq-data
+                    ncbieaa "MGIWMYYGYLTVGIILFILGILGIVLNRSNLIIMLMSIELMLLAISFTM
+ALFSVIIDNLIGQVFTIMVLTVAAAESAIGLGILVAYYRVRGTIAVKSLNLLRG" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4L" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 102 ,
+                              id
+                                local
+                                  str "G-nad4L" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-cox1" } ,
+                descr {
+                  title "cytochrome c oxidase subunit 1 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 522 ,
+                  seq-data
+                    ncbieaa "MSLYLSRWLFSTNHKDIGTLYLLFGAFAGMIGTAFSMLIRLELSAPGAM
+LGDDHLYNVIVTAHAFVMIFFLVMPVMIGGFGNWLVPLYIGAPDMAFPRLNNISFWLLPPALTLLLGSAFVEQGAGTG
+WTVYPPLSSIQTHSGGSVDMVIFSLHLAGISSILGAMNFITTIFNMRAPGMTMDRIPLFVWSILVTAFLLLLSLPVLA
+GAITMLLTDRNFNTTFFDPAGGGDPILFQHLFWFFGHPEVYILILPGFGMISQIIPTFAAKKQIFGYLGMVYAMVSIG
+VLGFIVWAHHMFTVGMDVDTRAYFTAATMIIAVPTGIKIFSWMATIFGGSIRLDTPMLWAIGFVFLFTIGGLTGIVLA
+NSSLDVVLHDTYYVVAHFHYVLSMGAVFAIFGGFYYWFGKISGYCYNEVYGKIHFWLMFIGVNLTFFPQHFLGLAGLP
+RRYSDYHDSFAGWNQISSMGSVISIVAVVWFIYIVYDAYAREIPFVGWVEDSGHYPSLEWAQTSPPAHHTYNELPFVY
+AGTTQ" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit 1" } ,
+                              ec {
+                                "1.9.3.1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 521 ,
+                              id
+                                local
+                                  str "G-cox1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad1" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 1 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 320 ,
+                  seq-data
+                    ncbieaa "MFGRKNMVIDFIKILVILVPLLVSIAYLTLAERKGLGYIQSRKGPNIVG
+LYGLLQPIADGIKLFTKEIIIPSHANLFIYILAPILSLTLAFVAWGVIPYGEGVVLSDLGIGILYIFAVSSISVYAVL
+MSGWASNSKYAFLGAIRAAAQMISYEVSIGLIIISVVLCVGSLNLTDVVLAQKNIWFFLPLFPAAIMFFVSALAETNR
+VPFDLTEGESELVSGFNVEYSSMSFALFFLAEYANIILMSALGVILFFGGGLGLMWLGTKTAIVIFFFIWIRASFPRI
+RYDQLMVLLWKSYLPLSLAYVVLVSGALIGFDGLPPF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 1" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 319 ,
+                              id
+                                local
+                                  str "G-nad1" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad2" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 2 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 451 ,
+                  seq-data
+                    ncbieaa "MYLMNSEVLLSIVVLGLVFYGVYYPILKWSVGTLLIIGVITIGGWLPDA
+WGALIGSNGLLMVSGWILILKVIIIVGSISILLMSGNVEPGLIMMVGLSSILLVSSVNWLSVYLAIELQTLSLFILAA
+LKRDSTYSTEAGLKYFVLGAVSSGLFLFGCALLYGFAGETSIQGINSVLSGDVGKILITVSMLFKLSAAPFHMWAPDV
+YDGAPTTTTALLATIPKVGVFSILVQIGSVTNVVLVCAVLSIIYGALGALNQTKIKRLLAYSGIGHMGFILLGVAIGT
+FEGIQASLIYIIVYVIMSICGFSIILAVASRWSLIVEFSPLSRDNPVIAVTLALTFLSIAGIPPLSGFLSKWLILLSG
+VSSGYYIICMVAVISSVVAGVYYVRVVQIIYFQTDGRGSILVWQKVLNRENRVDFSKSLLIGLAFFIILFLMVSPNFL
+LQITHDATISLY" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 2" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 450 ,
+                              id
+                                local
+                                  str "G-nad2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad5" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 5 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 619 ,
+                  seq-data
+                    ncbieaa "MYVLVLLFPLLSAIISGLLGRKIGTRGAGILTSSCMVVCVVLSCCILYG
+VPLSLSVTNNKLWKWFDSELLTTYFGLQFDGLTSIMLIVITSVSALVHIYSTGYMLGDPHIPRFMSYLSLFTFLMIVL
+VTSDNYVQLFIGWEGVGLCSYLLINFWLTRIKANKAAIKAMLINRVGDIGLVLAMLMMFKEFGALDFSTTNGLLVSPG
+AEGKKVTIICILLFIGAVGKSAQLGLHTWLPDAMEGPTPVSALIHAATMVTAGVFLIIRSGPLFEGSPLALTVVTILG
+ALTAFFAATTGVVQNDLKKVVAYSTCSQLGYMVMVCGISNYSTSLFHLMNHAFFKALLFLSAGSVIHAVSDEQDMRKM
+GGLIKSIPFTYVMILIGSLSLMGFPYLTGFYSKDLILELAYGKYYIAFAYWLGSFSALLTAFYSIRLIYLTFITNTNS
+QKEVFMGVHEPSLNITVPLVLLAFGSIFVGYLGKEIVLSNVMSPIVANSVKIIPLLFSLLGGMLAFVVYCFTMVSTAW
+LESRRGLFLYMGHSVYTFFNSAWQFNYIINHFIVKNIWKFGHLITYRVIDRGLLEIIGPRGVSRVFVHLTQNISNLQS
+GMVFNYALIMIVFTALFISGALGA" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 5" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 618 ,
+                              id
+                                local
+                                  str "G-nad5" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-cox2" } ,
+                descr {
+                  title "cytochrome c oxidase subunit 2 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 258 ,
+                  seq-data
+                    ncbieaa "MRNRKVAPKRENMIYYCYAKFAYGDAPEPWQLGFQDAASPVMEEIIFFH
+DQIMFILTLIVIFVLWLIIRSLTTSHYHRYLIDGTSIEIIWTLIPAAILIFIAFPSLKLLYLMDEVIDPALTIKAIGH
+QWYWSYEYSDYGTETIEFDSYMIPTTDLNSGDLRLLEVDNRLVVPIQTQVRVLVTGADVLHAFAVPSLSVKIDAVPGR
+LNQTSFFIKRPGVFYGQCSEICGANHSFMPIVIEAVSMDKYIHWVATQSGSSQ" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit 2" } ,
+                              ec {
+                                "1.9.3.1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 257 ,
+                              id
+                                local
+                                  str "G-cox2" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-atp6" } ,
+                descr {
+                  title "ATP synthase F0 subunit a [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 244 ,
+                  seq-data
+                    ncbieaa "MYAAYFDQFNIVRLITIQAFLGDWLVTFTNSSMMMGLAVTIFWLLLRGD
+RLIPNRWQSVMELIHLNIRLVVHDNLGNVGQKYFPFVLCLFLFIVVLNVLGLFPYVFTPTVHLIVTFGLSLSIIIGVT
+LLGFLTFRFNFLSILMPGGAPLVLAPFLVIIETISYVSRAISLGVRLAANLIAGHLLFAIMSGFAFNMITNGLVVLSI
+FPMLIMLFITLLEMAVAVIQAYVFCLLTAIYLGDTVALH" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "ATP synthase F0 subunit a" } ,
+                              ec {
+                                "7.1.2.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 243 ,
+                              id
+                                local
+                                  str "G-atp6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-cox3" } ,
+                descr {
+                  title "cytochrome c oxidase subunit 3 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 261 ,
+                  seq-data
+                    ncbieaa "MQHTYHPYHLVEPSPWPYIGACGAFFTTGGAVMYFHYSQGWVLILGLIT
+IIFTMIVWWRDVIREATYQGHHTLIVKQGLKYGMILFIISEVCLFFSFFWAFFHSSLAPAVEIGAVWPPRGVDPLNPF
+SVPLLNTAVLLSSGATVTWAHHAIISGKRREAIIGLALTATLGIIFTALQGMEYYEAPFTISDSVYGSTFFVTTGAHG
+GHVLVGSSFLLVCLGRLINHQFTRHHHLGFEAAAWYWHFVDVVWLFLFVFMYWWGS" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "cytochrome c oxidase subunit 3" } ,
+                              ec {
+                                "1.9.3.1" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 260 ,
+                              id
+                                local
+                                  str "G-cox3" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-cob" } ,
+                descr {
+                  title "apocytochrome b [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 380 ,
+                  seq-data
+                    ncbieaa "MTKSIRKENPVLSLVNSMFIDLPSPSNISYLWNFGSLLGGCLIIQIITG
+IFLAMHYCADVNLAFLSVAHITRDVNYGFLLRYLHANGASIFFLCVYMHIGRGIYYGSYTKQIVWNVGVLLYILMMGT
+AFIGYVLPWGQMSFWAATVITNILSAIPYIGDEIVRWVWGGFSVSNATLNRFYSLHYLLPFILAGLALVHLIALHEDG
+SNNPIGVRSDIDKIPFHYYYVVKDLYGVVILAIVLSIFVFLFPYVLGDPENFRQANPLVTPVHIQPEWYFLFAYAILR
+SIPNKLGGVVALAASLLVLFLLPLLHKSRLRGLTFRPLSKILFWFLVADFLLLTWIGGQPVEDPYILIGQLASIYYFS
+YFFILGPMVGYLENKLLSM" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "apocytochrome b" } ,
+                              ec {
+                                "7.1.1.8" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 379 ,
+                              id
+                                local
+                                  str "G-cob" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad4" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 4 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 484 ,
+                  seq-data
+                    ncbieaa "MLVFIFFFLLLGGVHLILITRDDSVRLKKAALSWSLIILAVTILLWVSF
+DGDGQFQAVIRLKWIPGVEPIFGPVVFAVDGVSIFFLILTALLVPICVLISWNAIRFLVKEFLLCLLLIEGLLMGVFT
+VLDLVGFYILFEGILIPMFLIIGIWGTREEKVQASYYFFFYTFLGSVFMLLAIFILYSQVGTTDYQALCCLRFEGGLQ
+CFIFLGFFLSLAIKIPKIPFHIWLPQAHVEAPVAGSVILAGVLLKLGGYGFIRFTWPLLPDAAEYFAPLIQSLSLLAI
+IYGSLTTCRQVDLKRIIAYSSVAHMGLVTLGIFSHTVQGLVSAIFLMLAHGLVSSALFIAVTFLYERHHTRLVKYYRG
+MVITMPLFGILMLSLVLANASIPLSCNFIGEFISLLAAFEYSYFVGILASLGMVLSAGYSIYLYNRVCFGSPSRYLHF
+TKDLNRREYYALLPLVVLIFLMGIFPFITIDEIKSTIVCQESGWK" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 4" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 483 ,
+                              id
+                                local
+                                  str "G-nad4" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad6" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 6 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 187 ,
+                  seq-data
+                    ncbieaa "MEGLFYLFTLGVIISGTMVISALSPVYSVLWLITAFISASALFILLEVE
+FIAFIFIIVYVGAIAILFLFVIMMLNLTEEAIGDDMSNYLPAGFIIGVVFLFEIFLFRNGTTDGGQIGTYWVVKNTNI
+EVLGRVLYTDYYYLFIVASFILLVAMVGAIVLTHDTGTEIQDRKRQDIFVQISRQLWQER" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 6" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 186 ,
+                              id
+                                local
+                                  str "G-nad6" } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "G-nad3" } ,
+                descr {
+                  title "NADH dehydrogenase subunit 3 [Genus species]" ,
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 118 ,
+                  seq-data
+                    ncbieaa "MSTEFISIFLLFFFSIVLSTVISGASYIVGVKQPDSEKVSVYECGFDPF
+ESSRVPFSVRFFLVGILFMIFDLEISFLFPWCVVYNQVGLFGFWIMFLFLIILTVGLIYEWVKGGLEWE" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "NADH dehydrogenase subunit 3" } ,
+                              ec {
+                                "7.1.1.2" } } ,
+                          location
+                            int {
+                              from 0 ,
+                              to 117 ,
+                              id
+                                local
+                                  str "G-nad3" } } } } } } } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad4L" ,
+                      location
+                        int {
+                          from 2653 ,
+                          to 2964 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-cox1" ,
+                      location
+                        int {
+                          from 3049 ,
+                          to 4617 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad1" ,
+                      location
+                        int {
+                          from 4698 ,
+                          to 5660 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad2" ,
+                      location
+                        int {
+                          from 5882 ,
+                          to 7237 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad5" ,
+                      location
+                        int {
+                          from 7245 ,
+                          to 9104 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-cox2" ,
+                      location
+                        int {
+                          from 9158 ,
+                          to 9934 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-atp6" ,
+                      location
+                        int {
+                          from 9993 ,
+                          to 10727 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-cox3" ,
+                      location
+                        int {
+                          from 10785 ,
+                          to 11570 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-cob" ,
+                      location
+                        int {
+                          from 11782 ,
+                          to 12924 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad4" ,
+                      location
+                        int {
+                          from 13056 ,
+                          to 14510 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad6" ,
+                      location
+                        int {
+                          from 14605 ,
+                          to 15168 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G-nad3" ,
+                      location
+                        int {
+                          from 15202 ,
+                          to 15558 ,
+                          strand plus ,
+                          id
+                            local
+                              str "C_0" } } } } } } } } } }

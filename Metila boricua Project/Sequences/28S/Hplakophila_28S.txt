@@ -1,0 +1,23 @@
+>PX306553.1 Haliclona plakophila voucher PRLP2410 internal transcribed spacer 2 and large subunit ribosomal RNA gene, partial sequence.
+		1 tcttccgatc tcttcccagc gatgtcggtt tgtcgcgttt tgggagcaaa aacggttgaa
+       61 catgtttgtt gcggcctcag atcgagcgag attcacccgc tgaacttaag catatcaata
+      121 agcggaggaa aagaaaccaa cagggattcc ctcagtaacg gcgagcgaag tgggaatgat
+      181 ttttgtgccc aggtctgtaa tctccgtccg gtcctttgct cggtcggcga attgtggtct
+      241 ggagagacgt actgttccgt tgtcaccgct cctagggccc caagtcgact tggaacggcg
+      301 tgccagagag ggtgagagcc ccgtagggcc tagaaaccgg gagcggcggg acgagggttc
+      361 gttctcttag agtcgggttg tttgggattg cagcctaaat agggtggtag actccatcca
+      421 aggctaaaca cgggcgcgag tccgatagaa gacaagtacc gtgagggaaa ggtgaaaagc
+      481 actttgaaga gagagttcaa tagagcgtga aaccgttggg agggaagctc agggtgccga
+      541 ggcggtagag tctgtcggag ttcaattcgg acgcgagagc gaccgggtgc atttttcgtc
+      601 agtcttggta accgtcagcg atggaggaac cggtcgatat tccggcggag agggaggtgg
+      661 cggattccga acctgagggt gaggaaaccg ttcgtacagc ctctgccgtg ggaacggctt
+      721 ggggattcca tggtgcgaag ttaatgagcg actttcgctc gaagggtcga ggtgcggttc
+      781 tccttttgga ggagcgggac gatgacggta gtgttgggca agcgagagcg ggtgctcatc
+      841 gtggggacac agctcgcttc ggtgtgcaac gttggcgttt ggtcggtact ttccgtggtc
+      901 tgttcacgtt accgtgccca ggtcgttgac gtcgagtcgg tcccctgtgc cccgtcttga
+      961 aacacggacc aaggagtgca agaggcacgc gagtcctgcg ggtttgtcgc gtcgaccagt
+     1021 tcgtcgcgca tgtcaaaccc aagagtaggc aaagtgagag caagttccgg tagcttccgg
+     1081 ttggtgcgag agcccgtttg ggatgaagcg ggcgcatcgc ggaccgagcc gttggtcacg
+     1141 ttgtggccgg cttcgagtga gagcgagtct gttgcgaccc gaaagatggt gaactatgcc
+     1201 cgaggagggt gaagccaggg gaaactctgg tggaggcccg tagcggttct gacgtgcaaa
+     1261 tcgatcgtgg cacttgggta taggggcgaa agactaatcg

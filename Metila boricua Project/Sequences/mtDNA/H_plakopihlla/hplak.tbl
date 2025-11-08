@@ -1,0 +1,108 @@
+>Feature C_0 Table1
+21	2558	gene
+			gene	rnl
+21	2558	rRNA
+			product	large subunit ribosomal RNA
+			protein_id	lcl| G-rnl
+2592	2662	gene
+			gene	trnQ(ttg)
+2592	2662	tRNA
+			product	transfer RNA Glutamine
+			protein_id	lcl| G-trnQ
+			anticodon	(pos:2624..2626,aa:q)
+2654	2965	gene
+			gene	nad4L
+2654	2965	CDS
+			product	NADH dehydrogenase subunit 4L
+			protein_id	lcl| G-nad4L
+			EC_number	1.6.5.3
+3050	4618	gene
+			gene	cox1
+3050	4618	CDS
+			product	cytochrome c oxidase subunit 1
+			protein_id	lcl| G-cox1
+			EC_number	1.9.3.1
+4699	5661	gene
+			gene	nad1
+4699	5661	CDS
+			product	NADH dehydrogenase subunit 1
+			protein_id	lcl| G-nad1
+			EC_number	1.6.5.3
+5802	5872	gene
+			gene	trnM(cat)
+5802	5872	tRNA
+			product	transfer RNA Methionine
+			protein_id	lcl| G-trnM
+			anticodon	(pos:5834..5836,aa:m)
+5883	7238	gene
+			gene	nad2
+5883	7238	CDS
+			product	NADH dehydrogenase subunit 2
+			protein_id	lcl| G-nad2
+			EC_number	1.6.5.3
+7246	9105	gene
+			gene	nad5
+7246	9105	CDS
+			product	NADH dehydrogenase subunit 5
+			protein_id	lcl| G-nad5
+			EC_number	1.6.5.3
+9159	9935	gene
+			gene	cox2
+9159	9935	CDS
+			product	cytochrome c oxidase subunit 2
+			protein_id	lcl| G-cox2
+			EC_number	1.9.3.1
+9994	10728	gene
+			gene	atp6
+9994	10728	CDS
+			product	ATP synthase F0 subunit a
+			protein_id	lcl| G-atp6
+			EC_number	3.6.3.14
+10786	11571	gene
+			gene	cox3
+10786	11571	CDS
+			product	cytochrome c oxidase subunit 3
+			protein_id	lcl| G-cox3
+			EC_number	1.9.3.1
+11616	11686	gene
+			gene	trnW(tca)
+11616	11686	tRNA
+			product	transfer RNA Tryptophan
+			protein_id	lcl| G-trnW
+			anticodon	(pos:11648..11650,aa:w)
+11783	12925	gene
+			gene	cob
+11783	12925	CDS
+			product	apocytochrome b
+			protein_id	lcl| G-cob
+			EC_number	1.10.2.2
+13057	14511	gene
+			gene	nad4
+13057	14511	CDS
+			product	NADH dehydrogenase subunit 4
+			protein_id	lcl| G-nad4
+			EC_number	1.6.5.3
+14606	15169	gene
+			gene	nad6
+14606	15169	CDS
+			product	NADH dehydrogenase subunit 6
+			protein_id	lcl| G-nad6
+			EC_number	1.6.5.3
+15203	15559	gene
+			gene	nad3
+15203	15559	CDS
+			product	NADH dehydrogenase subunit 3
+			protein_id	lcl| G-nad3
+			EC_number	1.6.5.3
+15698	15770	gene
+			gene	trnL(taa)
+15698	15770	tRNA
+			product	transfer RNA Leucine
+			protein_id	lcl| G-trnL
+			anticodon	(pos:15731..15733,aa:l)
+16051	17030	gene
+			gene	rns
+16051	17030	rRNA
+			product	small subunit ribosomal RNA
+			protein_id	lcl| G-rns
+

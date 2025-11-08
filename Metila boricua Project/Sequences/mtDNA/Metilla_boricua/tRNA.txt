@@ -1,0 +1,77 @@
+NODE_15_length_17288_cov_6.027308,.trna1 (2551-2619)	Length: 69 bp
+Type: Ala	Anticodon: TGC at 31-33 (2581-2583)	Score: 18.1
+         *    |    *    |    *    |    *    |    *    |    *    |    *   
+Seq: GTTCCATTGGTGAAGCGATCACACGGGCATTGCAAGCGCGAGGGATGGGTGTGGGACCCATATGGGACG
+Str: (((((((..((((.....)))).((.((.......)).))....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna2 (2626-2694)	Length: 69 bp
+Type: Lys	Anticodon: TTT at 31-33 (2656-2658)	Score: 33.2
+         *    |    *    |    *    |    *    |    *    |    *    |    *   
+Seq: CGCTACATAGCATAGGGAGTGCAAGCGGCTTTTGACCGCAGTGTGCCAATGGGAGCTTGGCTGTAGCGG
+Str: (((((((..((((.....))))..((((.......)))).....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna3 (4578-4646)	Length: 69 bp
+Type: Ser	Anticodon: TGA at 30-32 (4607-4609)	Score: 18.6
+         *    |    *    |    *    |    *    |    *    |    *    |    *   
+Seq: GTGAGCGGAGCTTGTGAAAGCGGCTACCTTGAGAGTAGCAGGaAGGCGGTGGGAGTCCGTCGGCTCACG
+Str: ((((((...((((....)))).(((((.......))))).....(((((.......))))).)))))).
+
+NODE_15_length_17288_cov_6.027308,.trna4 (5677-5743)	Length: 67 bp
+Type: Arg	Anticodon: TCT at 30-32 (5706-5708)	Score: 28.2
+         *    |    *    |    *    |    *    |    *    |    *    |    * 
+Seq: GCCCACGTAGCGTAAGGGAGCGCTTGCGTTCTAAGCAAGAGGAGCGGGTGAGAGCCTGCCGTGGGCG
+Str: (((((((..((.(....).)).(((((.......)))))....(((((......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna5 (6533-6603)	Length: 71 bp
+Type: Gln	Anticodon: TTG at 33-35 (6565-6567)	Score: 20.3
+         *    |    *    |    *    |    *    |    *    |    *    |    *    |
+Seq: TAGAGGCTGGCCGAAGGGgAAGGCGCGGCGTGTTGGGCGCCGAAGTACGAGATCGTGGCTCGTGCCTCTAG
+Str: (((((((..(((.........))).(((((.......)))))....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna6 (6606-6674)	Length: 69 bp
+Type: Trp	Anticodon: TCA at 31-33 (6636-6638)	Score: 33.6
+         *    |    *    |    *    |    *    |    *    |    *    |    *   
+Seq: CGGGGATTAGGTAAAGTATACCGGGCCCCTTCAAAGGGCCTGTTGCGTGTGAGGGTCACGCATCCCTGG
+Str: (((((((..((((.....)))).(((((.......)))))....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna7 (6718-6787)	Length: 70 bp
+Type: Met	Anticodon: CAT at 32-34 (6749-6751)	Score: 36.8
+         *    |    *    |    *    |    *    |    *    |    *    |    *    
+Seq: GGCTGTGTGGACTAACGGAGGTCGATAGGTTCATGGCCTATAGGCGGGGGATCGGGGCCCTTCGCAGCTG
+Str: (((((((..((((......)))).(((((.......)))))....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna8 (11310-11377)	Length: 68 bp
+Type: Thr	Anticodon: TGT at 30-32 (11339-11341)	Score: 17.0
+         *    |    *    |    *    |    *    |    *    |    *    |    *  
+Seq: GCCCACTAAGTACAGCGGTACGGATGTGTTGTAGGCATCGAAgGGCACGTGAGAGCGTGCAGTGGGCG
+Str: (((((((..((((....)))).(((((.......))))).....(((((......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna9 (11686-11755)	Length: 70 bp
+Type: Ser	Anticodon: GCT at 31-33 (11716-11718)	Score: 24.0
+         *    |    *    |    *    |    *    |    *    |    *    |    *    
+Seq: GTTAGGCTGGCTGAGAAGAGGCGGTTGCTTGCTATGCGACGAGaCAGGGGATAGCGGCCCCTGCCTAACA
+Str: (((((((..(((.......))).(((((.......))))).....(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna10 (11768-11836)	Length: 69 bp
+Type: Asp	Anticodon: GTC at 31-33 (11798-11800)	Score: 20.7
+         *    |    *    |    *    |    *    |    *    |    *    |    *   
+Seq: GGGGCAGTGGTGTATGGAACACGGCAGGGCGTCATCCTGCGGAAGTAGGTGGGAAGCCTATCGGCCCCG
+Str: (((((.(..((((.....)))).(((((.......)))))....(((((.......)))))).))))).
+
+NODE_15_length_17288_cov_6.027308,.trna11 (12860-12941)	Length: 82 bp
+Type: Leu	Anticodon: CAA at 35-37 (12894-12896)	Score: 18.5
+         *    |    *    |    *    |    *    |    *    |    *    |    *    |    *    | 
+Seq: ATTGCTCTGGTGGAAGGAggaGACACGGCGCCGTCAAAGGGCGCTGACGAGAGTCGTGCAGGTGGGAAGCCTGCGGGCAATG
+Str: (((((((..(((...........))).(((((.......))))).(((....)))..(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna12 (16120-16190)	Length: 71 bp
+Type: Thr	Anticodon: AGT at 32-34 (16151-16153)	Score: 21.4
+         *    |    *    |    *    |    *    |    *    |    *    |    *    |
+Seq: GCGAAGGTAGCTAAGGAGGAAGCACGCAGTCAGTGgaGCTGCGAATGCGAGTGGGAAGCTCGCCCTTCGCA
+Str: (((((((..(((........))).(((((.........)))))...(((((.......)))))))))))).
+
+NODE_15_length_17288_cov_6.027308,.trna13 (17122-17203)	Length: 82 bp
+Type: Leu	Anticodon: TAG at 35-37 (17156-17158)	Score: 17.6
+         *    |    *    |    *    |    *    |    *    |    *    |    *    |    *    | 
+Seq: GTTGCTCTGGTGGAAGGAggaGACACGGCGCCATTAGGGGGCGCTGACGAGAGTCGTGCAGGTGGGAAGCCTGCGGGCAATG
+Str: (((((((..(((...........))).(((((.......))))).(((....)))..(((((.......)))))))))))).
