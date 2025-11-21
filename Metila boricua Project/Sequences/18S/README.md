@@ -5,4 +5,4 @@ This folder contains genomic rDNA sequences of the small subunit generated and u
 - README.md: this file
 - Hplakophila_18S.txt: Data for Haliclona plakophila
 - Mboricua_18S.txt: Data for the new species Metilla boricua
-- 18S_dataset.xlsx: spreadsheet containing all accession mumbers for 18S data used for phylogenetic analysis in this study.
+- 18S_dataset.csv: spreadsheet containing all accession mumbers for 18S data used for phylogenetic analysis in this study.
